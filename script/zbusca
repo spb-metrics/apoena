@@ -1,0 +1,51 @@
+#!/bin/sh
+
+Totcabec=0
+mysql -e "SELECT CONCAT( '<cabecalhorss> <cdrss>' , CD_RSS , '</cdrss>' , '<endrss>' , END_RSS , '</endrss>' , '<cdtipdoc>' , CD_TIP_DOC , '</cdtipdoc>' , '<dsctip>' , DSC_TIP , '</dsctip>' , '<cdfont>' ,  CD_FONT , '</cdfont>' , '<dscfont>' , DSC_FONT , '</dscfont>' , '<cdtipfont>' , CD_TIP_FONT , '</cdtipfont>' , '<dsctipfont>' , DSC_TIP_FONT , '</dsctipfont></cabecalhorss>') FROM apoena.RSS ORDER BY CD_RSS " > cabec-tmp
+Totcabec=`grep -c "" cabec-tmp`
+let "Totcabec=Totcabec-1"
+tail -n $Totcabec cabec-tmp > cabec
+
+
+Totlist=0
+mysql -e "SELECT CONCAT('http://', END_RSS) FROM apoena.RSS ORDER BY CD_RSS" > lista2
+
+Totlist=`grep -c "" lista2`
+let "Totlist=Totlist-1"
+tail -n $Totlist lista2 > lista
+
+cd arquivo
+Sufx=0
+captura=" "
+
+for (( i=1; i<=$Totlist; i++ ))  
+do
+  
+  sed -n "$i"p /var/www/apache2-default/apoena/rss/lista >  /var/www/apache2-default/apoena/rss/cabecalho2	
+  wget -i /var/www/apache2-default/apoena/rss/cabecalho2 
+  ls /var/www/apache2-default/apoena/rss/arquivo/ | grep -v *.sh | grep -v xxrss | grep -v lista | grep -v tempor | grep -v cabe | grep -v apoena | grep -v lib | grep -v *.class > tempo
+  arquivo=`cat tempo`
+  cat $arquivo > tmp$i 
+
+  let "Sufx=Sufx+1" 
+  sed -n "$Sufx"p /var/www/apache2-default/apoena/rss/cabec > /var/www/apache2-default/apoena/rss/arquivo/xxcabe$i
+
+egrep '(<item|<\/item|<title|<\/title|<link|<\/link|<description|<\/description)' tmp$i > ztmp$i
+
+  iconv -f iso-8859-1 -t utf-8 ztmp$i  > tmp$i
+  cat /var/www/apache2-default/apoena/rss/apini xxcabe$i tmp$i /var/www/apache2-default/apoena/rss/apfim > xtemp
+  sed 's/<description xml:lang="pt-br"\/>/<description >a<\/description>/g' xtemp > xxxtemp
+  sed 's/item/ITEM/g' xxxtemp | sed 's/title/TITLE/g' | sed 's/link/LINK/g' | sed 's/description/DESCRIPTION/g' > xxrss$i.xml
+  rm  srss*  tmp*  xtemp  xxcabe*   xxxtemp tempo ssrss* ztmp*
+  ls /var/www/apache2-default/apoena/rss/arquivo/  | grep -v xxrss | grep -v apoena | grep -v lib | grep -v *.sh > tempor   
+  captura=`cat tempor` 
+  rm $captura tempor  
+done
+
+
+
+ 
+
+
+
+

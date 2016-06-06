@@ -1,0 +1,15 @@
+<?php $_config_vars = array (
+  'titulo' => 'Gerenciador de Telecentro',
+  'titulo_login' => 'Login do usuario',
+  'titulo_cusuario' => 'Consulta Usu&aacute;rios',
+  'titulo_cmonitor' => 'Consulta Monitor',
+  'titulo_cinstrutor' => 'Consulta Instrutor',
+  'titulo_clogin' => 'Alterar login',
+  'titulo_curso' => 'Consulta Cursos',
+  'titulo_detalhe' => 'Detalhe do usuario',
+  'titulo_detalhem' => 'Detalhe do monitor',
+  'titulo_telecentro' => 'Alterar dados do  Telecentro',
+  'titulo_monitor' => 'Cadastro de Monitor',
+  'titulo_instrutor' => 'Cadastro de Instrutor',
+  'corTitulo' => '#0000FF',
+); ?>

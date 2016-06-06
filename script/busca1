@@ -1,0 +1,62 @@
+#!/bin/sh
+
+
+  ed /var/www/apache2-default/apoena/rss/arquivo/xtemp	 << EOF
+  g/&#205;/s//Í/g
+  g/&Iacute;/s//Í/g
+  g/&#227;/s//ã/g
+  g/&atilde;/s/ã/g
+  g/&#226;/s//â/g
+  g/&acirc;/s//â/g
+  g/&#225;/s//á/g
+  g/&aacute;/s//á/g
+  g/&#224;/s//à/g
+  g/&agrave;/s//à/g
+  g/&#195;/s//Ã/g
+  g/&Atilde;/s//Â/g
+  g/&#193;/s//Á/g
+  g/&Aacute;/s//Á/g
+  g/&#192;/s//À/g
+  g/&Agrave;/s//À/g
+  g/&#194;/s//Â/g
+  g/&Atilde;/s//Â/g
+  g/&#234;/s//ê/g
+  g/&ecirc;/s//ê/g
+  g/&#233;/s//é/g
+  g/&eacute;/s//é/g
+  g/&#201;/s//É/g
+  g/&Eacute;/s//É/g
+  g/&#202;/s//Ê/g
+  g/&Ecirc;/s/Ê/g
+  g/&#237;/s//í/g
+  g/&iacute;/s//í/g
+  g/&#244;/s//ô/g
+  g/&orcic;/s//ô/g
+  g/&#245;/s//õ/g
+  g/&otilde;/s//õ/g
+  g/&#243;/s//ó/g
+  g/&oacute;/s//ó/g
+  g/&#213;/s//Õ/g
+  g/&Otilde;/s//Õ/g
+  g/&#211;/s//Ó/g
+  g/&Ocirc;/s//Ô/g
+  g/&#250;/s//ú/g
+  g/&uacute;/s//ú/g
+  g/&#218;/s//Ú/g
+  g/&Uacute;/s//Ú/g
+  g/&#220;/s//Ü/g
+  g/&Uuml;/s//U/g
+  g/&#252;/s//ü/g
+  g/&uuml;/s//u/g
+  g/&#231;/s//ç/g
+  g/&ccedil;/s//ç/g
+  g/&#199;/s//Ç/g
+  g/&Ccedil;/s//Ç/g
+  g/&agrave;/s//à/g
+  g/&lt;/s//</g
+  g/&gt;/s//>/g
+  g/'/s// /g
+  w
+  q
+
+

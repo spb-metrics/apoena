@@ -1,0 +1,217 @@
+#!/bin/sh
+
+
+sed -i 's/&amp;Iacute;/Í/g' arquivo9/xtemp
+sed -i 's/&amp;atilde;/ã/g' arquivo9/xtemp
+sed -i 's/&amp;acirc;/â/g'  arquivo9/xtemp
+sed -i 's/&amp;aacute;/á/g' arquivo9/xtemp
+sed -i 's/&amp;acute;/ /g'  arquivo9/xtemp
+sed -i 's/&amp;agrave;/à/g' arquivo9/xtemp
+sed -i 's/&amp;Atilde;/Â/g' arquivo9/xtemp
+sed -i 's/&amp;Aacute;/Á/g' arquivo9/xtemp
+sed -i 's/&amp;Agrave;/À/g' arquivo9/xtemp
+sed -i 's/&amp;Atilde;/Â/g' arquivo9/xtemp
+sed -i 's/&amp;ecirc;/ê/g'  arquivo9/xtemp
+sed -i 's/&amp;eacute;/é/g' arquivo9/xtemp
+sed -i 's/&amp;Eacute;/É/g' arquivo9/xtemp
+sed -i 's/&amp;Ecirc;/Ê/g'  arquivo9/xtemp
+sed -i 's/&amp;iacute;/í/g' arquivo9/xtemp
+sed -i 's/&amp;orcic;/ô/g'  arquivo9/xtemp
+sed -i 's/&amp;otilde;/õ/g' arquivo9/xtemp
+sed -i 's/&amp;oacute;/ó/g' arquivo9/xtemp
+sed -i 's/&amp;Oacute;/Ó/g' arquivo9/xtemp
+sed -i 's/&amp;Otilde;/Õ/g' arquivo9/xtemp
+sed -i 's/&amp;Ocirc;/Ô/g'  arquivo9/xtemp
+sed -i 's/&amp;ocirc;/ô/g'  arquivo9/xtemp
+sed -i 's/&ocirc;/ô/g'      arquivo9/xtemp
+sed -i 's/&amp;uacute;/ú/g' arquivo9/xtemp
+sed -i 's/&amp;Uacute;/Ú/g' arquivo9/xtemp
+sed -i 's/&amp;Uuml;/U/g'   arquivo9/xtemp
+sed -i 's/&amp;uuml;/u/g'   arquivo9/xtemp
+sed -i 's/&amp;ccedil;/ç/g' arquivo9/xtemp
+sed -i 's/&amp;Ccedil;/Ç/g' arquivo9/xtemp
+sed -i 's/&amp;agrave;/à/g' arquivo9/xtemp
+sed -i 's/&amp;quot;/ /g'   arquivo9/xtemp
+sed -i 's/&amp;nbsp;/ /g'   arquivo9/xtemp
+sed -i 's/&amp;ldquo;/ /g'  arquivo9/xtemp
+sed -i 's/&amp;rdquo;/ /g'  arquivo9/xtemp
+sed -i 's/&acute;/`/g'      arquivo9/xtemp
+sed -i 's/&ndash;/ /g'      arquivo9/xtemp
+sed -i 's/&amp;ndash;/ /g'  arquivo9/xtemp
+sed -i 's/amp;//g'          arquivo9/xtemp
+
+sed -i 's/&#205;/Í/g'       arquivo9/xtemp 
+sed -i 's/&Iacute;/Í/g'     arquivo9/xtemp
+sed -i 's/&#227;/ã/g'       arquivo9/xtemp
+sed -i 's/&atilde;/ã/g'     arquivo9/xtemp
+sed -i 's/&#226;/â/g'       arquivo9/xtemp
+sed -i 's/&acirc;/â/g'      arquivo9/xtemp
+sed -i 's/&#225;/á/g'       arquivo9/xtemp
+sed -i 's/&aacute;/á/g'     arquivo9/xtemp
+sed -i 's/&#224;/à/g'       arquivo9/xtemp
+sed -i 's/&agrave;/à/g' arquivo9/xtemp
+sed -i 's/&#195;/Ã/g'   arquivo9/xtemp
+sed -i 's/&Atilde;/Â/g' arquivo9/xtemp
+sed -i 's/&#193;/Á/g'   arquivo9/xtemp
+sed -i 's/&Aacute;/Á/g' arquivo9/xtemp
+sed -i 's/&#192;/À/g'   arquivo9/xtemp
+sed -i 's/&Agrave;/À/g' arquivo9/xtemp
+sed -i 's/&#194;/Â/g'   arquivo9/xtemp
+sed -i 's/&Atilde;/Â/g' arquivo9/xtemp
+sed -i 's/&#234;/ê/g'   arquivo9/xtemp
+sed -i 's/&ecirc;/ê/g'  arquivo9/xtemp
+sed -i 's/&#233;/é/g'   arquivo9/xtemp
+sed -i 's/&eacute;/é/g' arquivo9/xtemp
+sed -i 's/&#201;/É/g'   arquivo9/xtemp
+sed -i 's/&Eacute;/É/g' arquivo9/xtemp
+sed -i 's/&#202;/Ê/g'   arquivo9/xtemp
+sed -i 's/&Ecirc;/Ê/g'  arquivo9/xtemp
+sed -i 's/&#237;/í/g'   arquivo9/xtemp
+sed -i 's/&iacute;/í/g' arquivo9/xtemp
+sed -i 's/&#244;/ô/g'   arquivo9/xtemp
+sed -i 's/&orcic;/ô/g'  arquivo9/xtemp
+sed -i 's/&#245;/õ/g'   arquivo9/xtemp
+sed -i 's/&otilde;/õ/g' arquivo9/xtemp
+sed -i 's/&#243;/ó/g'   arquivo9/xtemp
+sed -i 's/&oacute;/ó/g' arquivo9/xtemp
+sed -i 's/&Oacute;/Ó/g' arquivo9/xtemp
+sed -i 's/&#213;/Õ/g'   arquivo9/xtemp
+sed -i 's/&Otilde;/Õ/g' arquivo9/xtemp
+sed -i 's/&#211;/Ó/g'   arquivo9/xtemp
+sed -i 's/&Ocirc;/Ô/g'  arquivo9/xtemp
+sed -i 's/&#250;/ú/g'   arquivo9/xtemp
+sed -i 's/&uacute;/ú/g' arquivo9/xtemp
+sed -i 's/&#218;/Ú/g'   arquivo9/xtemp
+sed -i 's/&Uacute;/Ú/g' arquivo9/xtemp
+sed -i 's/&#220;/Ü/g'   arquivo9/xtemp
+sed -i 's/&Uuml;/U/g'   arquivo9/xtemp
+sed -i 's/&#252;/ü/g'   arquivo9/xtemp
+sed -i 's/&uuml;/u/g'   arquivo9/xtemp
+sed -i 's/&#231;/ç/g'   arquivo9/xtemp
+sed -i 's/&ccedil;/ç/g' arquivo9/xtemp
+sed -i 's/&#199;/Ç/g'   arquivo9/xtemp
+sed -i 's/&Ccedil;/Ç/g' arquivo9/xtemp
+sed -i 's/&agrave;/à/g' arquivo9/xtemp
+sed -i 's/&quot;/ /g'   arquivo9/xtemp
+sed -i 's/&lt;/</g'     arquivo9/xtemp
+sed -i 's/&gt;/>/g'     arquivo9/xtemp
+sed -i 's/<!--/ /g'     arquivo9/xtemp
+sed -i 's/\]\]>/ /g'    arquivo9/xtemp
+
+sed -i 's/&Egrave;/E/g' arquivo9/xtemp
+sed -i 's/&Igrave;/I/g' arquivo9/xtemp
+sed -i 's/&Ograve;/O/g' arquivo9/xtemp
+sed -i 's/&egrave;/e/g' arquivo9/xtemp
+sed -i 's/&igrave;/i/g' arquivo9/xtemp
+sed -i 's/&ograve;/o/g' arquivo9/xtemp
+sed -i 's/&ugrave;/u/g' arquivo9/xtemp
+sed -i 's/&Auml;/A/g'   arquivo9/xtemp
+sed -i 's/&Euml;/E/g'   arquivo9/xtemp
+sed -i 's/&Iuml;/I/g'   arquivo9/xtemp
+sed -i 's/&Icirc;/I/g'  arquivo9/xtemp
+sed -i 's/&Ouml;/O/g'   arquivo9/xtemp
+sed -i 's/&Ucirc;/U/g'  arquivo9/xtemp
+sed -i 's/&auml;/a/g'   arquivo9/xtemp
+sed -i 's/&euml;/e/g'   arquivo9/xtemp
+sed -i 's/&iuml;/i/g'   arquivo9/xtemp
+sed -i 's/&icirc;/i/g'  arquivo9/xtemp
+sed -i 's/&ouml;/o/g'   arquivo9/xtemp
+sed -i 's/&ucirc;/u/g'  arquivo9/xtemp
+sed -i 's/&Ntilde;/N/g' arquivo9/xtemp
+sed -i 's/&Aring;/A/g'  arquivo9/xtemp
+sed -i 's/&ntilde;/n/g' arquivo9/xtemp
+sed -i 's/&Yacute;/Y/g' arquivo9/xtemp
+sed -i 's/&yacute;/y/g' arquivo9/xtemp
+sed -i 's/&Oslash;/ /g' arquivo9/xtemp
+sed -i 's/&yuml;/y/g'   arquivo9/xtemp
+##sed -i 's/&oslash;/ /g' arquivo9/xtemp
+##sed -i 's/&THORN;/ /g'  arquivo9/xtemp
+##sed -i 's/&thorn;/ /g' arquivo9/xtemp
+##sed -i 's/&eth;/ /g'   arquivo9/xtemp
+##sed -i 's/&AElig;/ /g' arquivo9/xtemp
+##sed -i 's/&szlig;/ /g' arquivo9/xtemp
+##sed -i 's/&aelig;/ /g' arquivo9/xtemp
+##sed -i 's/&frac14;/ /g' arquivo9/xtemp
+sed -i 's/&nbsp;/ /g'   arquivo9/xtemp
+##sed -i 's/&frac12;/ /g' arquivo9/xtemp
+##sed -i 's/&iexcl;/i/g'  arquivo9/xtemp
+##sed -i 's/&frac34;/ /g' arquivo9/xtemp
+##sed -i 's/&pound;/ /g'  arquivo9/xtemp
+##sed -i 's/&copy;/ /g'   arquivo9/xtemp
+##sed -i 's/&yen;/ /g'    arquivo9/xtemp
+##sed -i 's/&reg;/ /g'    arquivo9/xtemp
+##sed -i 's/&sect;/ /g'   arquivo9/xtemp
+##sed -i 's/&ordf;/ /g'   arquivo9/xtemp
+##sed -i 's/&curren;/ /g' arquivo9/xtemp
+##sed -i 's/&sup2;/ /g'   arquivo9/xtemp
+##sed -i 's/&brvbar;/ /g' arquivo9/xtemp
+##sed -i 's/&sup3;/ /g'   arquivo9/xtemp
+##sed -i 's/&laquo;/ /g'  arquivo9/xtemp
+##sed -i 's/&sup1;/ /g'   arquivo9/xtemp
+##sed -i 's/&not;/ /g'    arquivo9/xtemp
+##sed -i 's/&macr;/ /g'   arquivo9/xtemp
+##sed -i 's/&shy;/ /g'    arquivo9/xtemp
+##sed -i 's/&micro;/ /g'  arquivo9/xtemp
+##sed -i 's/&ordm;/ /g'   arquivo9/xtemp
+##sed -i 's/&para;/ /g'   arquivo9/xtemp
+##sed -i 's/&acute;/ /g'  arquivo9/xtemp
+##sed -i 's/&middot;/ /g' arquivo9/xtemp
+##sed -i 's/&mdash;/ /g'  arquivo9/xtemp
+##sed -i 's/&uml;/ /g'    arquivo9/xtemp
+##sed -i 's/&deg;/ /g'    arquivo9/xtemp
+##sed -i 's/&plusmn;/ /g' arquivo9/xtemp
+##sed -i 's/&cedil;/ /g'  arquivo9/xtemp
+##sed -i 's/&raquo;/ /g'  arquivo9/xtemp
+##sed -i 's/&iquest;/ /g' arquivo9/xtemp
+##sed -i 's/&cedil;/ /g'  arquivo9/xtemp
+##sed -i 's/&times;/ /g'  arquivo9/xtemp
+##sed -i 's/&cent;/ /g'   arquivo9/xtemp
+##sed -i 's/&divide;/ /g' arquivo9/xtemp
+##sed -i 's/&euro;/ /g'   arquivo9/xtemp
+
+##sed -i 's/&#13;/ /g' arquivo9/xtemp
+##sed -i 's/&#32;/ /g' arquivo9/xtemp
+##sed -i 's/&#33;/ /g' arquivo9/xtemp
+sed -i 's/&#34;/"/g' arquivo9/xtemp
+##sed -i 's/&#36;/ /g' arquivo9/xtemp
+##sed -i 's/&#37;/ /g' arquivo9/xtemp
+##sed -i 's/&#39;/ /g' arquivo9/xtemp
+sed -i 's/&#44;/\,/g' arquivo9/xtemp
+##sed -i 's/&#45;/ /g'  arquivo9/xtemp
+sed -i 's/&#46;/./g'  arquivo9/xtemp
+sed -i 's/&#47;/\//g' arquivo9/xtemp
+sed -i 's/&#58;/:/g'  arquivo9/xtemp
+sed -i 's/&#59;/;/g' arquivo9/xtemp
+sed -i 's/&#60;/</g' arquivo9/xtemp
+sed -i 's/&#61;/=/g' arquivo9/xtemp
+sed -i 's/&#62;/>/g' arquivo9/xtemp
+##sed -i 's/&#63;/ /g' arquivo9/xtemp
+##sed -i 's/&#91;/ /g' arquivo9/xtemp
+##sed -i 's/&#93;/ /g' arquivo9/xtemp
+sed -i 's/&#95;/\_/g' arquivo9/xtemp
+
+sed -i 's/&#131;/º/g' arquivo9/xtemp
+##sed -i 's/&#134;/ /g' arquivo9/xtemp
+##sed -i 's/&#135;/ /g' arquivo9/xtemp
+##sed -i 's/&#137;/ /g' arquivo9/xtemp
+##sed -i 's/&#140;/ /g' arquivo9/xtemp
+##sed -i 's/&#147;/ /g' arquivo9/xtemp
+##sed -i 's/&#148;/ /g' arquivo9/xtemp
+##sed -i 's/&#153;/ /g' arquivo9/xtemp
+##sed -i 's/&#186;/ /g' arquivo9/xtemp
+sed -i 's/&#259;/ã/g' arquivo9/xtemp
+sed -i 's/&#337;/õ/g' arquivo9/xtemp
+##sed -i 's/&#8230;/ /g' arquivo9/xtemp
+##sed -i 's/&#8220;/ /g' arquivo9/xtemp
+##sed -i 's/&#8221;/ /g' arquivo9/xtemp
+##sed -i 's/&#034;/ /g'  arquivo9/xtemp 
+##sed -i 's/&apos;/ /g'  arquivo9/xtemp
+##sed -i 's/&/&#038;/g'  arquivo9/xtemp
+##sed -i 's/#39;/ /g'    arquivo9/xtemp
+sed -i 's/&[^;]*;/ /g' arquivo9/xtemp
+sed -i 's/\n/ /g' arquivo9/xtemp
+sed -i 's/\t/ /g' arquivo9/xtemp
+
+sed -i 's/“//g' arquivo9/xtemp
+sed -i 's/”//g' arquivo9/xtemp
+sed -i 's/’/ /g' arquivo9/xtemp

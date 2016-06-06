@@ -1,0 +1,1 @@
+00 2    * * *   root     /var/www/apache2-default/apoena/rss/./recolhe > /tmp/saida

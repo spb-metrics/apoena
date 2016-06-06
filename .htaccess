@@ -1,0 +1,5 @@
+php_value register_globals 1
+AddCharset UTF-8 .html
+<Files "inicio.php" >
+ForceType 'text/html; charset=UTF-8'
+</Files>

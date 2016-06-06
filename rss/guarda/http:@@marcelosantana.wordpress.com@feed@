@@ -1,0 +1,391 @@
+<apoena>
+<cabecalhorss> <cdrss>190</cdrss><endrss>marcelosantana.wordpress.com/feed/</endrss><cdtipdoc>1</cdtipdoc><dsctip>RSS</dsctip><cdfont>157</cdfont><dscfont>Tempestade de Idéias</dscfont><cdtipfont>8</cdtipfont><nmtipfont>SOFTWARE LIVRE</nmtipfont> </cabecalhorss>
+<item>
+  <title>
+Entrevista com Stefano Zacchiroli, novo líder do projeto Debian
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2010/05/31/entrevista-com-stefano-zacchiroli-atual-lider-debian/
+</link>
+   http://marcelosantana.wordpress.com/2010/05/31/entrevista-com-stefano-zacchiroli-atual-lider-debian/#comments 
+   Mon, 31 May 2010 19:50:53 +0000 
+   marcelosantana 
+        Debian  
+      Software Livre  
+   http://marcelosantana.wordpress.com/?p=145 
+  <description>
+   Tomei a liberdade de fazer uma tradução não oficial de uma interessante entrevista, feita pelo portal  iTWire, com o novo Líder do Projeto Debian (DPL), eleito em 16 de Abril de 2010, para o mandato 2010/2011  .    Nascido na Itália, atualmente com 31 anos, Stefano Zacchiroli tem colaborado com o projeto desde Março de  ...]  
+</description>
+        Tomei a liberdade de fazer uma tradução não oficial de uma interessante entrevista, feita pelo portal   iTWire , com o novo  Líder do Projeto Debian (DPL), eleito em 16 de Abril de 2010 , para o mandato 2010/2011  .    Nascido na Itália, atualmente com 31 anos,  Stefano Zacchiroli  tem colaborado com o projeto desde Março de 2001, e faz parte da  força-tarefa de mantenedores OCaml do Debian , e da  equipe de garantia de qualidade do Debian , onde mantém partes da infra-estrutura, como o  Sistema de Rastreamento de Pacotes (PTS) . 
+ Peço que desculpem os possíveis deslizes na tradução, e fiquem à vontade para críticas e/ou sugestões. 
+   Fonte:  http://www.itwire.com/opinion-and-analysis/open-sauce/38579-keeping-1000-devs-focused-new-debian-leader-speaks     
+ Por  Sam Varghese   
+Terça-feira, 27 de Abril de 2010 
+   Dez dias atrás, o novo líder do Projeto Debian GNU/Linux, Stefano Zacchiroli, iniciou seu mandato como o único líder eleito de um projeto de software livre.  Mas essa não é a única coisa que faz do Debian único no espaço FOSS  (Software Livre e de Código Aberto).   
+   O projeto tem mais de 1000 desenvolvedores de todos os cantos do globo e, apesar dos argumentos e debates que figuram em suas várias listas de discussão, ainda reúne uma distribuição que é de primeira qualidade e atende a mais arquiteturas do que qualquer outra.   
+     
+   Zacchiroli, um bolsista de pós-doutorado de uma universidade em Paris, tem portanto uma tarefa bastante difícil pela frente desde o começo de seu mandato.  Ele levou algum tempo para falar ao iTWire sobre seus planos para o ano.   
+     Parabéns por ter sido eleito.   Qual a sensação de ser o líder de um grupo que tem mais de 1000 desenvolvedores e cerca de 2000 opiniões?     
+   Obrigado  mas eu não acho que seus números sejam justos.  Nós temos opiniões diferentes em assuntos específicos algumas vezes, mas não mais (ainda) do que uma por DD (Desenvolvedor Debian).  Na verdade, eu acho que ter opiniões diferentes e usar democracia e  uma estrutura onde quem faz decide  ( do-ocracy ) para enfrentá-las é uma das características mais interessantes e distintas do projeto Debian.   
+   Voltando à sua pergunta,  meus sentimentos principais são:  sou honrado pela confiança que outros DDs têm demonstrado em mim, mais um entusiasmo com a possibilidade de ajudá-los a desfrutar mais da sua participação no Debian.  (Há também) um pouco,  pouquinho de medo da responsabilidade.   
+     Em sua  plataforma , você disse que pretende ser um  DPL presente juntamente nas discussões e como responsável pela agenda do projeto.   O que exatamente você quer dizer com isso?     
+   Eu queria dizer duas coisas diferentes.  Uma delas foi a minha intenção em participar da maioria das  grandes  discussões no projeto,  especialmente em caso de conflitos.  A função de DPL não tem autoridade específica para tomar decisões em diversas áreas (sobretudo em questões técnicas), mas deve ajudar na resolução de conflitos e, mais geralmente, facilitando a interação entre os desenvolvedores.   
+   Outro aspecto relacionado é a responsabilidade do DPL de fazer o trabalho de contabilidade.  Por exemplo, o DPL deve tomar cuidado em lembrar que  precisamos ter uma discussão específica, em um período específico.  Se ninguém se lembrar de levantar a questão antes que seja tarde demais, o DPL deve fazer isso.  Este conjunto de discussões para ter é o que forma a agenda do projeto.   
+     Novamente sobre sua plataforma,você disse que iria proporcionar  caminhos de acesso ao Debian mais graduais e gratificantes.  Aproveito isso para dizer que você acha que a forma atual de aceitação de pessoas como desenvolvedores é muito burocrática.  Que mudança você tem em mente?     
+   Na verdade não, não é isso que eu quis dizer.  Eu entendo como o nosso processo pode parecer mais burocrático do que os outros projetos onde, dizem, são necessárias apenas indicações.   
+   Observe, entretanto, que a nossa burocracia é principalmente destinada a verificar se o candidato compartilha do nossos princípios de fundação e compartilha das promessas que fizemos aos nossos usuários, ou seja, o Contrato Social Debian.  As partes técnicas do nosso processo de adesão podem ser (e muitas vezes são) aceleradas para pessoas que já provaram suas habilidades técnicas, por exemplo, quem já tenha contribuído com uma quantidade significativa de bom trabalho.   
+   O meu ponto no texto que você citou foi mais sobre o fato de que por muito tempo, ser um colaborador reconhecido do Debian tem sido  tudo ou nada .  Nos últimos anos, a situação tornou-se muito melhor com a introdução do Mantenedor Debian, um status que é mais fácil de obter do que o DD completo, e que os possibilita trabalhar   fazendo upload dos pacotes   em áreas específicas do projeto.  Eu acho que devemos aprender com isso, que há lá fora contribuintes que não estão interessados em se tornar DDs completos, mas que ainda querem ajudar, e merecem ser reconhecidos por isso.   
+   Eu não tenho nenhuma mudança específica para propor agora, mas eu sei que nós precisamos ter uma discussão apropriada para decidir a melhor forma de reconhecer a existência dos contribuidores não-empacotadores  (web designers, tradutores, artistas, etc.), que merecem ser reconhecidos com membros do projeto Debian.   
+     Outro ponto que você pois em sua plataforma:  Eu lutarei fortemente contra a propriedade do pacote quando ele entrar em conflito com a qualidade.   Obviamente, isso deve ter sido baseado em algum incidente.  Sem dar nome às pessoas ou pacotes, você pode dar uma ideia de como tais situações acontecem?     
+   Nenhum incidente específico, pacote ou pessoa.  Pelo contrário, o ponto é que precisamos continuar uma mudança cultural, que felizmente já está acontecendo.   
+   Bem no início não havia campo  Mantenedor  associado com pacotes Debian;  adicionando-o mudaram as regras do jogo.   
+   De repente as pessoas se sentiram mais responsáveis sobre seus pacotes específicos (o que é bom), mas também se tornaram mais resistentes às mudanças realizadas por outros (o que é ruim),  e ações como uploads por não-mantenedores (NMUs), onde algumas vezes viram com ataques pessoais, ao invés de entender como tentativas de ajudar um colega desenvolvedor.   
+   Como previsto, nos tornando muito melhores nos últimos anos.  Durante recentes campanhas NMU para corrigir bugs Críticos de Lançamento (Release-Critical) tendo em vista o Squeeze (nossa próxima versão estável), todos os participantes relataram ter recebido basicamente apenas mensagens de  obrigado  por cada NMU adequado.   
+   Da mesma forma, a maioria dos pacotes Debian são atualmente mantidos por equipes que são fáceis de se juntar, e no qual membros podem contribuir simplesmente fazendo commit em algum sistema de controle de versão.   
+   Isso faz a mudança em uma distribuição onde colegas trabalham lado-a-lado mas em pacotes individuais, na qual todos são  igualmente responsáveis pela boa qualidade de um  lançamento como um todo, e devem também se preocupar com os pacotes dos outros.   
+     Você tem algum plano específico para melhorar a comunicação entre Debian e Ubuntu?   Ou o Debian, como um desenvolvedor colocou, terminará sendo um supermercado de pacotes para Ubuntu?     
+   Eu acho que o principal objetivo aqui é estabilizar um sensato   e bastante típico de FOSS   relacionamento  upstream-downstream  entre Debian e Ubuntu.   
+   Tecnicamente, isso significa que nós devemos derrubar todas as barreiras para troca de patches entre as duas distribuições (e em ambas direções). O mais fácil é um DD revisar e seletivamente importar patches do Ubuntu, o melhor;  isso é provavelmente o mesmo para os desenvolvedores Ubuntu.   
+   Socialmente, todos devem dar crédito onde o crédito é devido.  Para ser franco, acho que o Ubuntu deve reconhecer um pouco mais o fato que eles ainda são baseados no Debian e que eles periodicamente sincronizam com o Debian.  É de conhecimento público, mas ainda não é divulgado como, digamos, um desenvolvedor de software livre deveria normalmente dar crédito a (um projeto que) importância de cerca de 70 por cento do código que ele/ela distribui.   
+   Do nosso lado, devemos reconhecer e anunciar a existência de um fluxo de patch Ubuntu, bem como evitar ataques gratuitos ao Ubuntu que às vezes ainda podem ser lidos em nossas listas de discussão (muito embora isso aconteça muito menos do que no passado).   
+   O objetivo final é melhorar a colaboração técnica, uma vez que é a qualidade global do software livre que estamos empacotando que está em jogo.       
+     Apesar do fato que agora é muito fácil de instalar e usar o Debian, a impressão ainda permanece de que ainda é uma distribuição para pessoas com pelo menos algum conhecimento de UNIX.  Você acha que isso é uma boa coisa boa devido a Debian ainda ser uma das mais sólidas distribuições em termos de estabilidade, segurança e gerenciamento de pacotes? 
+     
+   Estou tentado a propor uma troca entrevistador-entrevistado sobre esta questão e perguntá-lo  por que você tem essa impressão? , mas eu evitarei.  Não vejo qualquer tensão particular para  não requerer nenhum conhecimento UNIX para ser usado  e ser uma  distro estável/segura com sólido gerenciamento de pacotes .  Eu acredito que podemos ser ambos, e, de fato a Debian visa ser mais.   
+   Hoje em dia todos os ingredientes que o Debian precisa para ser um desktop à prova de iniciate existem (bem, OK, exite exceção de coisas como drivers não-livres e codecs, mas esse problema será discutível muito em breve, quando o software livre terminar tomando conta do mundo).   
+   Atualmente, escolhendo a tarefa  ambiente desktop  ao final do instalador Debian você terá um ambiente à prova de iniciante (que meus pais já usam), apesar que estará faltando um pouco com relação a alguns pacotes que precisam ser instalados   e possivelmente configurados   manualmente.   
+   Eu acho que nós apenas precisamos de padrões sensatos aqui e ali, e talvez um pouco de ajuste da nossa seleção de tarefa.  Se não está no nível de ajuste de desktop de outras distros mais orientadas a desktop, é provável, porque entre nós (atuais) desenvolvedores ainda existem mais caras do tipo sysadmin do que caras do tipo usuário desktop.  É normal nós, como  estrutura onde quem faz decide , tendermos principalmente a coçar *nossas* sarnas, mas isso pode ser facilmente mudado, não existem maiores razões para não. Apenas motiva algumas pessoas dispostas a fazer um ajuste mais amigável ao iniciante e seleção de pacotes a se juntarem ao Debian, e fazer acontecer.  Quem sabe alguns dos leitores gostariam de se juntar a nós e tentar?   
+     Ou você acha que poderia haver alguma flexibilização da estrutura que possa resultar em uma distro mais polida, mas que possa ter que assumir alguns compromissos com estabilidade e segurança?     
+   Permita-me reiterar:  não há nenhum compromisso obrigatório entre ser amigável ao usuário, e ser tão estável e seguro quanto o Debian sempre foi.  Nosso único compromisso é que pretendemos ser tão universal (isto é, para todos e para todo caso de uso possível) quanto possível,  assim, nós geralmente não barganharemos os benefícios do usuário desktop por desvantagens visando outros cenários de utilização.   
+   Essas nossas generalidades podem ser instanciadas, contudo, pela oferta de diferentes perfis ao final da instalação.  Se  o seu  está faltando ou sub-utilizado, basta  você  se juntar a  nós e adicionar/melhorá-lo. É tão simples assim.   
+   Naturalmente, um assunto totalmente diferente é a forma como nós lançamos.  O mesmo pode ser amigável ao usuário (desktop) e ainda fazer um lançamento a cada 18 meses.  Ser de tecnologia de ponta e amigável ao usuário (desktop) não são necessariamente a mesma coisa.  Nós realmente gostamos de lançar  quando está pronto , e eu não vejo essa mudança em breve.   
+      Você pretende colocar o orçamento do Debian online no futuro, para que qualquer um possa saber quanto vocês arrecadam e como é gasto?     
+   Vamos primeiro esclarecer que o orçamento Debian é dividido entre diferentes organizações em todo o mundo, a fim de reduzir o custo das transferências de dinheiro para comprar coisas ou para receber doações (que é a única fonte de renda do projeto Debian).  Dito isto, a principal organização que cuida do dinheiro do Debian é a SPI, que periodicamente divulga (publicamente) atas com detalhes a respeito de todo dinheiro que entra e sai.  Ainda assim, não estou surpreso com sua pergunta, pois essas atas não são exatamente fáceis de encontra na web.  (Na verdade, eu tive acesso a esses atas, durante a campanha de DPL desse ano, só depois  eu reclamei que não estavam disponíveis ao público, e que eu pretendo mudar isso  )   
+   Eu faço planos para melhorar esta situação, divulgar publicamente e em um lugar de maior destaque todo o dinheiro que recebemos  de doadores e como nós o usamos: é apenas o justo, em um projeto tão aberto como nós supomos ser.   
+     O Debian tem centenas de desenvolvedores altamente talentosos que são desconhecidos para o mundo em geral. Há algum plano para organizar algum tipo de publicidade para essas pessoas? Ou o projeto é mais importantes do que os indivíduos?     
+   Essa é uma grande ideia, obrigado!  de fato, o projeto e nossas ideias são ambos mais importantes do que os indivíduos, sem dúvida.  No entanto, é interessante ressaltar os indivíduos, não realmente  anunciá-los , mas sim toná-los mais conhecidos pelos colegas DDs que possivelmente não estão no típico meio social Debian (IRC, listas de discussão, blog, etc.).  Como em todas as comunidades, quanto melhor nós conhecemos uns dos outros, melhor nós interagimos e trabalhamos juntos.   
+   Nós, de fato, já trabalhamos no passado em iniciativas que ressaltam os indivíduos. Uma que me vem a mente é a série de entrevidas individuais com desenvolvedores que um colega desenvolvedor contribuiu para o planet.debian.org por um período.  Essa foi uma inciativa legal, e eu acho que nós podemos fazer mais nesse sentido, mas focando o objetivo acima, ou seja, conhecer melhor uns aos outros (o que é realmente útil em um projeto de 1000 desenvolvedores com 2000 opiniões *g*).   
+     E finalmente, que tipo de prazo você precisa para implementar seus planos?     
+   Boa pergunta!  Eu pretendo trabalhar em meus planos tanto quanto eu puder durante este anos, equilibrando as outras partes da minha vida:  trabalho, família, etc, visto que ainda sou um voluntário.  Eu acredito que bastante trabalho pode ser feito em um período, mas devemos verificar melhor daqui a um ano     
+                                    
+    http://marcelosantana.wordpress.com/2010/05/31/entrevista-com-stefano-zacchiroli-atual-lider-debian/feed/ 
+   1 
+ 
+   
+    marcelosantana 
+   
+   
+    Stefano Zacchiroli 
+   
+ 
+</item>
+<item>
+  <title>
+IV Encontro de Software Livre da Paraíba
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2010/05/08/iv_encontro_de_software_livre_da_paraiba/
+</link>
+   http://marcelosantana.wordpress.com/2010/05/08/iv_encontro_de_software_livre_da_paraiba/#comments 
+   Sat, 08 May 2010 12:54:18 +0000 
+   marcelosantana 
+        Debian  
+      Eventos  
+      Software Livre  
+   http://marcelosantana.wordpress.com/?p=131 
+  <description>
+   Como  de costume, o G/LUG-PB se superou mais uma vez, dando um show de bola com o IV ENSOL.   Parabéns aos membros da organização pela garra e disposição, que já se tornaram marca registrada deste grupo, e obrigado mais uma vez pela oportunidade de participar como palestrante! Obrigado também ao pessoal pela participação ativa  ...]  
+</description>
+        
+ Como  de costume, o  G/LUG-PB  se superou mais uma vez, dando um show de bola com o  IV ENSOL .   Parabéns aos membros da organização pela garra e disposição, que já se tornaram marca registrada deste grupo, e obrigado mais uma vez pela oportunidade de participar como palestrante! 
+ Obrigado também ao pessoal pela participação ativa em minha palestra, cuja apresentação disponibilizo abaixo. 
+ Um forte abraço e até a próxima! 
+   Implementando Clusters HPC com Debian GNU/Linux   
+ 
+                                    
+    http://marcelosantana.wordpress.com/2010/05/08/iv_encontro_de_software_livre_da_paraiba/feed/ 
+   0 
+ 
+   
+    marcelosantana 
+   
+ 
+</item>
+<item>
+  <title>
+III Encontro de Software Livre da Paraíba
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2009/06/21/iii-encontro-de-software-livre-da-paraiba/
+</link>
+   http://marcelosantana.wordpress.com/2009/06/21/iii-encontro-de-software-livre-da-paraiba/#comments 
+   Sun, 21 Jun 2009 22:30:52 +0000 
+   marcelosantana 
+        Debian  
+      Eventos  
+      Software Livre  
+   http://marcelosantana.wordpress.com/?p=124 
+  <description>
+   Mais uma vez o pessoal do G/LUG-PB mostrou o quanto o grupo tem gente com fibra e disposição.   Sabemos como é difícil a realização de eventos, principalmente de software livre, pois, como se não bastasse a falta de interesse das empresas em patrocinar tal proposta,  ainda temos uma tremenda falta de interesse de pessoas  ...]  
+</description>
+        Mais uma vez o pessoal do  G/LUG-PB  mostrou o quanto o grupo tem gente com fibra e disposição.   Sabemos como é difícil a realização de eventos, principalmente de software livre, pois, como se não bastasse a falta de interesse das empresas em patrocinar tal proposta,  ainda temos uma tremenda falta de interesse de pessoas em ajudarem a  carregar o piano  para que a maioria possa assistir o  espetáculo .   Com o tempo, esse tipo de situação tem inviabilizado a continuidade dos eventos, o que não é diferente com o  ENSOL . 
+ Portanto, fica aqui um apelo:  O Software Livre precisa de todos para se manter vivo, isso também se estende aos eventos, AJUDEM O GRUPO DE SUA CIDADE A MANTER VIVO O EVENTO LOCAL! 
+ Meus sinceros parabéns aos amigos guerreiros paraibanos que mais uma vez fizeram o sonho se tornar realidade, e obrigado pela oportunidade de participar como palestrante! 
+ Como sempre, disponibilizo abaixo, o material de minha apresentação. 
+   Implementação de clusters de alto desempenho com Debian GNU/Linux   
+                                    
+    http://marcelosantana.wordpress.com/2009/06/21/iii-encontro-de-software-livre-da-paraiba/feed/ 
+   2 
+ 
+   
+    marcelosantana 
+   
+ 
+</item>
+<item>
+  <title>
+III ENSL / IV Festival de Software Livre da Bahia
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2009/05/30/iii-ensl-iv-festival-de-software-livre-da-bahia/
+</link>
+   http://marcelosantana.wordpress.com/2009/05/30/iii-ensl-iv-festival-de-software-livre-da-bahia/#comments 
+   Sat, 30 May 2009 19:42:06 +0000 
+   marcelosantana 
+        Debian  
+      Eventos  
+      Software Livre  
+   http://marcelosantana.wordpress.com/?p=107 
+  <description>
+   Queria agradecer à coordenação do III ENSL / IV FSLB pela oportunidade ímpar que tive, de participara como palestrante, nos dias 29 e 30 de maio do corrente ano.  Aos  meus conterrâneos  amigos farrapeiros , que mais uma vez arranjaram desculpas para não prestigiar o evento, só posso dizer que perderam um dos melhores eventos do  ...]  
+</description>
+                
+ Queria agradecer à coordenação do  III ENSL / IV FSLB  pela oportunidade ímpar que tive, de participara como palestrante, nos dias 29 e 30 de maio do corrente ano.  Aos  meus conterrâneos  amigos farrapeiros , que mais uma vez arranjaram desculpas para não prestigiar o evento, só posso dizer que perderam um dos melhores eventos do nordeste nos últimos anos, o que não foi novidade, tendo em vista o retrospecto de eventos promovidos pelo pessoal da Bahia. 
+ Quem tiver interesse, o  Jonh Wendell , um grande desenvolvedor brasileiro do  Gnome  que tive o prazer de conhecer pessoalmente,  fez um  relato bem interessante  em seu blog, como fotos e tudo mais.  Jonh, adorei o comentário  sem papa na língua .     
+ Meus parabéns, em especial pelas brilhantes palestras que tive o prazer de assistir, dos amigos  Goa  Sherrine,  Alexando Silva , da mesa redonda sobre  Como contribuir com projetos de software livre , com  Aurélio Heckert ,  Jonh Wendell ,  Caio Tiago  e  Gilmar Santos , que teve participação ativa dos presentes.  Também pude realizar um sonho antigo, de conhecer pessoalmente o  papai noel do software livre !   Espero reencontrá-los na próxima edição do evento. 
+       
+ Aproveito também para disponibilizar os slides de minhas palestras: 
+ Conhecendo e colaborando com o projeto Debian, em formato   PDF   
+ Implementação de clusters de alto desempenho com Debian GNU/Linux, em formato  PDF   
+ Um forte abraço a todos e até a próxima! 
+                                    
+    http://marcelosantana.wordpress.com/2009/05/30/iii-ensl-iv-festival-de-software-livre-da-bahia/feed/ 
+   0 
+ 
+   
+    marcelosantana 
+   
+   
+    Visite 
+   
+ 
+</item>
+<item>
+  <title>
+I Fórum de Software Livre do SERPRO Recife
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2009/03/18/i-forum-de-software-livre-do-serpro-recife/
+</link>
+   http://marcelosantana.wordpress.com/2009/03/18/i-forum-de-software-livre-do-serpro-recife/#comments 
+   Wed, 18 Mar 2009 19:50:52 +0000 
+   marcelosantana 
+        Software Livre  
+   http://marcelosantana.wordpress.com/?p=83 
+  <description>
+   Convido todos a participarem do I Fórum de Software Livre da regional SERPRO Recife 1], que ocorrerá de 24 a 26 de março, na sede da regional, localizada em frente ao shopping Parnamirim, próximo ao Carrefour.   A organização disponibilizará um espaço destinado às comunidades, bastando os interessados entrarem em contato comigo por e-mail, para saberem  ...]  
+</description>
+        Convido todos a participarem do I Fórum de Software Livre da regional SERPRO Recife 1], que ocorrerá de 24 a 26 de março, na sede da regional, localizada em frente ao shopping Parnamirim, próximo ao Carrefour.   A organização disponibilizará um espaço destinado às comunidades, bastando os interessados entrarem em contato comigo por e-mail, para saberem as informações necessárias. 
+         
+ As inscrições são gratuitas 2], e podem ser feitas através do site do evento, onde também está disponível a grade de palestras 3] e minicursos 4]. 
+ Referências: 
+ 1] http://www.softwarelivre.serpro.gov.br/recife   
+ 2] http://www.softwarelivre.serpro.gov.br/recife/inscricoes/inscricao_form   
+ 3] http://www.softwarelivre.serpro.gov.br/recife/palestras   
+ 4] http://www.softwarelivre.serpro.gov.br/recife/mini-cursos   
+                                    
+    http://marcelosantana.wordpress.com/2009/03/18/i-forum-de-software-livre-do-serpro-recife/feed/ 
+   0 
+ 
+   
+    marcelosantana 
+   
+   
+    I Fórum de Software Livre do SERPRO Recife 
+   
+ 
+</item>
+<item>
+  <title>
+Sugestões do Open-Tran em traduções de Software Livre
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2008/10/10/sugestoes-do-opentran-em-traducoes-de-sl/
+</link>
+   http://marcelosantana.wordpress.com/2008/10/10/sugestoes-do-opentran-em-traducoes-de-sl/#comments 
+   Fri, 10 Oct 2008 16:31:38 +0000 
+   marcelosantana 
+        Debian  
+      Software Livre  
+   http://marcelosantana.wordpress.com/?p=54 
+  <description>
+   Quando sobra algum tempo, procuro colaborar com o time brasileiro de tradução do Debian GNU/Linux.  Ultimamente estou tentando aprender um pouco mais a respeito da linguagem de marcação SGML, para facilitar minha vida na tradução/revisão do Manual Debian de Segurança, e de quebra estou aproveitando para atualizar a versão em português brasileiro do Debiandoc-SGML. Ultimamente  ...]  
+</description>
+        Quando sobra algum tempo, procuro colaborar com o  time brasileiro  de tradução do  Debian GNU/Linux .  Ultimamente estou tentando aprender um pouco mais a respeito da linguagem de marcação  SGML , para facilitar minha vida na tradução/revisão do ##a title="Manual Debian de Segurança"  http://www.debian.org/doc/user-manuals#securing" /a a title="Manual Debiandoc-SGML em pt_BR"  http://packages.debian.org/sarge/debiandoc-sgml-doc-pt-br" /a a title="Debiandoc-SGML Manual"  http://www.debian.org/doc/misc-manuals#markup" /a /p##
+ Ultimamente fiquei em dúvida a respeito do contexto  marked-up inline text , e após consultas ao  vocabulário padrão do LDP-BR ,  buscas no histórico  da lista  debian-l10n-portuguese , ferramentas de tradução do  Google  e  Babylon , ainda continuei sem encontrar uma palavra que melhor representasse o significado de  inline . 
+ Por sugestão do Vladimir Melo, no canal de  IRC  #tradutores da rede  irc.freenode.net , fiquei conhecendo uma iniciativa bastante interessante chamada  Open-Tran , onde estão disponíveis sugestões de tradução utilizadas no  instalador Debian ,  Gnome ,  KDE ,  OpenSUSE ,  OpenOffice , entre outros.  Foi lá que finalmente encontrei uma sugestão apropriada para o contexto em questão, que foi  texto incorporado com marcação . 
+ Acredito que a maioria já conheça, porém fica aqui a dica, pois tal iniciativa ajuda a mantermos uma uniformidade das traduções.  Aproveitei para ajustar um  plugin de busca do firefox/iceweasel * para o Open-Tran que tem me ajudado bastante, pois embora já exista um  plugin , queria algo na barra de busca. 
+ * O arquivo está com extensão .odt, mas na verdade é um .xml, pois minha conta no wordpress não aceita upload de arquivos com esta extensão. 
+                                    
+    http://marcelosantana.wordpress.com/2008/10/10/sugestoes-do-opentran-em-traducoes-de-sl/feed/ 
+   0 
+ 
+   
+    marcelosantana 
+   
+ 
+</item>
+<item>
+  <title>
+A importância dos relatórios de bug
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2008/07/10/a-importancia-dos-relatorios-de-bug/
+</link>
+   http://marcelosantana.wordpress.com/2008/07/10/a-importancia-dos-relatorios-de-bug/#comments 
+   Thu, 10 Jul 2008 16:57:37 +0000 
+   marcelosantana 
+        Debian  
+      Software Livre  
+   http://marcelosantana.wordpress.com/?p=50 
+  <description>
+   Estreando minha participação no Planeta Debian Brasil (obrigado FAW ), aproveito a oportunidade para abordar, principalmente para os usuários iniciantes de software livre, a importância de consultarmos os relatórios de bugs. No caso do Debian, existe o Sistema de Acompanhamento de Bugs (BTS), onde podemos encontrar todos os relatórios de bugs, além do Sistema de  ...]  
+</description>
+        Estreando minha participação no  Planeta Debian Brasil  (obrigado FAW    ), aproveito a oportunidade para  abordar, principalmente para os usuários iniciantes de software livre, a importância de consultarmos os relatórios de bugs. 
+ No caso do Debian, existe o  Sistema de Acompanhamento de Bugs (BTS) , onde podemos encontrar todos os relatórios de bugs, além do  Sistema de Acompanhamento de Pacotes (PTS) , onde podemos acompanhar quase tudo relativo a vida de um pacote. 
+ Para exemplificar melhor a importância dos mesmos, por esses dias adquiri uma  impressora laser Samsung ML-2010 , e após verificar no  openprinting.org  que o driver recomendado era o splix, que por sinal já está empacotado oficialmente, bastou apenas fazer a instalação da seguinte forma: 
+     ~$ sudo aptitude install splix     
+ Então, adicionei a impressora através da interface web de gerenciamento do  cups , e quando tentei imprimir a página de testes, apenas obtive a impressão da seguinte mensagem de erro: 
+     INTERNAL ERROR   FALSE   
+   POSITION : 0 11 (17) 
+SYSTEM : h6fwsim_mono/x1_tbl 
+LINE : 396 
+VERSION : SPL 5.05 01-04-2006     
+ Normalmente, o procedimento mais comum seria recorrer às buscas no google e/ou listas de discussão de usuários.  Entretanto, demostrando o valor de conhecermos melhor as distribuições que utilizamos e  as ferramentas disponíveis, preferi consultar se havia algum relato de bug relativo ao  splix no BTS .   E qual não foi minha satisfação ao ver que o mesmo problema já havia sido  relatado  por outros usuários e melhor ainda, em um dos relatos havia um patch, que por motivo desconhecido ainda não foi aceito pelo mantenedor do pacote, com a nova versão do upstream já empacotada para testes, inclusive com relatos de que já havia sido testado com sucesso.   Pronto, pacote instalado através do dpkg, e o problema na impressão foi resolvido.  Por fim, consultei como andava o histórico do  splix no PTS , e de quebra cadastrei o  rss  para me manter informado sobre as futuras atualizações do mesmo. 
+ Caso interesse, existe um aplicativo chamado  reportbug-ng  que facilita bastante a análise dos relatórios, como também o relato de novos bugs encontrados.   Sua instalação é bem simples, embora tenha o inconveniente de só estar disponível oficialmente na versão unstable, basta fazer o seguinte: 
+     ~$ sudo aptitude install reportbug-ng     
+ Salientando que é necessário conhecer o idioma inglês para entender a interface e o conteúdo dos relatórios. 
+ Bom, espero que os afobado de plantão, independente de distribuição, aprendam a dar a devida importância aos relatórios de bug.     
+ Um abraço e até a próxima! 
+                                       
+    http://marcelosantana.wordpress.com/2008/07/10/a-importancia-dos-relatorios-de-bug/feed/ 
+   0 
+ 
+   
+    marcelosantana 
+   
+ 
+</item>
+<item>
+  <title>
+Ajude a sustentar a Wikipédia e outros projetos, sem colocar a mão no bolso, e concorra a um Eee PC!
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2008/06/29/ajude-a-sustentar-a-wikipedia-e-outros-projetos-sem-colocar-a-mao-no-bolso-e-concorra-a-um-eee-pc/
+</link>
+   http://marcelosantana.wordpress.com/2008/06/29/ajude-a-sustentar-a-wikipedia-e-outros-projetos-sem-colocar-a-mao-no-bolso-e-concorra-a-um-eee-pc/#comments 
+   Sun, 29 Jun 2008 18:52:37 +0000 
+   marcelosantana 
+        Software Livre  
+   http://marcelosantana.wordpress.com/?p=45 
+  <description>
+   Pois é gente, mais uma campanha do BR-Linux que está dando o que falar, participem pois todos só têm há ganhar, mesmo que não sejam sorteado! Ajude a sustentar a Wikipédia e outros projetos, sem colocar a mão no bolso, e concorra a um Eee PC! …e também a pen drives, card drives, camisetas geeks,  ...]  
+</description>
+        Pois é gente, mais uma campanha do BR-Linux que está dando o que falar, participem pois todos só têm há ganhar, mesmo que não sejam sorteado! 
+   Ajude a sustentar a Wikipédia e outros projetos, sem colocar a mão no bolso, e concorra a um Eee PC!   
+ …e também a pen drives, card drives, camisetas geeks, livros e mais! O  BR-Linux  e o  Efetividade  lançaram uma  campanha  para ajudar a Wikimedia Foundation e outros mantenedores de projetos que usamos no dia-a-dia on-line. Se você puder doar diretamente, ou contribuir de outra forma, são sempre melhores opções. Mas se não puder, veja as regras da promoção e  participe    quanto mais divulgação, maior será a doação do BR-Linux e do Efetividade, e você ainda concorre a diversos brindes! 
+                                       
+    http://marcelosantana.wordpress.com/2008/06/29/ajude-a-sustentar-a-wikipedia-e-outros-projetos-sem-colocar-a-mao-no-bolso-e-concorra-a-um-eee-pc/feed/ 
+   0 
+ 
+   
+    marcelosantana 
+   
+ 
+</item>
+<item>
+  <title>
+Entrevista com Steve McIntyre, líder do projeto Debian
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2008/05/06/entrevista-com-steve-mcintyre-lider-do-projeto-debian/
+</link>
+   http://marcelosantana.wordpress.com/2008/05/06/entrevista-com-steve-mcintyre-lider-do-projeto-debian/#comments 
+   Wed, 07 May 2008 02:44:04 +0000 
+   marcelosantana 
+        Debian  
+   http://marcelosantana.wordpress.com/?p=41 
+  <description>
+   Tomei a liberdade de fazer uma tradução livre da entrevista feita pelo site Computer World UK com o atual líder do projeto Debian. Nascido na cidade de Wigan, em Manchester/Inglaterra, atualmente com 34 anos, Steve McIntyre tem colaborado com o projeto nos últimos 12 anos, e no dia 12 de Abril de 2008 foi eleito  ...]  
+</description>
+        Tomei a liberdade de fazer uma tradução livre da entrevista feita pelo site  Computer World UK  com o atual líder do projeto Debian.   Nascido na cidade de Wigan, em Manchester/Inglaterra, atualmente com 34 anos,  Steve McIntyre  tem colaborado com o projeto nos últimos 12 anos, e no dia 12 de Abril de 2008 foi  eleito  o novo  Líder do Projeto Debian  para o mandato 2008/2009. 
+Peço que desculpem os possíveis deslizes na tradução, e fiquem à vontade para fazer sugestões e críticas. 
+         
+    Steve McIntyre é o Líder do Projeto Debian recentemente eleito.  Ele é engenheiro de software e um antigo desenvolvedor Debian.  Suas contribuições mais conhecidas têm sido no campo da criação de imagens de CD/DVD Debian; ele é o líder do time Debian-cd e é responsável por gerar as imagens oficiais.   
+     Qual a sua visão sobre as promoções de patentes viciadas que algumas distribuições Linux têm assinado (por exemplo, XANDROS, Linspire)?  Qual você imagina que será o efeito sobre o Linux em particular e no FOSS (Free and Open Source Software   Software Livre e de Código Aberto) em geral?     
+   Compreendo que algumas empresas podem se sentir mais confortáveis com a assinatura deste tipo de acordo para assegurá-las.  Alguns mercados como os EUA são notórios por problemas com patentes de software, e eu acredito que se resume a uma simples decisão empresarial de ponderar os custos de fazer este tipo de acordo contra os custos potenciais de uma defesa legal contra um ataque de patente (sem fundamento ou não).   
+   No entanto, eu sinto fortemente que fazer este tipo de acordo é um erro a longo prazo. Ele empresta legitimidade para o sistema de patentes de software e, em especial, para quaisquer patentes que possam ser mencionadas nestes acordos.  Fazer isso é ruim por si só, mas também levará à redução do apoio por parte da comunidade.  O Software Livre e de seus desenvolvedores apenas são prejudicados com o sistema de patentes de software.   
+     O Debian é algumas vezes criticado como sendo para hobistas apesar das evidências de que é utilizado por muitas organizações sérias para algumas implementações maciças.  Você acha que o projeto Debian tem algum trabalho para fazer no sentido de articular suas credenciais empresariais?     
+   Penso que há sempre espaço para que possamos fazer mais nessa frente.  Haverá sempre alguns usuários que não acreditarão no Debian como uma opção para a empresa, apenas porque não somos diretamente apoiados por uma grande empresa, e essa será uma difícil atitude para mudar.   
+   No entanto, conheço muitas empresas hoje, que irão fornecer suporte pago para o Debian quando este for exigido, e nós já temos uma agradável reputação de estabilidade.  Acho que o próximo truque é começar a fazer mais de um impacto positivo diretamente no espaço  Empresarial  com exposição positiva na imprensa e boas opiniões.   
+     O Debian começou como uma ditadura benevolente dirigida por Ian Murdoch e, em seguida, por Bruce Perens.  É justo dizer que a posterior democratização do projeto resultou em mais tempo dedicado à política em vez de tecnologia?     
+   Oh, absolutamente.  Como temos crescido em tamanho e mudamos nosso modelo de governo ao longo dos anos, claramente mais do nosso tempo foi gasto em falar uns aos outros em vez de *apenas* trabalhar nas questões técnicas.  Imagino que isto é uma conseqüência inevitável do nosso crescimento, assim como em qualquer organização.  Mas ainda há muito tempo para fazer a colaboração técnica pela qual nós somos conhecidos, não se preocupe.   
+     O Debian tem tradicionalmente favorecido mais o Gnome do que o KDE?  Dado o apoio do anterior à aprovação do OOXML através da ISO e a próxima versão do KDE 4.1, você acha que esta situação poderá mudar?     
+   Em muitos momentos no começo do Gnome e KDE, nós favorecemos o Gnome de certa forma. Houve muitas divergências públicas entre Debian e o pessoal do KDE a respeito do licenciamento para lançá-lo, assim por um tempo nós não incluímos o KDE em todos os nossos lançamentos.   
+   Mas, uma vez que esse problema foi corrigido (anos atrás) temos trabalhado muito bem tanto com comunidades de desenvolvedores Gnome quanto KDE e nós temos grandes equipes ativas trabalhando no empacotamento de ambos os sistemas.  Eu não espero ver essa mudança em um momento breve,  para ser honesto.   
+     Quais são suas espectativas a partir da próxima Debconf na Argentina?     
+   Estou esperando que nós tenhamos mais uma vibrante, excitante conferência este ano, com conteúdo técnico muito bom e (tão importante) muitas horas para nossos desenvolvedores se socializarem e conhecerem melhor uns aos outros.  Apesar de nossas experiências em Debian  aproveitando os métodos de comunicação via internet para trabalhar em conjunto, ainda há uma grande quantidade de benefícios em encontros presenciais.   
+   Ainda há tempo também para patrocinadores se envolverem com a Debconf.  Estamos sempre à procura de mais dinheiro para ajudar a pagar a conferência em si, por mais que tentemos ajudar com as despesas de viagem para muitos dos nossos colaboradores.  Muitas empresas já têm visto os benefícios de estarem associadas a nós.    
+   Fonte:  http://www.computerworlduk.com/community/blogs/index.cfm?RSS&itemid=741     
+                                       
+    http://marcelosantana.wordpress.com/2008/05/06/entrevista-com-steve-mcintyre-lider-do-projeto-debian/feed/ 
+   0 
+ 
+   
+    marcelosantana 
+   
+   
+ 
+</item>
+<item>
+  <title>
+II Encontro de Software Livre de Pernambuco (ESLPE)
+</title>
+  <link>
+http://marcelosantana.wordpress.com/2008/05/04/ii-encontro-de-software-livre-de-pernambuco-eslpe/
+</link>
+   http://marcelosantana.wordpress.com/2008/05/04/ii-encontro-de-software-livre-de-pernambuco-eslpe/#comments 
+   Sun, 04 May 2008 23:41:02 +0000 
+   marcelosantana 
+        Eventos  
+      Software Livre  
+   http://marcelosantana.wordpress.com/?p=34 
+  <description>
+   Agradecemos a todos os participantes do II Encontro de Software Livre de Pernambuco (ESLPE), que ocorreu no período de 23 a 24 de Abril de 2008, na Faculdade Maurício de Nassau, onde atingimos a marca de 1.500 inscritos. Esperamos na próxima edição do evento contar com um espaço maior para que possamos atender a demanda,  ...]  
+</description>
+        Agradecemos a todos os participantes do  II Encontro de Software Livre de Pernambuco (ESLPE) , que ocorreu no período de 23 a 24 de Abril de 2008, na  Faculdade Maurício de Nassau , onde atingimos a marca de 1.500 inscritos.  Esperamos na próxima edição do evento contar com um espaço maior para que possamos atender a demanda, que para nossa surpresa foi bem superior às espectativas. 
+ Aproveito para agradecer especialmente aos palestrantes e instrutores que colaboraram de forma totalmente voluntária, muitos já cansados, após a maratona enfrentada durante a semana anterior no  FISL .   Sem os mesmos, seria impossível atingirmos tamanha qualidade e quantidade diversificada de temas abordados. 
+ Como de costume disponibilizo abaixo o material de minhas apresentações: 
+ Conhecendo e colaborando com o projeto Debian, em formato   PDF   
+ Implementação de clusters com Debian GNU/Linux, em formato  PDF   
+ Um forte abraço e até a próxima! 
+                                       
+    http://marcelosantana.wordpress.com/2008/05/04/ii-encontro-de-software-livre-de-pernambuco-eslpe/feed/ 
+   0 
+ 
+   
+    marcelosantana 
+   
+ 
+</item>
+</apoena>

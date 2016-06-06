@@ -1,0 +1,451 @@
+<apoena>
+<cabecalhorss> <cdrss>251</cdrss><endrss>br-linux.org/feed/atom/</endrss><cdtipdoc>1</cdtipdoc><dsctip>RSS</dsctip><cdfont>191</cdfont><dscfont> UNDER-LINUX </dscfont><cdtipfont>8</cdtipfont><nmtipfont> SOFTWARE LIVRE </nmtipfont> </cabecalhorss>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Banco do Brasil já tem 20.000 terminais de autoatendimento com Linux 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24387 
+   2010-08-24T02:48:59Z 
+   2010-08-24T12:00:00Z 
+       <description>   Por alguma razão que não apurei, a matéria do Convergência Digital tratando do assunto parece não achar esse um bom número   descreveu como  apenas 20.000 . 
+Para mim, entretanto, parece ser um dos raros casos de adoção corporativa continuada e em grande escala no Brasil, e um bom exemplo em que o software escolhido é  ...] 
+</description>
+       Por alguma razão que não apurei, a matéria do Convergência Digital tratando do assunto parece não achar esse um bom número   descreveu como  apenas 20.000 .  
+ Para mim, entretanto, parece ser um dos raros casos de adoção corporativa continuada e em grande escala no Brasil, e um bom exemplo em que o software escolhido é mantido   afinal, segundo a mesma matéria, a migração em questão está em andamento há 8 anos, e já atinge 46% dos terminais de autoatendimento próprios do BB. 
+ Trecho da nota do Convergência Digital que parece ter sido redigida por alguém que acha que o BB está perdendo feio em algum ranking de adoção do Linux em terminais bancários no Brasil:  
+   Dezena, há dois meses no cargo, ao que parece se confundiu. Tanto, que no dia seguinte (19) ao proferir no mesmo evento uma palestra sobre bancarização e software livre, informou que, dos 43.342 TAs próprios em operação, apenas 20 mil já estão operando com o Linux. 
+ Isso não é nenhum demérito para o banco. Apenas mostra que a instituição financeira continua lenta nesse processo, para quem iniciou a migração há mais de oito anos, segundo palavras do próprio vice-presidente. ( via  convergenciadigital.uol.com.br   )   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   10º Debian Day em Porto Alegre teve palestras e vídeos 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24389 
+   2010-08-24T02:48:53Z 
+   2010-08-24T11:00:00Z 
+         <description>   A 10ª Edição do Debian Day em Porto Alegre ocorreu no sábado (14/8), no Sindicato dos Bancários e contou com a presença de 26 pessoas. 
+( ) A primeira palestra, após a abertura foi sobre como uma pessoa que não é programadora pode ajudar o projeto Debian. O lider do grupo de Usuários do RS, Luiz  ...] 
+</description>
+         A 10ª Edição do Debian Day em Porto Alegre ocorreu no sábado (14/8), no Sindicato dos Bancários e contou com a presença de 26 pessoas.  
+ ( ) A primeira palestra, após a abertura foi sobre como uma pessoa que não é programadora pode ajudar o projeto Debian. O lider do grupo de Usuários do RS, Luiz Guaraldo, explicou que existem diversas formas das pessoas colaborarem, pois uma das características do Debian é justamente ser um sistema operacional desenvolvido pelos próprios usuários. As pessoas ajudam com aquilo que podem ajudar só precisam de tempo e disponibilidade, explicou. 
+ As formas de colaboração são as mais diversas como: empacotar programas; redigir manuais; traduzir documentações; criar imagens/vídeos/identidade visual; divulgar, disseminar e distribuir o programa, testar e reportar os bugs e realizar eventos, como o Debian Day. O trabalho voluntário segundo Guaraldo dá vários retornos, desde conhecimento até amigos. 
+ ( ) Ao final os participantes assistiram ao filme The Code a história do Linus Torvald e o desenvolvimento do kernel linux. A Organização foi do Grupo de Usuário Debian RS apoiados pela ASL e o Sindbancários. A TV Software Livre transmitiu ao vivo e foram gravadas entrevistas para a Rádio SL (Software Livre) por Rochele Prass, editora da Revista BrOffice. ( via  softwarelivre.org   )   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Palestra sobre TuxFrw 3.0 ministrada no Slack Show 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24401 
+   2010-08-24T02:49:48Z 
+   2010-08-24T10:00:00Z 
+       <description>   Enviado por Marcelo Gondim (gondim linuxinfo com br):
+ É com satisfação que agradeço à todos que compareceram ao Slack Show nesse sábado e que assistiram a palestra que ministrei sobre o TuxFrw 3.0, um Firewall em shell script organizado de forma modular. Para aqueles que não puderam ir, aqui está a URL da palestra em .pdf: http://www.linuxinfo.com.br/tuxfrw3.pdf
+Na palestra eu  ...] 
+</description>
+       Enviado por Marcelo Gondim (gondim linuxinfo com br): 
+  É com satisfação que agradeço à todos que compareceram ao Slack Show nesse sábado e que assistiram a palestra que ministrei sobre o TuxFrw 3.0, um Firewall em shell script organizado de forma modular. Para aqueles que não puderam ir, aqui está a URL da palestra em .pdf: http://www.linuxinfo.com.br/tuxfrw3.pdf 
+ Na palestra eu mostro um diagrama de rede como exemplo e faço todas as configurações dos módulos do TuxFrw para esse diagrama. Dessa forma fica mais claro como configurá-lo.    referência: tuxfrw.linuxinfo.com.br ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   SC: Oficina gratuita de Programação Java para Web (Java EE) em São Bento 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24410 
+   2010-08-24T02:49:19Z 
+   2010-08-24T09:30:00Z 
+       <description>   Enviado por Tiago Hillebrandt (tiagoscd yahoo com br):
+ A Universidade do Estado de Santa Catarina   UDESC, campus Centro de Educação do Planalto Norte, estará realizando no próximo dia 11/09 (sábado) a oficina de Programação Java para Web (Java EE), em São Bento do Sul   SC.
+    A oficina será gratuita, sendo pré-requisito para inscrição o  ...] 
+</description>
+       Enviado por Tiago Hillebrandt (tiagoscd yahoo com br): 
+  A Universidade do Estado de Santa Catarina   UDESC, campus Centro de Educação do Planalto Norte, estará realizando no próximo dia 11/09 (sábado) a oficina de Programação Java para Web (Java EE), em São Bento do Sul   SC. 
+     A oficina será gratuita, sendo pré-requisito para inscrição o domínio da lógica de programação e dos conceitos de programação orientada a objetos.    O evento faz parte da Semana de Ciência e Tecnologia da UDESC. Maiores informações, e inscrições, no site http://www2.ceplan.udesc.br/seminario2010/.    referência: ceplan.udesc.br ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   EGG: novo CRM open source chega no Brasil 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24393 
+   2010-08-24T02:48:43Z 
+   2010-08-24T09:30:00Z 
+     <description>   Enviado por Pierre-Jean (pj quetant cogivea com):
+ Atualmente, é difícil de encontrar a solução perfeita para sua empresa dentro dos milhares de softwares no mercado. O EGG CRM Open Source  chega no Brasil para facilitar a gestão comercial  das empresas brasileiras. Este é um software que trabalha em paralelo com o ERP  em uma média empresa,  ...] 
+</description>
+       Enviado por Pierre-Jean (pj quetant cogivea com): 
+  Atualmente, é difícil de encontrar a solução perfeita para sua empresa dentro dos milhares de softwares no mercado. O EGG CRM Open Source  chega no Brasil para facilitar a gestão comercial  das empresas brasileiras. Este é um software que trabalha em paralelo com o ERP  em uma média empresa, ou com autonomia completa em uma pequena empresa. Trata-se de um software leve e adaptado às suas necessidades. Sendo gerente de uma pequena empresa, você conseguirá administrar todo seu negócio com um único software, com apenas um clique.  
+ O EGG CRM funciona com uma base comum, com módulos definidos para serem adaptados às necessidades de cada atividade, e propõe também um módulo de emissões automáticas de NFE. O EggCRM utiliza as tecnologias confiáveis e conhecidas como PHP e HTML/Ajax, com banco de dados MySQL e pode ser instalado na sua empresa ou em modo SAAS: um simples navegador web é suficiente para utilizar o conjunto das funcionalidades, no qualquer computador do mundo inteiro. Desta forma, você economiza com servidores e evita roubo ou destruição física dos dados. A segurança também é importante para o EggCRM. O programa produz dados cifrados, backup diários, conexões SSL, entre outras funcionalidades.     referência: cogivea.com ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   5 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Novatec lança livro CodeIgniter Framework PHP 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24412 
+   2010-08-24T02:49:10Z 
+   2010-08-24T09:00:00Z 
+     <description>   Enviado por Mariana Prates (mariana prates novatec com br):
+ Desenvolva um catálogo de produtos completo usando o framework CodeIgniter. O CodeIgniter é um framework versátil e leve que possibilita a construção de aplicações e sistemas sob o paradigma da orientação a objetos e seguindo o design pattern MVC. Seus recursos e funcionalidades automatizam processos repetitivos e oferecem suporte à reescrita  ...] 
+</description>
+       Enviado por Mariana Prates (mariana prates novatec com br): 
+  Desenvolva um catálogo de produtos completo usando o framework CodeIgniter. O CodeIgniter é um framework versátil e leve que possibilita a construção de aplicações e sistemas sob o paradigma da orientação a objetos e seguindo o design pattern MVC. Seus recursos e funcionalidades automatizam processos repetitivos e oferecem suporte à reescrita de URL e reaproveitamento de código, o que torna uma ferramenta de grande valia ao desenvolvedor PHP. 
+     
+  ximg http://img.efetividade.net/img/xtra/capa_ampliada9788575222461.jpg --##
+ Inspirado no Ruby on Rails, com o CodeIgniter você terá acesso a bibliotecas de funções PHP e ajudantes que automatizarão tarefas rotineiras e a elaboração de código XHTML válido. 
+O livro CodeIgniter Framework PHP aborda todas as etapas, desde a configuração do ambiente de testes até as operações com bancos de dados, upload de imagens e carrinho de compras.    referência: novatec.com.br ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Só hoje: promoção via twitter dá descontos em curso de fundamentos do Linux 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24402 
+   2010-08-24T02:49:29Z 
+   2010-08-24T08:30:00Z 
+     <description>   Enviado por Adrielle (drika mec gmail com):
+ A Milenium Informática, de Campo Grande (MS), lança a sua primeira promoção através do twitter. Para quem segue o twitter @mileniumti, a Milenium Informática agora traz promoções exclusivas, com descontos de até 15% no curso de Fundamentos do Linux. 
+Mas seja rápido, esta promoção se encerra às 15:30 horas de hoje, dia  ...] 
+</description>
+       Enviado por Adrielle (drika mec gmail com): 
+  A Milenium Informática, de Campo Grande (MS), lança a sua primeira promoção através do twitter. Para quem segue o twitter @mileniumti, a Milenium Informática agora traz promoções exclusivas, com descontos de até 15% no curso de Fundamentos do Linux.  
+ Mas seja rápido, esta promoção se encerra às 15:30 horas de hoje, dia 24/08/10.    referência: mileniuminformatica.com.br ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Ubuntu Global Jam Brasil: participe! 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24396 
+   2010-08-24T02:48:23Z 
+   2010-08-24T08:30:00Z 
+         <description>   Enviado por Rodrigo Carvalho (rcsilva83 gmail com):
+ Esta semana vai acontecer no muito todo o Ubuntu Global Jam! Esta é uma excelente oportunidade para contribuir para o Linux, mesmo que não seja programador. Você pode encontrar bugs, fazer testes, escrever documentação, traduzir, etc. Lembre-se que, apesar de ser um evento organizado pela comunidade Ubuntu, a natureza aberta do  ...] 
+</description>
+       Enviado por Rodrigo Carvalho (rcsilva83 gmail com): 
+  Esta semana vai acontecer no muito todo o  Ubuntu Global Jam ! Esta é uma excelente oportunidade para contribuir para o Linux, mesmo que não seja programador. Você pode encontrar bugs, fazer testes, escrever documentação, traduzir, etc. Lembre-se que, apesar de ser um evento organizado pela comunidade Ubuntu, a natureza aberta do código possibilita que todas as contribuições sejam levadas para as demais distribuições! 
+ Veja abaixo o link no meu blog para saber como participar junto com outros brasileiros.    referência: rodrigocarvalho.blog.br ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Metamorphose Linux 2.5 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24406 
+   2010-08-24T02:48:35Z 
+   2010-08-24T08:00:00Z 
+     <description>   Enviado por Ailton Nascimento de mattos (perguntas metamorphoselinux net):
+ O Metamorphose lançou sua versão 2.5 e agora conta com um repositório próprio, que pode seu usado nas versões anteriores também, basta ser colocado manualmente. Nele o usuário do sistema terá atualizações de programas como: Firefox, Flash Plugin, Thunderbird, Wine, Java, Kernel, etc.   referência: metamorphoselinux.net]
+ 
+</description>
+       Enviado por Ailton Nascimento de mattos (perguntas metamorphoselinux net): 
+  O Metamorphose lançou sua versão 2.5 e agora conta com um repositório próprio, que pode seu usado nas versões anteriores também, basta ser colocado manualmente. Nele o usuário do sistema terá atualizações de programas como: Firefox, Flash Plugin, Thunderbird, Wine, Java, Kernel, etc.    referência: metamorphoselinux.net ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Análise do Ekin M001, o tablet de 90 dólares com Android, por Carlos Morimoto 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24367 
+   2010-08-23T14:33:52Z 
+   2010-08-23T18:00:00Z 
+       <description>   Enviado por Julio Cesar Bessa Monqueiro (julio gdhpress com br):
+ Por Carlos E. Morimoto, uma análise sobre o curioso tablet de 90 dólares, que carrega o Android como sistema:
+ Além do uso do Android estar crescendo rapidamente nos smartphones, estamos assistindo também a uma invasão de tablets com telas de 7 a 10 polegadas baseados no sistema. Os tablets são  ...] 
+</description>
+       Enviado por Julio Cesar Bessa Monqueiro (julio gdhpress com br): 
+  Por Carlos E. Morimoto, uma análise sobre o curioso tablet de 90 dólares, que carrega o Android como sistema: 
+     
+  ximg http://img.efetividade.net/img/xtra/img-3cc6803e.jpeg --##
+    Além do uso do Android estar crescendo rapidamente nos smartphones, estamos assistindo também a uma invasão de tablets com telas de 7 a 10 polegadas baseados no sistema. Os tablets são apontados como a próxima onda dentro do mercado tecnológico, sucedendo os netbooks. Isso nos leva à análise de hoje, onde falarei sobre o Eken M001, o modelo mais barato da safra, que custa apenas US$ 90 caso comprado em quantidade direto no fabricante, ou apenas um pouco mais se comprado em lojas online. Ele está à venda por US$ 96 na DealExtreme, por exemplo. Por Carlos E. Morimoto    
+ Veja a análise em:  http://www.guiadohardware.net/analises/ekin-m001/     referência: guiadohardware.net ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   10 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   SP: Nota Fiscal Eletrônica no Ubuntu 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24379 
+   2010-08-23T14:33:47Z 
+   2010-08-23T17:00:00Z 
+     <description>   Enviado por André Gondim (andregondim ubuntu com):
+ A nota fiscal eletrônica  é um novo modelo que a secretaria da fazenda de SP vem impondo que determinados grupos adotem. Isso agiliza o uso de nova fiscal eletrônica e ajuda na contabilidade do governo, pois funciona da seguinte maneira. A empresa emite uma nota assina com seu certificado digital,  ...] 
+</description>
+       Enviado por André Gondim (andregondim ubuntu com): 
+  A nota fiscal eletrônica  é um novo modelo que a secretaria da fazenda de SP vem impondo que determinados grupos adotem. Isso agiliza o uso de nova fiscal eletrônica e ajuda na contabilidade do governo, pois funciona da seguinte maneira. A empresa emite uma nota assina com seu certificado digital, envia para a secretaria da fazenda do seu estado ou pelo qual for atendido (pode ser o virtual nacional). Este arquivo (XML) é verificado, visto o nome do emissor da nota, os impostos, e tudo mais, em caso de está correta é encaminhada para quem a emitiu com a permissão de uso e então pode ser gerada a DANFE (Demonstrativo Auxliar de Nota Fiscal Eletrônica). 
+ Saiba como é fácil instalar o sistema de nota fiscal eletrônica fornecido pela secretaria de fazenda de São Paulo.    referência: andregondim.eti.br ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Análise de um malware para Android 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24357 
+   2010-08-23T14:34:12Z 
+   2010-08-23T16:30:00Z 
+       <description>   Enviado por Ricardo Farias Santoro (santororfarias gmail com):
+ Depois de ler algumas notícias sobre o assunto aqui no BR-Linux, que entretanto não continham maiores detalhes técnicos, achei interessante compartilhar este link, que trás uma breve análise de um malware para Android que envia mensagens SMS com o objetivo de gerar lucros para seu criador.   referência: inreverse.net]
+ 
+</description>
+       Enviado por Ricardo Farias Santoro (santororfarias gmail com): 
+  Depois de ler algumas notícias sobre o assunto aqui no BR-Linux, que entretanto não continham maiores detalhes técnicos, achei interessante compartilhar este  link , que trás uma breve análise de um malware para Android que envia mensagens SMS com o objetivo de gerar lucros para seu criador.    referência: inreverse.net ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   6 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Linuxacessivel.org com novo site 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24362 
+   2010-08-23T14:34:00Z 
+   2010-08-23T16:00:00Z 
+       <description>   Enviado por Fabiano Garcia Fonseca (fabiano linuxacessivel org):
+ O linuxacessível.org, uma versão customizada do Ubuntu direcionada às pessoas com deficiência visual, ganhou um novo site com canais de suporte, páginas de documentação e uma imagem de disco   cópia exata de todo conteúdo e estrutura de um sistema – que ocupa o espaço de um único CD.   ...] 
+</description>
+       Enviado por Fabiano Garcia Fonseca (fabiano linuxacessivel org): 
+  O linuxacessível.org, uma versão customizada do Ubuntu direcionada às pessoas com deficiência visual, ganhou um novo site com canais de suporte, páginas de documentação e uma imagem de disco   cópia exata de todo conteúdo e estrutura de um sistema – que ocupa o espaço de um único CD.   
+ O linuxacessivel.org é distribuído no formato de um Live CD e traz um navegador web, programas de apresentação, edição de texto, planilha eletrônica, comunicador instantâneo, entre outros. Todos os aplicativos já estão ajustados para um melhor uso através do leitor de telas Orca.   
+ O principal objetivo do projeto é adicionar, corrigir e configurar recursos de acessibilidade para que pessoas com deficiência visual possam utilizar o Ubuntu desde o momento de inicialização do sistema, durante a instalação e principalmente, depois de instalado. Mais detalhes no link a seguir.    referência: linuxacessivel.org ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Ubuntu-BR no FISL 11 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24378 
+   2010-08-23T14:33:24Z 
+   2010-08-23T15:30:00Z 
+         <description>   Enviado por Andre Noel (andrenoel ubuntu com):
+ Faz um tempão, mas finalmente escrevi sobre como foi a participação do Ubuntu-BR no FISL 11, que aconteceu de 21 a 24 de julho de 2010.   referência: andrenoel.com.br]
+ 
+</description>
+       Enviado por Andre Noel (andrenoel ubuntu com): 
+  Faz um tempão, mas finalmente escrevi sobre como foi a participação do Ubuntu-BR no FISL 11, que aconteceu de 21 a 24 de julho de 2010.    referência: andrenoel.com.br ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   1 
+ 
+</item>
+<item>
+   
+    Augusto Campos 
+       http://br-linux.org/ 
+      
+  <title>   Artigo: A nova  onda  dos repositórios de pacotes 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://br-linux.org/?p=24377 
+   2010-08-23T14:33:27Z 
+   2010-08-23T15:00:00Z 
+     <description>   Enviado por Ednei Pacheco (ednei pacheco gmail com):
+ Nestas últimas semanas, foram publicados alguns rumores sobre o que seria reservado pelo futuro Windows 8. O novo visual, os recursos, as especificações técnicas e a adoção de novas estratégias de mercado, certamente serão o centro das atenções. Em geral, as novidades sempre atraem os curiosos e interessados, embora nem sempre  ...] 
+</description>
+       Enviado por Ednei Pacheco (ednei pacheco gmail com): 
+  Nestas últimas semanas, foram publicados alguns rumores sobre o que seria reservado pelo futuro Windows 8. O novo visual, os recursos, as especificações técnicas e a adoção de novas estratégias de mercado, certamente serão o centro das atenções. Em geral, as novidades sempre atraem os curiosos e interessados, embora nem sempre criem tantas expectativas quando estas são previsíveis. Mas desta vez, nenhuma outra me deixou tão impressionado o quanto esta: uma loja virtual.   Veja o artigo em:  http://www.guiadohardware.net/artigos/nova-onda-repositorios-pacotes/     referência: guiadohardware.net ] 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   14 
+ 
+</item>
+</apoena>

@@ -1,0 +1,13 @@
+#list-menu a {
+display: block;
+width:150px;
+padding: 2px 1px 1px 30px;
+border: 1px solid #000000;
+background: #dcdcdc;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+color: #22407B;
+text-decoration: none;
+filter:blendTrans(duration=0.5);
+

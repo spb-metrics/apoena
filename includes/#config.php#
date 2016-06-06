@@ -1,0 +1,19 @@
+<?php
+
+/**
+Constantes usadas no sistema
+*/
+
+//acoes 
+define("INCLUIR",1);
+define("ALTERAR",2);
+define("EXCLUIR",3);
+//tipos de bancos
+define("BD_MYSQL",1);
+define("BD_POSTGRES",2);
+
+//lingua
+define("PT",1);
+define("EN",2);
+
+?>

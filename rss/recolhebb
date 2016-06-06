@@ -1,0 +1,20 @@
+#/bin/bash 
+
+rm /var/www/apache2-default/apoena/rss/arquivo/*
+rm /var/www/apache2-default/apoena/rss/arquivo2/*
+rm /var/www/apache2-default/apoena/rss/arquivo3/*
+rm /var/www/apache2-default/apoena/rss/arquivo4/*
+rm /var/www/apache2-default/apoena/rss/arquivo5/*
+rm /var/www/apache2-default/apoena/rss/arquivo6/*
+rm /var/www/apache2-default/apoena/rss/arquivo7/*
+rm /var/www/apache2-default/apoena/rss/arquivo8/*
+rm /var/www/apache2-default/apoena/rss/arquivo9/*
+rm /var/www/apache2-default/apoena/rss/arquivo10/*
+
+
+cd /var/www/apache2-default/apoena/rss/
+./busca-10 > recolhe10
+
+cd /var/www/apache2-default/apoena/rss/
+
+./processaGeral.sh

@@ -1,0 +1,64 @@
+
+<html>
+
+<title> Ajuda do Sistema Apoena</title>
+
+<head>
+<link rel=stylesheet href="../funcoes/css/intranet.css" type="text/css">
+</head>
+
+<body>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul" border="0">
+	<tr>
+		<td align="right">
+			<a href="moduloManutencao.html" class="titulo"> Página Inicial</a>
+		</td>	
+	</tr>
+</table>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul">
+	<tr>
+		<td align="center">
+			<a class="titulo">Sistema Apoena</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>  				
+		   <p align="justify">	
+		  <a class="alerta">
+				Para manter o módulo RSS siga os seguintes passos:<br>
+		  </a>
+		  <a class="titulo">			 
+		  				 
+ 				1 - Para alterar RSS acesse o item RSS->Alterar. A figura abaixo mostra a página de alteração dos RSS<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/rssAlterar.png"></input> <br><br>
+
+				2 - Altere os campos com os novos dados selecionando, primeiro um RSS no comboBox "RSS" para aparecer seus dados. Alterações realizadas clique no botão alterar , a mensagem "dados alterados com sucesso" aparecerá. Caso não selecione um RSS e clique no botão alterar a seguinte mensagem irá aparecer "selecione um item"<br>
+				
+				3 - Para consultar RSS acesse o item RSS->Consultar. A figura abaixo mostra a página de consulta do módulo RSS<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/rssConsultar.png"></input> <br><br>
+					
+				4 - A tela mostra uma lista de RSS, seus respectivas Fontes e Tipos de Fontes, além de oferecer a possibilidade de habilitar o RSS para que seja baixado ou não. Quando estiver marcado, as mensagens continda nele serão capturadas, caso contrário, serão descartadas. <br>
+				
+				5 - Para deletar RSS acesse o item RSS->Deletar. A figura abaixo mostra a página de deleção dos RSS<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/rssExcluir.png"></input> <br><br>
+				
+				6 - A tela mostra uma lista com o nomes dos RSS, escolha os RSS que desejar deletar e, clique no botão "deletar", após a deleção aparecerá a seguinte mensagem "dados deletados com sucesso". Caso você não escolha um RSS  e clique no botão deletar a seguinte mensagem aparecerá "selecione um item". <br>	
+				
+				7 - Para incluir RSS acesse o item RSS->Incluir. A figura abaixo mostra a página de inclusão de RSS<br><br>
+
+					<input type="image" width="750"  border="0" src="../imagens/rssIncluir.png"></input> <br><br>
+
+				8 - Todos os campos devem ser preenchidos. A página contém dois comboBox: o primeiro com os Tipos de Fontes; o segundo com as Fontes e um campo texto para preenchimento dos nomes dos RSS. Escolha um Tipo de Fonte e uma Fonte e preencha o campo com o nome do novo RSS, depois clique no botão "inserir", após a inclusão a mensagem "dados incluídos com sucesso aparecerá". Caso não seja escolhido um Tipo de Fonte, uma Fonte ou preenchido o campo do nome do RSS o sistema emitirá a seguinte mensangem "selecione item"<br>
+       </td>
+	</tr>
+</table>
+</body>
+</html>			

@@ -1,0 +1,219 @@
+<apoena>
+<cabecalhorss> <cdrss>185</cdrss><endrss>www.edivaldobrito.com.br/?feed=atom</endrss><cdtipdoc>1</cdtipdoc><dsctip>RSS</dsctip><cdfont>162</cdfont><dscfont>Software Livre para um mundo melhor</dscfont><cdtipfont>8</cdtipfont><nmtipfont>SOFTWARE LIVRE</nmtipfont> </cabecalhorss>
+<item>
+   
+    edivaldo 
+       http://www.edivaldobrito.com.br 
+      
+  <title>   Dos gerenciadores de pacotes até as lojas de venda de aplicativos online 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://www.edivaldobrito.com.br/?p=179 
+   2010-06-02T18:05:04Z 
+   2010-06-02T15:16:24Z 
+                       <description>   Esse é um exemplo de como as idéias evoluem e mudam de forma e nome. A alguns anos atrás para instalar o Linux era preciso dar boot por disquetes e  montar  o sistema passo a passo. Daí a ideia evoluiu para sistemas prontos em imagens iso, dando boot por CD, pendrive, HD´s externos e até  ...] 
+</description>
+               
+ Esse é um exemplo de como as idéias evoluem e mudam de forma e nome. 
+ A alguns anos atrás para instalar o Linux era preciso dar boot por disquetes e  montar  o sistema passo a passo. Daí a ideia evoluiu para sistemas prontos em imagens iso, dando boot por CD, pendrive, HD´s externos e até mesmo executar o sistema sem ter de instalar. Foi uma evolução muito grande nos ultimos anos. 
+ Paralelo a esses eventos, existia no inicio, a necessidade de compilar os programas para poder instalar no sistema. Como eram em sua maioria softwares livres, pegava-se o código fontes e depois executava-se uma sequencia de comando (make, make install) e pronto estava instalado,  para simplificar isso, criaram os sistema de pacotes, onde, o programa binário e todos seus arquivos eram empacotados e distribuidos, agora bastava o usuario executar um comando para instalar o programa. 
+ A coisa complicava quando existiam dependências, ou seja, pra instalar um programa era preciso antes instalar outros  Daí surgiu o controle de dependências e o conjunto de softwares e base de dados utilizados para controlar tudo isso já podia ser chamado de gerenciador de pacotes. 
+ Mais a coisa ainda dependia de CD´s ou DVD´s inteiros, o sistema sabia onde ficava cada pacote e os buscava.  Convenhamos, estamos na era da Internet, depender de Mídia fisíca toda hora é um problema. Os gerenciadores de pacotes então melhoraram e passaram a baixar os programas diretamente da internet, agora para instalar um programa bastava  saber o nome do programa, pesquisar o mesmo no gerenciador, marcar o pacote e clicar em aplicar, daí é só esperar o final da instalação. Mais simples que isso ainda não inventaram. 
+ Mais onde entram as lojas de aplicativos on-line? No inicio da história do Iphone, a Apple acreditava que poderia suprir todas as necessidades de aplicativo dos usuários do aparelho apenas com webapps (programas que na verdade eram sites com aparencia de aplicação), diante disso, surgiu a necessidade de instalar alguns programas não oficiais no mesmo e alguns hackers criaram o software chamado installer e depois o Cydia, que funcionam basicamente da mesma forma que os gerenciadores de pacotes do Linux, baixando programas pré-compilados de repositórios e instalando-os no equiapamento (inclusive os pacotes do cydia tem a extensão .deb, a mesma dos pacotes Debian, Ubuntu e derivados). 
+Não contente com isso e precisando ter um canal de venda de softwares para sua plataforma, a Apple cria sua loja de venda de aplicativos online, tornando-se em pouco tempo um sucesso e obrigando outros fabricantes de celulares a seguirem a mesma idéia, mudando, é claro, o nome. Não que a Apple tenha sido a primeira a criar uma loja de venda de software online (a Linspire fez isso no passado), porém, devido o sucesso do empreendimento, outros passaram a abandonar mais rapidamente o sistema de venda em caixas e adotar o sistema de vendas online a médio ou longo prazo.. 
+ O Resumo de tudo isso é que as lojas de aplicativos atuais (AppStore, Windows Marketplace,  Ovi Store, Android  Market  e cia.) são na verdade  uma evolução natural de uma idéia a muito utilizada pelos chamados softwares livres. Como disse no começo, as idéias  evoluem e mudam de forma e nome. 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    edivaldo 
+       http://www.edivaldobrito.com.br 
+      
+  <title>   Lançado VirtualBox 3.2, com suporte a MacOS como convidado 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://www.edivaldobrito.com.br/?p=451 
+   2010-05-19T17:20:53Z 
+   2010-05-19T15:08:55Z 
+                     <description>   O tão esperado suporte a MacOS como convidado agora é uma realidade nessa atualização do VirtualBox. Explico, esse recurso possibilita executar o MacOS dentro de uma máquina Virtual do VirtualBox, algo muito útil para quem quer experimentar o sistema enquanto usa seu SO preferido ou para quem quer usar o SDK do Iphone (que só  ...] 
+</description>
+               
+ O tão esperado suporte a MacOS como convidado agora é uma realidade nessa atualização do VirtualBox. Explico, esse recurso possibilita executar o MacOS dentro de uma máquina Virtual do VirtualBox, algo muito útil para quem quer experimentar o sistema enquanto usa seu SO preferido ou para quem quer usar o SDK do Iphone (que só funciona em MacOS) sem ter de comprar um computador da Apple (^^$$). 
+ Atentem para o fato de que o suporte a Mac como convidado ainda é experimental e, segundo relatos, só funciona em computadores da Apple e compatíveis (com configuração de hardware semelhante). Para mais dúvidas relacionadas a esse recursos, olhem a ##a  http://www.virtualbox.org/manual/ch03.html#intro-macosxguests" target="_self" /a /p##
+ Depois do ter sido comprado pela Sun e posteriormente pela Oracle,  muitos se perguntavam qual seria o destino deste software aberto de  virtualização, o que se vê com essa atualização, é que o VirtualBox vai  muito bem e foi até rebatizada como  Oracle VM VirtualBox . Os constantes melhoramentos do VirtualBox levam a crer que o produto ganhou muito com a venda da Sun  para a Oracle e podemos esperar por muitas novidades nas próximas atualizações. 
+ Downloads aqui: 
+   http://www.virtualbox.org/wiki/Downloads   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   2 
+ 
+</item>
+<item>
+   
+    edivaldo 
+       http://www.edivaldobrito.com.br 
+      
+  <title>   A próxima plataforma? PC? Não, Móbile. 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://www.edivaldobrito.com.br/?p=426 
+   2010-05-08T18:04:02Z 
+   2010-05-07T15:54:41Z 
+                     <description>   Quem conhece um pouco da história da informática (principalmente os anos 80), deve saber que houve um tempo em que quase ninguém tinha acesso a computadores (pois eles eram gigantescos) e microcomputador era um conceito que ainda não havia se firmado. Com o surgimento do IBM-PC equipado com o sistema operacional DOS, iniciou-se a consolidação  ...] 
+</description>
+               
+ Quem conhece um pouco da história da informática (principalmente os anos 80), deve saber que houve um tempo em que quase ninguém tinha acesso a computadores (pois eles eram gigantescos) e microcomputador era um conceito que ainda não havia se firmado. Com o surgimento do IBM-PC equipado com o sistema operacional DOS, iniciou-se a consolidação da plataforma que é hoje conhecida como PC (Personal Computer). Esse acontecimento foi essencial para a popularização dos computadores, pois, antes disso, até existiam alguns microcomputadores, porém, nenhum deles conseguia se estabelecer no mercado e conseqüentemente ninguém produzia software suficiente para manter essas plataformas. 
+ Agora essa história se repete no mundo móbile, puxado pela ascensão dos smartphones e o surgimento dos serviços em  nuvem . Apesar dos smartphones já existirem a bastante tempo, foi depois do sucesso do Iphone que essa categoria começou a ganhar mais destaque, alavancado principalmente pelas interfaces touchscreen. 
+ Posso estar dizendo o óbvio, mas a plataforma móbile está vivendo uma fase de estabelecimento. Um novo horizonte está se firmando no universo da informática, uma nova base que irá demandar novos softwares, hardwares e muita concorrência. 
+ Diferente da plataforma PC, a móbile ainda não tem um arquitetura de hardware padrão, mais têm em comum os processadores ARM, que, nos principais modelos de smartphones, são os mais usados.  Já na parte de Software, destacam-se as plataformas IphoneOS e Android. A maior prova do estabelecimento da plataforma móbile é a criação de aplicativos para esses dois ambientes operacionais. A AppStore da Apple já tem mais de 100.000 programas disponíveis, a Android market também está crescendo rapidamente.  Como a história mostra, depois que uma plataforma passa a ter milhares de aplicativos, dificilmente ela morre e isso é muito bom para os usuários, desenvolvedores e proprietários dos dois ambientes. 
+ Agora com o lançamento do Ipad da Apple, o iphoneOS ganha mais espaço e pode se estabelecer como principal ambiente operacional da plataforma móbile. Em resumo, podemos esperar muitas novidades e reviravoltas na plataforma móbile, mas uma coisa é certa, ela já se estabeleceu e está em vias de ter um padrão (não tão homogêneo como na plataforma PC). 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    edivaldo 
+       http://www.edivaldobrito.com.br 
+      
+  <title>   Ipad é o futuro? Ou apenas mais um fracasso! Parte 2 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://www.edivaldobrito.com.br/?p=437 
+   2010-05-08T18:05:04Z 
+   2010-05-07T15:37:28Z 
+               <description>   Passado o lançamento do Ipad nos Estados Unidos, a venda de 1 milhão de unidades e a grande expectativa em torno do lançamento internacional do mesmo, já é possível ver que é um produto que veio pra ficar, a prova disso é que a maioria das unidade vendidas são da versão com wifi, a versão  ...] 
+</description>
+               
+ Passado o lançamento do Ipad nos Estados Unidos, a venda de  1 milhão de unidades  e a grande expectativa em torno do lançamento internacional do mesmo, já é possível ver que é um produto que veio pra ficar, a prova disso é que a maioria das unidade vendidas são da versão com wifi, a versão com wifi+3g chegou a ter lançamento adiado. 
+ Mas ainda é cedo pra saber onde ele vai ter mais sucesso ou quais áreas ele vai se estabelecer como um padrão de uso. É necessário espera e ver como o mercado vai reagir depois do alvoroço inicial provocado pelo lançamento e só depois disso será possível avaliar as aplicações dele no mundo. 
+ Alguns formadores de opinião dizem que ele vai ser muito usado por pessoas com pouca habilidade em informática, outros que se restringirá a apenas os macfãs, outros que  irá canibalizar o mercado de netbooks  (isso já está acontecendo). O que é fato, é que o Ipad já é um sucesso e um marco na história da informática assim como seu irmão mais velho, o Iphone. 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    edivaldo 
+       http://www.edivaldobrito.com.br 
+      
+  <title>   Ipad é o futuro? Ou apenas mais um fracasso! 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://www.edivaldobrito.com.br/?p=417 
+   2010-01-29T01:33:38Z 
+   2010-01-28T23:22:37Z 
+             <description>   Não, esse post não é pra falar das vantagens e desvantagens do Ipad da Apple, tudo isso já apareceu em diversos sites no brasil e no mundo desde ontem. Na verdade quero fazer uma rápida revisão sobre o produto e quem sabe, definir seu futuro (brincadeira, seria muita pretenção minha). Desde o ano passado, tudo  ...] 
+</description>
+               
+ Não, esse post não é pra falar das vantagens e desvantagens do Ipad da Apple, tudo isso já apareceu em diversos sites no brasil e no mundo desde ontem. Na verdade quero fazer uma rápida revisão sobre o produto e quem sabe, definir seu futuro (brincadeira, seria muita pretenção minha). 
+ Desde o ano passado, tudo que se via nos sites especializados e blogs em geral era  rumores  sobre o lançamento do tablet da Apple, foram tantos rumores que no dia 27 (dia do lançamento oficial), tudo se transformou em frustração para a maioria (não vou entrar nos detalhes aqui, há diversas opiniões). 
+ Agora os rumores foram substituídos por críticas (na maioria, negativa) sobre o produto, e aqui está o motivo desse post: Apesar de ter sido lançado, de ter sido exibido suas caracteristicas e talvez seu publico alvo, toda essa discussão em torno dele se torna desnecessária pelo simples motivo que o mesmo ainda não foi comercializado, ou seja, o mercado ainda nem absorveu o produto. Qualquer produto, para mostrar a que veio (independente de suas caracteristicas físicas ou interface) precisa antes entrar no mercado a qual se destina. 
+ Talvez o Ipad seja o futuro, ou seja um (de alguns da Apple) fracasso, quem vai determinar isso é o mercado, vale lembrar o caso do próprio Iphone que até hoje é criticado por ter um hardware limitado se comparado a outros smatphones, porém, vende muito apesar disso. Ademais, resta apenas esperar e assistir de camarote o desenrolar dessa história. 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   2 
+ 
+</item>
+<item>
+   
+    edivaldo 
+       http://www.edivaldobrito.com.br 
+      
+  <title>   Computação em nuvem com Iphone (quase) 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://www.edivaldobrito.com.br/?p=390 
+   2009-12-04T14:40:42Z 
+   2009-12-04T15:07:43Z 
+                       <description>   Computação em nuvem (ou cloud computing), é a palavra do momento no universo de TI e embora seja um nome novo, sua base vem do passado, materializado hoje pela popularização do acesso a Internet. Nem tudo é possível fazer usando essa prática, mais algumas coisas que simplificam nossas vidas, podem. Vejamos o caso do e-mail,  ...] 
+</description>
+               
+   Computação em nuvem  (ou  cloud computing ), é a palavra do momento no universo de TI e embora seja um nome novo, sua base vem do passado, materializado hoje pela popularização do acesso a Internet. Nem tudo é possível fazer usando essa prática, mais algumas coisas que simplificam nossas vidas, podem. Vejamos o caso do e-mail, da agenda e dos contatos que temos. Utilizando a combinação dos serviços do Google com o Iphone da Apple, é possível sincronizar essas informações e tê-las sempre disponível no celular, sendo que qualquer alteração feita via celular ou site, será atualizada na próxima conexão a grande rede. 
+ Se interessou pela idéia? Acesse o link abaixo e veja como é possível fazer essa façanha. 
+   http://www.gusleig.com/sos/2009/08/mobile/sincronizar-calendario-e-contatos-google-com-iphone-via-push/   
+ Depois de fazer esse procedimento, seus e-mail estarão no aplicativo e-mail, seus contatos no item contatos do aparelho e a agenda no calendário. Basta conectar o aparelho na Internet que ele sincroniza os dados com os serviços do Google. Caso você venha a atualizar o software do Iphone, depois é só repetir o procedimento que ele baixa todos os dados novamente. 
+ É claro, esse não é um procedimento 100% em nuvem, mas é o meio termo mais adequado a nossa situação real, onde nem sempre temos uma conexão disponível e precisamos ter nossas informações sempre a mão. Para quem quer tudo 100% em nuvem, é possível acessar os serviços do Google via celular. 
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    edivaldo 
+       http://www.edivaldobrito.com.br 
+      
+  <title>   Upgrade no Eee PC (até touch screen tem) 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://www.edivaldobrito.com.br/?p=383 
+   2009-11-24T18:08:58Z 
+   2009-11-24T15:59:07Z 
+       <description>   Se você comprou um EeePC e acha que ele poderia ser bem melhor, ele pode. Alguns usuários já colocaram até mesmo touch screen nele, outros adicionaram periféricos só vistos em equipamentos de maior porte. Nos endereços abaixo, tem diversas dicas e passo a passo de como fazer isso: http://beta.ivancover.com/wiki/index.php/Eee_PC_Internal_Upgrades http://www.catabits.com.br/blog/hardware/eee-pc-com-touch-screen 
+</description>
+               
+ Se você comprou um EeePC e acha que ele poderia ser bem melhor, ele pode. Alguns usuários já colocaram até mesmo touch screen nele, outros adicionaram periféricos só vistos em equipamentos de maior porte. 
+ Nos endereços abaixo, tem diversas dicas e passo a passo de como fazer isso: 
+   http://beta.ivancover.com/wiki/index.php/Eee_PC_Internal_Upgrades   
+   http://www.catabits.com.br/blog/hardware/eee-pc-com-touch-screen   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   1 
+ 
+</item>
+</apoena>

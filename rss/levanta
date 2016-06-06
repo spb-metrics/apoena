@@ -1,0 +1,27 @@
+#!/bin/bash
+
+cd carrega
+
+tar xvfz /var/www/apache2-default/apoena/rss/muchado/tabdoc.tar.gz  
+tar xvfz /var/www/apache2-default/apoena/rss/muchado/tabdocformt.tar.gz 
+tar xvfz /var/www/apache2-default/apoena/rss/muchado/tabdocont.tar.gz 
+tar xvfz /var/www/apache2-default/apoena/rss/muchado/tabclip.tar.gz 
+tar xvfz /var/www/apache2-default/apoena/rss/muchado/tabcliparq.tar.gz 
+tar xvfz /var/www/apache2-default/apoena/rss/muchado/tabsts.tar.gz 
+
+cp /var/www/apache2-default/apoena/rss/carrega/tabsts       /var/lib/mysql/apoena/
+cp /var/www/apache2-default/apoena/rss/carrega/tabdoc       /var/lib/mysql/apoena/
+cp /var/www/apache2-default/apoena/rss/carrega/tabdocformt  /var/lib/mysql/apoena/
+cp /var/www/apache2-default/apoena/rss/carrega/tabdocont    /var/lib/mysql/apoena/
+cp /var/www/apache2-default/apoena/rss/carrega/tabclip      /var/lib/mysql/apoena/
+cp /var/www/apache2-default/apoena/rss/carrega/tabcliparq   /var/lib/mysql/apoena/
+
+mysql -u root -p12345678 < carregasts
+mysql -u root -p12345678 < carregadoc 
+mysql -u root -p12345678 < carregadocformt
+mysql -u root -p12345678 < carregadocont
+mysql -u root -p12345678 < carregaclip
+mysql -u root -p12345678 < carregacliparq
+
+
+

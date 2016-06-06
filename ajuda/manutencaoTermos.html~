@@ -1,0 +1,64 @@
+
+<html>
+
+<title> Ajuda do Sistema Apoena</title>
+
+<head>
+<link rel=stylesheet href="../funcoes/css/intranet.css" type="text/css">
+</head>
+
+<body>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul" border="0">
+	<tr>
+		<td align="right">
+			<a href="moduloManutencao.html" class="titulo"> Página Inicial</a>
+		</td>	
+	</tr>
+</table>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul">
+	<tr>
+		<td align="center">
+			<a class="titulo">Sistema Apoena</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>  				
+		   <p align="justify">	
+		  <a class="alerta">
+				Para manter o módulo Termos siga os seguintes passos:<br>
+		  </a>
+		  <a class="titulo">			 
+		  				 
+ 				1 - Para alterar Termos acesse o item Termos->Alterar. A figura abaixo mostra a página de alteração de Termos<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/termoAlterar.png"></input> <br><br>
+
+				2 - Altere os campos com os novos dados selecionando primeiro, uma Ontologia no comboBox "Ontologia" para aparecer seus Termos. Alterações realizadas clique no botão alterar , a mensagem "dados alterados com sucesso" aparecerá. Caso não selecione uma Ontologia e clique no botão alterar a seguinte mensagem irá aparecer "selecione um item"<br>
+				
+				3 - Para consultar Termos acesse o item Termos->Consultar. A figura abaixo mostra a página de consulta do módulo Termos<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/termoConsultar.png"></input> <br><br>
+					
+				4 - A tela mostra um comboBox com Ontologia, escolha uma, e aparecerá uma lista com todos os termos vinculados à Ontologia selecionada. <br>
+				
+				5 - Para deletar Termos acesse o item Termos->Deletar. A figura abaixo mostra a página de deleção de Termos<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/termoExcluir.png"></input> <br><br>
+				
+				6 - A tela mostra um comboBox com Ontologia, escolha uma, e aparecerá uma lista com todos os termos vinculados à Ontologia selecionada. Selecione os Termos que desejar deletar e clique no botão deletar, após a deleção aparecerá a seguinte mensagem "dados deletados com sucesso". Caso você não escolha uma Ontologia ou Termos e clique no botão excluir a seguinte mensagem aparecerá "selecione um item". <br>	
+				
+				7 - Para incluir Termos acesse o item Termos->Incluir. A figura abaixo mostra a página de inclusão de Termos<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/termoIncluir.png"></input> <br><br>
+
+				8 - Pelo menos um campo deve ser preenchido. A página contém um comboBox com Ontologia e campos para preenchimento dos novos Termos. Escolha uma Ontologia e preencha com os Termos, após a inclusão a mensagem "dados incluídos com sucesso aparecerá". Caso não seja escolhida uma Ontologia ou preenchido pelo menos um dos campos para inserção de Termos o sistema emitirá a seguinte mensangem "selecione item"<br>
+       </td>
+	</tr>
+</table>
+</body>
+</html>			

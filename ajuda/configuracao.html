@@ -1,0 +1,53 @@
+<html>
+
+<title> Ajuda do Sistema Apoena</title>
+
+<head>
+<link rel=stylesheet href="../funcoes/css/intranet.css" type="text/css">
+</head>
+
+<body>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul" border="0">
+	<tr>
+		<td align="right">
+			<a href="introducao.html" class="titulo"> Página Inicial</a>
+		</td>	
+	</tr>
+</table>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul">
+	
+	<tr>
+		<td align="center">
+			<a class="titulo">Sistema Apoena</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			&nbsp;
+		</td>
+	</tr>
+	
+	<tr>
+		<td>  				
+		   <p align="justify">	
+		   <a class="titulo">
+           		1 - Abra um terminal em: Aplicações->Acessórios->Terminal. <br>
+				2 - Logue como root;<br>
+				3 - Digite o comando: nano /etc/php5/apache2/php.ini<br>
+				4 - Procure no documento a linha de comando register_globals e a modifique para "on". Exemplo: register_globals = on.<br>
+				5 - Digite os comandos: ctrl + o "para salvar" e   ctrl + x "para fechar o documento".<br>
+				6 - Restart o servidor apache2, por meio do comando: /etc/init.d/apache2 restart<br>
+				7 - Feche o Terminal.<br>
+				
+					
+			<p>Esta configuração permite o acesso total às funcionalidades do sistema.
+			
+			</a>
+       </td>
+	</tr>
+	
+</table>
+
+</body>
+
+</html>

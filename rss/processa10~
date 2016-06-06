@@ -1,0 +1,12 @@
+#/bin/bash 
+
+## ./processa1.sh 1 > processa1 & ./processa2.sh 10000 > processa2
+ /var/www/apache2-default/apoena/rss/arquivo3/./processaArquivo-3.sh 20000 > processa3 &
+ /var/www/apache2-default/apoena/rss/arquivo4/./processaArquivo-4.sh 30000 > processa4 &
+## /var/www/apache2-default/apoena/rss/arquivo5/./processaArquivo-5.sh 40000 & > processa5
+## /var/www/apache2-default/apoena/rss/arquivo6/./processaArquivo-6.sh 50000 & > processa6
+## /var/www/apache2-default/apoena/rss/arquivo7/./processaArquivo-7.sh 60000 & > processa7
+## /var/www/apache2-default/apoena/rss/arquivo8/./processaArquivo-8.sh 70000 & > processa8
+## /var/www/apache2-default/apoena/rss/arquivo9/./processaArquivo-9.sh 80000 & > processa9
+## /var/www/apache2-default/apoena/rss/arquivo10/./processaArquivo-10.sh 90000 & > processa10
+

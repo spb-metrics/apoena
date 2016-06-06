@@ -1,0 +1,10 @@
+#/bin/bash 
+
+cd /var/www/apache2-default/apoena/rss/
+echo "dois" > dois
+ ./busca-login.sh
+ ./busca-acerto.sh > recolhe0 &  ./busca-1 > recolhe1 &  ./busca-2 > recolhe2 &  ./busca-3 > recolhe3
+
+cd arquivo
+
+./obterArquivo.sh > lib/obter

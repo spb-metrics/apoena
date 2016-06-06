@@ -1,0 +1,58 @@
+
+<html>
+
+<title> Ajuda do Sistema Apoena</title>
+
+<head>
+<link rel=stylesheet href="../funcoes/css/intranet.css" type="text/css">
+</head>
+
+<body>
+
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul">
+	
+	<tr>
+		<td align="center">
+			<a class="titulo">Sistema Apoena</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			&nbsp;
+		</td>
+	</tr>
+	
+	<tr>
+		<td>  				
+		   <p align="justify">	
+		   <a class="titulo">
+           Apoena é um Software Livre <a class="tituloVerde" href="dicas.html">( dicas para desenvolvedor ) </a> <a class="titulo">que surgiu da necessidade de Democratizar o acesso a Informação no uso da internet nos telecentros do Banco do Brasil. Criamos essa ferramenta para elaborar Clippings de notícias. Funciona como uma agência de notícias coletando e processando informações de mais de 300 fontes informativas.<br>
+           O sistema quando instalado agenda a rodada para as 07:00 horas da manhã, isso significa que serão acessados cerca de 300 sites na internet e baixado o conteúdo para sua máquina
+depois o sistema vai transformar essas informações não estruturadas em dados estruturados e gerar os clippings que voce configurar.<br>
+           O tempo gasto neste processo vai depender da capacidade de seu computador, há exemplos de 17 minutos ou até uma hora dependendo da configuração de hardware. Isso significa que durante o processamento sua máquina ficara mais lenta, mas poderá continuar a ser usada.
+<br><br>
+          <p align="justify"><a class="tituloVerde" href="passoapasso.html">1 - Passo a Passo</a>
+           <p align="justify"><a class="titulo">Aqui voce tera um guia de uso básico. 			
+          <p align="justify"><a class="tituloVerde" href="moduloManutencao.html">2 - Manutenção</a>
+           <p align="justify"><a class="titulo">Por meio da Manutenção, os usuários do sistema poderâo manter todas as tabelas auxiliares do Apoena, com ações que envolvem a inclusão, atualização, consulta e deleção sobre as seguintes classes: ontologia; termos; fonte, rss, tipos de documentos; tipos usuário; usuário.
+	<p align="justify"><a class="tituloVerde" href="moduloConsulta.html">3 - Consulta</a>
+			<p align="justify"><a class="titulo">O módulo Consulta envolve consultas à base de dados, quanto a palavras simples e compostas, pesquisas avançadas a documentos, a notícias por tipo de fonte e clipping por ontologia ou clipping com as palavras de maior contagem nos documentos datados do dia corrente.
+
+<p align="justify"><a class="tituloVerde" href="moduloClippingEmail.html">4 - Clipping por Email</a>
+			<p align="justify"><a class="titulo">O módulo Clipping por email, propicia a geração de um clipping personalizado com notícias de interesse do usuário, além de abrir a possibilidade de envio por e-mail do clipping personalizado.
+<p align="justify"><a class="tituloVerde" href="moduloEstatistica.html">5 - Manutenção</a>
+			<p align="justify"><a class="titulo">Já o módulo Manutenção, tem 2 itens 1) Estatísticas sobre a quantidade de documentos processados por fonte, além dos documentos com a data corrente. 2) Mineração - mostra a quantidade de vezes que uma palavra aparece por fonte de informação em uma data especificada.  
+
+<p align="justify"><a class="tituloVerde" href="licencaGPL.html">6 - Licensa GPL</a>
+			<p align="justify"><a class="titulo">Texto da Licença GPL - Software Livre
+			
+			
+       </td>
+       
+	</tr>
+</table>	
+
+
+</body>
+
+</html>

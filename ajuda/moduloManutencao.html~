@@ -1,0 +1,73 @@
+
+<html>
+
+<title> Ajuda do Sistema Apoena</title>
+
+<head>
+<link rel=stylesheet href="../funcoes/css/intranet.css" type="text/css">
+</head>
+
+<body>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul" border="0">
+	<tr>
+		<td align="right">
+			<a href="introducao.html" class="titulo"> Página Inicial</a>
+		</td>	
+	</tr>
+</table>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul">
+	<tr>
+		<td align="center">
+			<a class="titulo">Sistema Apoena</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>  				
+		   <p align="justify">	
+		  <a class="titulo">			 
+		  				 
+		  	 O módulo Manutenção do sistema Apoena contém os seguintes módulos basicamente: Ontologia, Termos, Fonte, Tipo de Fonte, Tipo Usuário e Usuário. Os links abaixo irão desmostrar a utilização dos módulos.
+		 </a>			
+       </td>
+	</tr>
+</table>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul">
+	
+	<tr>
+		<td>
+			<a class="tituloVerde" href="manutencaoOntologia.html">1 - Manutenção Ontologia</a> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a class="tituloVerde" href="manutencaoTermos.html">1 - Manutenção Termos</a> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a class="tituloVerde" href="manutencaoRSS.html">2 - Manutenção RSS</a> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a class="tituloVerde" href="manutencaoFonte.html">2 - Manutenção Fonte</a> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a class="tituloVerde" href="manutencaoTipoUsuario.html">4 - Manutenção Tipo Usuário</a> 
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<a class="tituloVerde" href="manutencaoUsuario.html">5 - Manutenção Usuário</a> 
+		</td>
+	</tr>
+</table>
+</body>
+</html>			

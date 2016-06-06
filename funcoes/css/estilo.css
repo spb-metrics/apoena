@@ -1,0 +1,38 @@
+BODY {
+scrollbar-face-color: #DDDDDD;
+scrollbar-track-color: red;
+scrollbar-3dlight-color: #0066CC;
+}
+
+input {
+border:1px solid #999999;
+}
+option {
+border:1px solid #999999;
+}
+
+
+.corpadrao {
+COLOR:#205C60;FONT-SIZE=14;FONT-FAMILY:arial;TEXT-DECORATION: none;
+}
+
+.subtitulo {
+COLOR:#205C60;FONT-SIZE=23;FONT-FAMILY:times new roman;BOLD;TEXT-DECORATION: none;
+}
+
+.titulo {
+COLOR:white;FONT-SIZE=30;FONT-FAMILY:arial;TEXT-DECORATION: none;
+}
+
+.corpadraotit {
+COLOR:#205C60;FONT-SIZE=17;FONT-FAMILY:arial black;TEXT-DECORATION: none;
+}
+
+.corconsulta {
+COLOR:#FFFFFF;FONT-SIZE=14;FONT-FAMILY:arial;TEXT-DECORATION: none;
+}
+
+
+
+
+

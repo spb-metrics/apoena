@@ -1,0 +1,45 @@
+
+Solução para distribuições baseadas
+no Debian
+
+Requisitos: MySQL PHP5 APACHE DIALOG
+se necessário sugestão:
+apt-get -y install php5 php5-mysql
+phpmyadmin dialog mysql-server apache2 
+
+
+Atencao: voce pode trocar o usuário
+e senha de acesso ao banco de dados
+no arquivo :
+/var/www/apache2-default/apoena/.conexaoBD.php
+
+
+
+
+Baixe o arquivo apoena.tar.gz para 
+seu computador
+
+Como usuário root digite o comando
+
+tar xvfz apoena.tar.gz no diretorio onde
+
+Como usuário root digite ./instalarapoena.sh
+
+Caso seja necessário sera pedido a senha do
+usuário root do seu banco de dados.
+Obs: esta fase somente ocorrera para bancos 
+de dados mysql que não usem a senha default
+do usuário root ou que não tenham usuario
+apoena cadastrado.
+
+Pronto sua agência de notícas APOENA esta
+intalada, para mais detalhes verificar 
+na aba apresentação mais detalhes.
+
+http://localhost/apache2-default/apoena/
+Usuário: debian
+Senha  : gnu
+
+
+
+

@@ -1,0 +1,380 @@
+<apoena>
+<cabecalhorss> <cdrss>206</cdrss><endrss>Www.dicas-l.com.br/index.rdf</endrss><cdtipdoc>1</cdtipdoc><dsctip>RSS</dsctip><cdfont>141</cdfont><dscfont>Dicas-L: Dicas técnicas de Linux e Software Livre</dscfont><cdtipfont>8</cdtipfont><nmtipfont>SOFTWARE LIVRE</nmtipfont> </cabecalhorss>
+<item>
+<title>
+Um pai famoso
+</title>
+ <description>
+O texto que se segue foi extraído do livro **Histórias para aquecer o Coração**, de Jack Canfield e Mark Victor Hansen, páginas 90 e 91. É uma homenagem da Dicas-L ao dia dos pais. Espero que gostem.
+--------------------------------------------------------------------------------
+==Um pai famoso==
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100808.php
+</link>
+</item>
+<item>
+<title>
+Hardware para sistemas GNU/Linux - Dicas de Desempenho - Parte 1
+</title>
+ <description>
+Este texto foi traduzido e adaptado a partir de trechos selecionados do original em inglês, de autoria de Eric Raymond, publicado no site  Linux.org http://www.linux.org/], no documento  The Unix Hardware Buyer HOWTO http://www.linux.org/docs/ldp/howto/Unix-Hardware-Buyer-HOWTO/], parte 4,  What To Optimize http://www.linux.org/docs/ldp/howto/Unix-Hardware-Buyer-HOWTO/optimize.html].
+==Memória==
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100809.php
+</link>
+</item>
+<item>
+<title>
+Hardware para sistemas GNU/Linux - Dicas de Desempenho - Parte 2
+</title>
+ <description>
+Este texto foi traduzido e adaptado a partir de trechos selecionados do original em inglês, de autoria de Eric Raymond, publicado no site  Linux.org http://www.linux.org/], no documento  The Unix Hardware Buyer HOWTO http://www.linux.org/docs/ldp/howto/Unix-Hardware-Buyer-HOWTO/], parte 4,  What To Optimize http://www.linux.org/docs/ldp/howto/Unix-Hardware-Buyer-HOWTO/optimize.html].
+===Vantagens da tecnologia SCSI===
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100810.php
+</link>
+</item>
+<item>
+<title>
+Hardware para sistemas GNU/Linux - Dicas de Desempenho - Parte 3
+</title>
+ <description>
+Este texto foi traduzido e adaptado a partir de trechos selecionados do original em inglês, de autoria de Eric Raymond, publicado no site  Linux.org http://www.linux.org/], no documento  The Unix Hardware Buyer HOWTO http://www.linux.org/docs/ldp/howto/Unix-Hardware-Buyer-HOWTO/], parte 4,  What To Optimize http://www.linux.org/docs/ldp/howto/Unix-Hardware-Buyer-HOWTO/optimize.html].
+===Ajustes no subsistema de I/O===
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100811.php
+</link>
+</item>
+<item>
+<title>
+Montando dispositivos USB no Virtualbox sem problemas.
+</title>
+ <description>
+Um problema que eu vinha tendo era a montagem de determinados dispositivos USB no Virtualbox, utilizando o Mandriva (já tive o mesmo problema em outras distros) e achei uma maneira bem simples de resolver o problema:
+Como root, altere o arquivo ``/etc/udev/rules.d/10-vboxdrv.rules``:
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100812.php
+</link>
+</item>
+<item>
+<title>
+AIX - Identificando portas abertas
+</title>
+ <description>
+É muito importante conhecer o ambiente que está sendo administrado. Em se
+tratando de servidores, muitas vezes temos em um ambiente muitas portas
+abertas ( em modo listen ), e é importante saber qual processo está ouvindo
+em uma determinada porta, por questões de segurança e até em situações de
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100813.php
+</link>
+</item>
+<item>
+<title>
+Otimização de Desempenho em sistemas GNU/Linux
+</title>
+ <description>
+**Este artigo foi traduzido e adaptado a partir do original em inglês, de autoria de  Swayam Prakasha http://linuxdevcenter.com/pub/au/2641], do artigo // Optimizing Linux System Performance http://linuxdevcenter.com/pub/a/linux/2007/06/07/optimizing-linux-system-performance.html]//, publicado em 6 de julho de 2007, no site  LinuxDevCenter.com http://linuxdevcenter.com/pub/a/linux/2007/06/07/optimizing-linux-system-performance.html]**
+Otimização de desempenho em sistemas GNU/Linux nem sempre significa o que
+podemos pensar. Não é apenas diretamente uma questão de velocidade; às vezes
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100814.php
+</link>
+</item>
+<item>
+<title>
+Calendário Javascript em 3 passos
+</title>
+ <description>
+Irei lhes passar hoje como configurar um calendário em JavaScript para sua
+aplicação. Podendo ser utilizado como melhoria na utilização de um cadastro
+ou qualquer outro formulário.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100815.php
+</link>
+</item>
+<item>
+<title>
+openSUSE + Ocomon - Solução para Help-Desks
+</title>
+ <description>
+O Ocomon surgiu em Março de 2002 como projeto pessoal do programador Franque
+Custódio, tendo como características iniciais o cadastro, acompanhamento,
+controle e consulta de ocorrências de suporte e tendo como primeiro usuário
+o Centro Universitário La Salle (UNILASALLE).
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100816.php
+</link>
+</item>
+<item>
+<title>
+Guia para Instalação do Network Simulator NS2 no Xubuntu 10.04
+</title>
+ <description>
+Este é um guia simples para instalação do Network Simulator versão 2.34 no Xubuntu 10.04.
+Network Simulator é um simulador de redes de computadores popular nos meios acadêmicos por ter o código fonte aberto. Muito usado em pesquisas sobre redes ad hoc, suporta os protocolos de rede mais populares tanto para redes cabeadas quanto as sem fio.
+Site oficial do NS2: http://www.isi.edu/nsnam/ns/
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100817.php
+</link>
+</item>
+<item>
+<title>
+Ver Vídeos do Youtube na TV com Linux
+</title>
+ <description>
+Há dois anos a TV digital permitiu a integração de mídias, de forma que  você pode acessar a internet de sua TV. Existem diversos equipamentos que permitem assistir Vídeos da internet (Youtube, p.ex.) em sua TV, sem necessidade de um PC: Apple TV, TiVO, Bravia Internet Video link, MediaSmart TV, Verismo PoD, Playstation 3 e Wii. Descobri recentemente (Tvz não seja novidade para muitos tecno-freaks) uma forma que me permite assistir vídeos do YouTube em minha TV (Série Cosmic Journey, Scorpions, etc...).
+ |   ""http://www.dicas-l.com.br/imagens/venus"".png] ""http://www.dicas-l.com.br/imagens/tn_venus"".png]
+ | Venus: Death of a Planet - Cosmic Journey, Vídeo convertido para Mpeg
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100818.php
+</link>
+</item>
+<item>
+<title>
+Remoção de arquivos duplicados em sistemas GNU/Linux
+</title>
+ <description>
+Em tempos de Internet, Youtube, cameras digitais, etc. o seu computador logo se enche de fotos, vídeos, músicas, apresentações, e um monte de outras coisas. Com cameras digitais então a situação é bem pior. Será que você já baixou as fotos de sua camera? Na dúvida, baixamos de novo. E o lixo vai aumentando, pois ninguém quer perder nada.
+Em sistemas GNU/Linux, você pode usar o programa //fdupes//,  que é um programa invocado a partir da linha de comando para localizar arquivos duplicados dentro de uma estrutura de diretórios. O programa funciona através do cálculo da assinatura  md5 http://pt.wikipedia.org/wiki/MD5] dos arquivos. Este algoritmo é utilizado para verificar a integridade de arquivos. É comum em servidores FTP publicar os arquivos juntamente com sua assinatura MD5. Ao baixar o arquivo, basta verificar o MD5 e verificar se bate com a assinatura MD5 publicada pelo distribuidor do arquivo. Se estiverem iguais, significa que o arquivo não foi corrompido durante a transferência.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100819.php
+</link>
+</item>
+<item>
+<title>
+Instapaper - Bookmarks para ler mais tarde
+</title>
+ <description>
+Quantas vezes, navegando na Internet, você se viu frente a um artigo muito interessante e, por falta de tempo, se prometeu lê-lo depois. O tempo passa, o artigo fica esquecido, e você nunca mais volta a ele.
+Uma idéia muito original, criada pelo site  Instapaper http://www.instapaper.com/], é um tipo de bookmark diferente, em que você marca algo para ler depois. O mais interessante, estas mesmas páginas podem ser salvas em diferentes formatos, para que você possa lê-las em dispositivos portáteis, como ebook readers, notebooks sem conexão com a web, etc. São suportados os formatos epub, //printable//, e o formato para o //kindle//.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100820.php
+</link>
+</item>
+<item>
+<title>
+Zotero no OpenOffice 3.2 do openSUSE 11.3
+</title>
+ <description>
+%!include(html): ''/var/www/dicas-l/inc/googlebanner_728x90.inc''
+Após uma boa batalha para instalar o Zotero (uma alternativa do mundo free ao EndNote) no meu processador de texto (OpenOffice 3.2) executado no openSUSE 11.3, venho dividir os louros da vitória com a comunidade do Software Livre.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100822.php
+</link>
+</item>
+<item>
+<title>
+Zotero no OpenOffice 3.2 do openSUSE 11.3
+</title>
+ <description>
+%!include(html): ''/var/www/dicas-l/inc/googlebanner_728x90.inc''
+Após uma boa batalha para instalar o Zotero (uma alternativa do mundo free ao EndNote) no meu processador de texto (OpenOffice 3.2) executado no openSUSE 11.3, venho dividir os louros da vitória com a comunidade do Software Livre.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100822.php
+</link>
+</item>
+<item>
+<title>
+Damn Vulnerable Linux (DVL) - o sistema operacional mais vulnerável que existe!
+</title>
+ <description>
+Sem querer achei isso no Twitter. A ideia é interessante. Trata-se de um Live DVD GNU/Linux com várias falhas de segurança, permitindo ataques
+diversos, como SQL injection e buffer overflow. Apesar de ser um Live DVD, o DVL pode rodar a partir de sistemas de máquinas virtuais ou ser
+instalado em um desktop ou pendrive.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100823.php
+</link>
+</item>
+<item>
+<title>
+Busca por material distribuído sob licenças da Creative Commons
+</title>
+ <description>
+A iniciativa  Creative Commons http://www.creativecommons.org.br/] colocou no ar um buscador muito interessante. Este buscador é, na verdade, um agregador de resultados que tenta localizar material distribuído sob uma de suas  muitas licenças ""http://www.creativecommons.org.br/index.php?option=com_content&task=view&id=22&Itemid=35""].
+ |   ""http://www.dicas-l.com.br/imagens/tn_ccsearch"".png] http://search.creativecommons.org]
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100824.php
+</link>
+</item>
+<item>
+<title>
+Busca com grep em documentos editados com vim
+</title>
+ <description>
+É fato bastante conhecido que eu consigo ler para dentro de um documento
+editado com vim informações obtidas a partir de comandos do Linux.
+Por exemplo:
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100825.php
+</link>
+</item>
+<item>
+<title>
+Downthemall - Extensão Firefox para download de arquivos
+</title>
+ <description>
+A extensão Firefox  Downthemall http://www.downthemall.net/] é uma mão na roda para realizar downloads. Dentre as muitas funcionalidades oferecidas, a que eu gosto mais é a possibilidade de fazer o download dos diversos elementos de uma página com pouquissimos cliques do mouse. Além disto, você pode selecionar quais arquivos que baixar.
+Para instalar a extensão, visite o  site do programa http://www.downthemall.net/] e faça o download da  extensão ""https://addons.mozilla.org/firefox/ 201/""]. Uma vez que a extensão tenha sido instalada, você pode invocar suas funções diretamente através do menu do browser ou clicando com o botão direito do mouse sobre a página web desejada:
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100826.php
+</link>
+</item>
+<item>
+<title>
+Extensão Broffice.ORG para comparação de documentos - DeltaXML-OdtCompare
+</title>
+ <description>
+A suíte de escritórios Broffice.org possui recursos para controle de versão
+de seus documentos e também para trabalho colaborativo. Infelizmente, estes
+recursos são pouco conhecidos e ainda menos usados. Frequentemente o que as
+pessoas fazem é criar arquivos cujos nomes refletem a data, ou o ainda pior,
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100827.php
+</link>
+</item>
+<item>
+<title>
+Manual (e instruções) para o Squid 3.0
+</title>
+ <description>
+Numa das minhas perambulações encontrei um site com manual bem completo
+para o Squid 3.0. Embora o site tenha um "**disclaimer**" (não garantimos o
+valor das informações, etc) o que está lá é MUITO interessante para quem
+precisa de informações rápidas de aceleração ou melhoria de performance e um
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100828.php
+</link>
+</item>
+<item>
+<title>
+Planejador Mestre - Fred Brooks Mostra Como Projetar Qualquer Coisa
+</title>
+ <description>
+O artigo a seguir foi traduzido por Cesar Brod, com revisão de Joice Käfer, a partir do original em inglês, publicado na revista  Wirede de agosto de 2010 http://www.wired.com/magazine/2010/07/ff_fred_brooks/]
+Você não pode acelerar uma gravidez de nove meses contratando nove mulheres grávidas durante um mês. Da mesma maneira, conforme diz o cientista de computação da Universidade da Carolina do Norte,  Fred Brooks http://www.nndb.com/people/991/000029904/], você não poderá acelerar um projeto de software atrasado com a adição de mais programadores; além de um determinado ponto, fazer isto aumenta os atrasos. Brooks codificou este preceito há 35 anos em um pequeno livro técnico, The Mythical Man-Month ( O Mítico Homem-Mês http://www.submarino.com.br/produto/1/21589289/mitico+homem-mes,+o&franq=170707] em sua edição brasileira), que recebeu este nome com base na premissa errônea de que mais força de trabalho significaria, previsivelmente, um progresso mais rápido. Hoje, esta sua revelação é conhecida como a lei de Brooks. O livro ainda vende 10.000 cópias ao ano e Brooks - que gerenciou a criação do  Sistema IBM S/360 http://en.wikipedia.org/wiki/IBM_System/360], o mainframe de maior sucesso da empresa - é visto como uma lenda. Agora ele escreveu um novo livro, **//The Design of Design//** (**//O Projeto do Projeto: da modelagem à implementação//** em sua edição brasileira). Ele é uma coleção de ensaios que estendem suas ideias nas áreas de arquitetura, sistemas de hardware e liderança. O diretor executivo e fundador da Wired, Kevin Kelly, falou com Brooks para discutir o lado bom de uma falha, letras minúsculas e o que podemos aprender da Apple.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100829.php
+</link>
+</item>
+<item>
+<title>
+DLL Hijacking também afeta algumas Linux distros
+</title>
+ <description>
+Durante esta semana vimos o "caos" reinando no império do tio Bill. Devido a falhas em DLLs no sistema da Microsoft foram encontradas cerca de 30 vulnerabilidades em seus  produtos http://vupen.com/english/searchengine.php?keyword=insecure+library+loading].
+ HDMoore e sua trupe http://digitaloffense.net/] imediatamente atualizou o svn do  Metasploit http://www.metasploit.com/] com o  exploit http://blog.metasploit.com/2010/08/exploiting-dll-hijacking-flaws.html] para explorar está vulnerabilidade. Só que no estilo "Nóis morde, mas nóis também assopra" foi criada uma ferramenta de  auditoria http://blog.metasploit.com/2010/08/better-faster-stronger.html], assim usuários do sistema de Redmond podem auditar seus sistemas em busca de falhas.  
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100830.php
+</link>
+</item>
+<item>
+<title>
+Extensão Sun Presentation Minimizer para Broffice.ORG
+</title>
+ <description>
+A extensão // Sun Presentation Minimizer http://extensions.services.openoffice.org/en/project/PresentationMinimizer]// faz o que seu nome diz: reduz o tamanho de apresentações.
+A instalação é bem simples. Basta ir até ao site // Openoffice.org Repository http://extensions.services.openoffice.org/en/project/PresentationMinimizer]//, e baixar o arquivo  sun-presentation-minimizer.oxt http://extensions.services.openoffice.org/en/project/PresentationMinimizer]. Eu baixei a versão para GNU/Linux, mas a extensão está disponível para diversos outros sistemas operacionais:
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100831.php
+</link>
+</item>
+<item>
+<title>
+Conexões SSH Anônimas com TOR
+</title>
+ <description>
+Este artigo foi traduzido e adaptado a partir do original, de autoria de Vincent Wochnik, de nome  Anonymous SSH sessions with TOR http://www.debianadmin.com/anonymous-ssh-sessions-with-tor.html], publicado no site  Debian Admin http://www.debianadmin.com/]. A versão em português foi publicada originalmente no site  Viva o Linux http://segurancalinux.com/dica/Conexoes-SSH-Anonimas-com-TOR/]
+OpenSSH é uma ferramenta fantástica para impedir que a sua conexão seja bisbilhotada por outras pessoas. Entretanto, isto não é sempre verdade.  Para incriminá-lo, basta provar que você se conectou a um servidor. Infelizmente, o SSH não oferece uma forma nativa de obscurecer quem a ele se conecta. Ao invés disto, um servidor proxy pode ser configurado. E é aí que o  TOR http://www.torproject.org/] entra em cena. Este howto cobre a instalação do TOR em um sistema baseado no Debian e a configuração do SSH para usar o TOR.  
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100901.php
+</link>
+</item>
+<item>
+<title>
+Tratando sinais do sistema com o comando trap
+</title>
+ <description>
+Em uma aula de sistemas operacionais (SO), comentou-se a respeito dos sinais que o SO envia aos processos e que, eventualmente, podem causar situações não previstas. Por exemplo, a sequência ``ctrl-c`` durante a execução de um processo causa seu encerramento.
+Em algumas linguagens, em particular na linguagem C, a captura desses sinais para um eventual processamento pode ser feita com a primitiva ``signal``. No interpretador de comandos BASH, isso também pode ser feito com o comando ``trap``.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100902.php
+</link>
+</item>
+<item>
+<title>
+Broffice.org - Trabalhando com Modelos
+</title>
+ <description>
+A maior parte das pessoas gasta muito mais tempo do que necessário para criar e manter seus documentos. Ao trabalhar com modelos e folhas de estilo, consegue-se reduzir significativamente o tempo necessário para criar um documento ou uma apresentação. Ao se adotar esta forma de trabalho, você irá gastar mais tempo apenas uma vez, ao projetar o seu documento e ao criar a sua folha de estilo. Isto feito, basta reutilizar o modelo criado e todo o trabalho ficará bastante simplificado.
+==Modelos para Apresentações==
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100903.php
+</link>
+</item>
+<item>
+<title>
+Revista BrOffice.org tem versão em inglês
+</title>
+ <description>
+As edições 1 e 9 da Revista BrOffice.org acabam de receber versão em inglês. As traduções da publicação brasileira foram criadas para apresentação no OpenOffice.org Conference, que acontece dos dias 31 de agosto a 3 de setembro, em Budapeste. O evento é o mais importante no calendário anual da comunidade internacional do aplicativo e reúne participantes de vários países para discutir os rumos do OpenOffice.org. Os arquivos estão disponíveis em espaço especial no site: http://broffice.org/magazine
+A ideia é compartilhar com os participantes da conferência o exemplo de uma iniciativa de divulgação da ferramenta, além de envolvimento da comunidade. A suíte de escritórios de código aberto completa em outubro 10 anos de existência, registrando mais de 300 milhões de downloads. As versões traduzidas foram disponibilizadas nesta terça-feira, 31, juntamente com a  edição 14 http://wiki.broffice.org/raw-attachment/wiki/Zine/Edicoes/RB-ED014.pdf?format=raw], em português.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100904.php
+</link>
+</item>
+<item>
+<title>
+Mupen64 - Emulador de Nitendo 64 disponibilizado no repositório Livre SO
+</title>
+ <description>
+O Mupen64 é um emulador para Nintendo 64 desenvolvido para múltiplos sistemas
+operacionais. Altamente compatível com qualquer sistema com a biblioteca
+SDL, este emulador utiliza um sistema de plugins. Com os plugins corretos,
+o processamento de gráficos e áudio pode chegar à perfeição.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100905.php
+</link>
+</item>
+<item>
+<title>
+Gnash flash player
+</title>
+ <description>
+O software //Gnash// é uma alternativa, distribuída sob a  licença GNU/GPL http://www.gnu.org/licenses/gpl.html], para visualização de páginas Web com objetos em Flash. Algum tempo atrás a Adobe parou de trabalhar com os sistemas x64 do flash e tivemos vários problemas com isto.
+O Gnash funciona em x86 e x64. Instalei e funciona perfeitamente em sites como Youtube e outros sites com flash etc. Roda perfeitamente em várias distribuições Linux: Archlinux, Ubuntu, Red Hat, Debian.
+</description>
+ <link>
+http://www.Dicas-L.com.br/dicas-l/20100906.php
+</link>
+</item>
+</apoena>

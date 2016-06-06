@@ -1,0 +1,50 @@
+<html>
+
+<title> Ajuda do Sistema Apoena</title>
+
+<head>
+<link rel=stylesheet href="../funcoes/css/intranet.css" type="text/css">
+</head>
+
+<body>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul" border="0">
+	<tr>
+		<td align="right">
+			<a href="introducao.html" class="titulo"> Página Inicial</a>
+		</td>	
+	</tr>
+</table>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul">
+	
+	<tr>
+		<td align="center">
+			<a class="titulo">Sistema Apoena</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			&nbsp;
+		</td>
+	</tr>
+	
+	<tr>
+		<td>  				
+		   <p align="justify">	
+		   
+		   	<a class="alerta">
+				Para Consultar Estatísticas do Sistema Apoena:<br><br>
+		   	</a>
+		   
+		   <a class="titulo">
+           	
+           		O módulo estatística fornece informações sobre a quantidade de documentos por Tipo de Fonte, por Fonte  e por arquivos RSS. Para ter acesso a esta funcionalidade baste clicar no item "Geral".
+           </a>
+           
+       </td>
+	</tr>
+	
+</table>
+
+</body>
+
+</html>

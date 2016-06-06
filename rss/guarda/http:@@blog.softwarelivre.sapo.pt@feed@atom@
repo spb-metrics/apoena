@@ -1,0 +1,463 @@
+<apoena>
+<cabecalhorss> <cdrss>211</cdrss><endrss>blog.softwarelivre.sapo.pt/feed/atom/</endrss><cdtipdoc>1</cdtipdoc><dsctip>RSS</dsctip><cdfont>136</cdfont><dscfont>Software Livre no SAPO</dscfont><cdtipfont>8</cdtipfont><nmtipfont>SOFTWARE LIVRE</nmtipfont> </cabecalhorss>
+<item>
+   
+    Bruno Miguel 
+      
+  <title>   OpenBTS: redes móveis com software livre e baixo custo 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1203 
+   2010-08-18T13:04:44Z 
+   2010-08-18T13:04:04Z 
+             <description>   E se as comunicações móveis pudessem implementadas através da utilização exclusiva de software livre e, com isso, tivessem custos mais baixos para as operadoras e consumidores? Soa bem, não soa?! E se juntássemos a isso a compatibilidade com a maioria dos dispositivos à venda no mercado? Talvez pareça bom demais para ser verdade, mas é  ...] 
+</description>
+       E se as comunicações móveis pudessem implementadas através da utilização exclusiva de software livre e, com isso, tivessem custos mais baixos para as operadoras e consumidores? Soa bem, não soa?! E se juntássemos a isso a compatibilidade com a maioria dos dispositivos à venda no mercado? Talvez pareça bom demais para ser verdade, mas é mesmo verdade, graças a um projecto chamado  OpenBTS . 
+ O  OpenBTS  é uma aplicação livre que recorre à Universal Software Radio Peripheral (USRP) (uma  board  usada para desenvolver sistemas de rádio a baixo custo) para comunicar por GSM e os Asterisk para fazer as chamadas. Esta combinação, defendem os criadores do projecto, permite uma implementação e manutenção de redes móveis substancialmente menos dispendiosa   1/10 do custo actual, afirmam. 
+ A versão mais recente do  OpenBTS  é a 2.6, com o nome de código  Mamou . Algumas as novidades são a inclusão de mais comandos para monitorização de canais físicos e novas funcionalidades na tabela TMSI. 
+ Se estiverem interessados, visitem o  site oficial  do projecto. O download pode ser feito  aqui . 
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: Asterisk ,  gsm ,  openbts ,  usrp   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   2 
+ 
+</item>
+<item>
+   
+    Bruno Miguel 
+      
+  <title>   Eben Moglen apela à comunidade Debian para ajudar a construir  Nuvem  livre 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1200 
+   2010-08-16T11:10:16Z 
+   2010-08-16T11:10:16Z 
+             <description>   Anteriormente, Eben Moglen já tinha alertado para os perigos da  Nuvem  fechada. Durante a DebConf10, alargou o seu discurso, apelando à comunidade Debian para ajudar a construir uma  Nuvem  livre.
+A apresentação tem a duração de 1 hora e vale bem a pena ver. Podem vê-la, em formato Ogg Theora + Ogg Vorbis, no site da  ...] 
+</description>
+       Anteriormente, Eben Moglen já tinha alertado para os perigos da  Nuvem  fechada. Durante a DebConf10, alargou o seu discurso, apelando à comunidade Debian para ajudar a construir uma  Nuvem  livre. 
+ A apresentação tem a duração de 1 hora e vale bem a pena ver. Podem vê-la, em formato Ogg Theora + Ogg Vorbis, no  site da DebConf . 
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: debconf ,  Debian ,  internet ,  nuvem ,  Software Livre   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   1 
+ 
+</item>
+<item>
+   
+    Bruno Miguel 
+      
+  <title>   Instituição bancária vietnamita muda infraestrutura para GNU/Linux 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1196 
+   2010-08-08T15:30:03Z 
+   2010-08-08T15:30:03Z 
+                 <description>   ﻿Uma das maiores instituições bancárias do Vietnam, o Vietnam Joint Stock Bank for Industry and Trade (VietinBank) anunciou recentemente a mudança da sua infraestrutura para GNU/Linux
+O Vietnam Joint Stock Bank for Industry and Trade é uma das maiores instituições bancárias do Vietnam. Recentemente, anunciou a escolha dos sistemas mainframe System z10 da IBM para expandir  ...] 
+</description>
+         ﻿Uma das maiores instituições bancárias do Vietnam, o Vietnam Joint Stock Bank for Industry and Trade (VietinBank) anunciou recentemente a mudança da sua infraestrutura para  GNU/Linux     
+ O Vietnam Joint Stock Bank for Industry and Trade é uma das maiores instituições bancárias do Vietnam. Recentemente, anunciou a escolha dos sistemas  mainframe  System z10 da  IBM  para expandir a sua infraestrutura. A gerir toda a informação, estará um sistema  GNU/Linux . 
+ Com isto, o VietinBank torna-se na primeira instituição do país a usar um sistema  GNU/Linux  num  mainframe . 
+ De acordo com Pham Anh Tuan, um dos responsáveis desta instituição, esta mudança deveu-se à redução de custos, melhor eficiência na gestão da plataforma, maior segurança e flexibilidade, e maior capacidade para processamento de grande volume de dados. 
+ Também, o VietinBank terá ao seu dispor mais de 3 mil aplicações livres compatíveis com o  mainframe  System z, o que lhe confere maior liberdade, tanto a nível de dependência de uma entidade externa, como na melhoria das aplicações para corresponderem às necessidades reais da instituição. 
+   via  muktware.com     
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: GNU/Linux ,  ibm ,  mainframe ,  system z ,  Vietnam ,  Vietnam Joint Stock Bank for Industry and Trad   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   1 
+ 
+</item>
+<item>
+   
+    Bruno Miguel 
+      
+  <title>   Malásia: 97% do software utilizado na administração pública é livre 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1190 
+   2010-07-27T21:14:59Z 
+   2010-07-27T21:14:59Z 
+         <description>   Sempre que leio notícias destas, fico completamente roído de inveja. Já vão perceber porquê.
+Um estudo realizado por governo malaio mostrou que 97% do software utilizado na administração pública de Malásia é livre. Isto coloca este país na linha da frente na utilização de software livre nos países asiáticos.
+O objectivo do governo malaio é ter todas  ...] 
+</description>
+       Sempre que leio notícias destas, fico completamente roído de inveja. Já vão perceber porquê. 
+ Um estudo realizado por governo malaio mostrou que 97% do software utilizado na administração pública de Malásia é livre. Isto coloca este país na linha da frente na utilização de  software livre  nos países asiáticos. 
+ O objectivo do governo malaio é ter todas a administração pública a utilizar  software livre . Para já, apenas 703 das 724 agências cumprem este objectivo, traduzindo-se em 97,1% do total do objectivo. 
+ No que toca a infraestruturas, o plano era atingir os 80%. No entanto, o governo malaio ultrapassou o objectivo e neste momento 87,29% dos servidores utilizam  software livre . 
+ Nos  desktops , pretendia-se migrar 30% dos sistemas. Actualmente, 67,68% dos computadores da função pública utilizam  software livre  no  desktop , um saldo positivo de 37,68% do objectivo. 
+ O objectivo total do governo malaio ainda não está cumprido, mas não deverá faltar muito até o conseguir   e, quem sabe, ultrapassá-lo. 
+   via  opensource.org     
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: Administração Pública ,  malásia   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   1 
+ 
+</item>
+<item>
+   
+    Bruno Miguel 
+      
+  <title>   Brasil traz alguma justiça às leis de direitos de autor e sistemas de restrições 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1186 
+   2010-07-12T18:13:26Z 
+   2010-07-12T17:47:13Z 
+             <description>   Apesar de todas as tentativas em tornar os direitos de autor ainda mais  prejudiciais para quem produz conteúdos e para os próprios consumidores,  há países que se destacam pela positiva. É o caso do Brasil, que  recentemente propôs a penalização de quem impede ou dificulta o  fair  use , ou o acesso  ...] 
+</description>
+       Apesar de todas as tentativas em tornar os direitos de autor ainda mais  prejudiciais para quem produz conteúdos e para os próprios consumidores,  há países que se destacam pela positiva. É o caso do Brasil, que  recentemente propôs a penalização de quem impede ou dificulta o  fair  use , ou o acesso com sistemas de restrições a conteúdos que se  encontrem sob domínio público. 
+ Comecemos por este último. Imaginem que alguém publicava uma obra já sob  o domínio público e lhe incorporava um sistema DRM (sistema de  restrições). À luz portuguesa, quebrar esse sistema para poder aceder  livremente ao conteúdo constitui uma prática ilegal. No Brasil, à luz  desta nova lei, impedir o acesso aos conteúdos através de DRM é que se  torna ilegal e não a quebra do sistema. 
+ Também, contornar estes sistemas DRM, quando se trata de  fair use   deixa de ser uma prática ilegal. Se os alunos brasileiros tiverem que  quebrar uma destas restrições para aceder a um conteúdo para um trabalho  escolar, à partida essa prática passa a ser legalmente permitida. 
+ Isto não significa que o DRM vai ser proibido no Brasil. Bem pelo  contrário. Continua a ser proibido quebrar estas restrições, a não ser  nos casos acima mencionados. 
+ Não é uma vitória completa sobre o DRM mas é um passo dado em frente.  Podem ler a proposta  aqui . 
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: Brasil ,  direitos de autor ,  DRM ,  fair use   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   2 
+ 
+</item>
+<item>
+   
+    Bruno Miguel 
+      
+  <title>   Parlamento Italiano migra desktops e servidores para software livre 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1182 
+   2010-06-04T20:37:38Z 
+   2010-06-04T20:37:38Z 
+             <description>   A poupança já tinha sido um dos motivos para que vários organismos estatais dos países europeus tivesse mudado de software proprietário para software livre. Alguns dos casos mais famosos   e de maior sucesso   são as forças de segurança francesas, que terá tido uma diminuição dos custos de tecnologias de informação a rondar os  ...] 
+</description>
+       A poupança já tinha sido um dos motivos para que vários organismos estatais dos países europeus tivesse mudado de software proprietário para software livre. Alguns dos casos mais famosos   e de maior sucesso   são as forças de segurança francesas, que terá tido uma diminuição dos custos de tecnologias de informação a rondar os 70%, e a província espanhola de Andaluzia, que graças ao software livre conseguiu fazer chegar as novas tecnologias aos seus cidadãos, ao mesmo tempo que não gastou uma exorbitância de dinheiros públicos. 
+ Na mudança para software livre, quem se segue é o  Parlamento  Italiano. Este órgão institucional de Itália apresentou na passada quarta-feira os seus planos para migrar 3500 desktops para GNU/Linux e OpenOffice.org, assim como mais de 200 servidores. A poupança, de acordo com um deputado em entrevista ao diário La Repubblica, situar-se-á na casa dos 3 milhões de euros por ano. 
+ A distribuição de GNU/Linux escolhida tanto para os desktops como para os servidores é o Novel Suse Linux. A razão para a escolha desta distribuição prende-se com a maior facilidade em migrar do Novell Netware, usado nos servidores do  Parlamento , para o  Novell Suse Linux . 
+ Também, a biblioteca do  Parlamento  Italiano será abrangida por estes planos, disponibilizando aos seus visitantes computadores com a distribuição de GNU/Linux da Novell instalada. 
+ Torna-se claro que cada vez mais o software livre é uma opção clara para os vários governos europeus, tanto pela poupança que permite dos dinheiros públicos, como pelo controlo que dá a quem usa. Quanto tempo mais até acontecer o mesmo em Portugal? 
+   via  osor.eu     
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: itália ,  migração ,  novell suse linux ,  parlamento   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   2 
+ 
+</item>
+<item>
+   
+    Bruno Miguel 
+      
+  <title>   Engenheiro inspira-se nos ideiais do software livre para ajudar a alimentar os famintos 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1179 
+   2010-05-26T12:50:31Z 
+   2010-05-26T12:50:31Z 
+             <description>   Hoje, em vez de escrever um post acerca de mais um marco positivo para o software livre, que têm sido em cada vez maior número à medida que o tempo avança, vou fazer uma pequena menção a um projecto que se inspirou nestes ideais.
+Duas das grandes mais valias do software livre são a abertura e  ...] 
+</description>
+       Hoje, em vez de escrever um post acerca de mais um marco positivo para o software livre, que têm sido em cada vez maior número à medida que o tempo avança, vou fazer uma pequena menção a um  projecto  que se inspirou nestes ideais. 
+ Duas das grandes mais valias do software livre são a abertura e a grande componente social que acarreta e proporciona. Estas foram a inspiração para um  projecto  do engenheiro americano Daniel Christadoss. 
+ Daniel desenvolveu uma ideia, com base nos princípios do software livre, para ajudar a alimentar as pessoas. Ela consiste num recipiente modular e portátil que recorre à energia solar ou a combustíveis fósseis para cozinhar vários alimentos para 100 ou mais pessoas. O desenho deste recipiente será aberto e livre; qualquer pessoa terá acesso a ele e poderá fazer as alterações que bem entender. 
+ Neste momento, a ideia ainda está na fase de desenvolvimento. Se quiserem dar uma ajuda, basta visitarem a    página do projecto   . Até uma simples sugestão pode ser uma excelente contribuição para este  projecto . 
+   via  Ostatic.com     
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: alimentação ,  ideiais ,  projecto ,  recipiente ,  Software Livre   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+<item>
+   
+    Rui Seabra 
+       http://ansol.org/ 
+      
+  <title>   Novo formato vídeo livre: WebM/VP8 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1177 
+   2010-05-20T07:16:18Z 
+   2010-05-20T07:16:18Z 
+             <description>   Quando há quase um ano atrás o Google comprou a On2 por 106 milhões de dólares, muitas vozes se levantaram a pedir-lhes que libertassem o formato vídeo VP8. Aconteceu  existe agora mais um formato livre de vídeo, e orientado a streaming de alta qualidade, o WebM (estilo Matroska) com o codec vídeo VP8 e o  ...] 
+</description>
+       Quando há quase um ano atrás o  Google comprou a On2 por 106 milhões de dólares , muitas vozes se levantaram a pedir-lhes que libertassem o formato vídeo VP8. Aconteceu   existe agora mais um formato livre de vídeo, e orientado a  streaming  de alta qualidade, o WebM (estilo Matroska) com o codec vídeo VP8 e o codec áudio Vorbis . 
+ A  Free Software Foundation apoia este novo formato livre , bem como uma extensa lista de apoiantes que faz antever o suporte nativo para o WebM nos  browsers  Firefox, Chrome/Chromium (e por consequência nos telefones Android) bem como no Opera. 
+ A presença da AMD, NVidia, ARM e MIPS dá a esperança de estes fabricantes de  hardware  colocarem suporte nas suas placas gráficas para este formato, aliviando o peso do processamento do formato nos CPUs. 
+ Aparentemente o YouTube também já tem suporte para este formato (finalmente implementando o HTML5 com um formato livre de vídeo), portanto em breve será possível utilizar  Software Livre  para ver vídeos do YouTube com qualidade directamente a partir do  browser  sem recurso a ferramentas de  download  como o youtube-dl, ou outros programas como o  Miró  (vale bem a pena experimentar este programa), Totem, etc  
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: Google ,  Normas Abertas ,  Software Livre ,  Video   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   1 
+ 
+</item>
+<item>
+   
+    Rui Seabra 
+       http://ansol.org/ 
+      
+  <title>   Análise ao concurso do Magalhães 2 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1175 
+   2010-05-02T14:27:20Z 
+   2010-05-02T14:27:20Z 
+             <description>   Enquanto que se deve apoiar a decisão de ter lançado  um concurso público, o que é uma evolução muito positiva em relação ao  primeiro Magalhães, este não é um concurso público que deva ser apoiado.
+Várias vezes solicitamos ao  Ministério da Educação uma reunião para discutir as aparentes  ilegalidades encontradas, mas nem  ...] 
+</description>
+       Enquanto que se deve apoiar a decisão de ter lançado  um concurso público, o que é uma evolução muito positiva em relação ao  primeiro Magalhães, este não é um concurso público que deva ser apoiado. 
+ Várias vezes solicitamos ao  Ministério da Educação uma reunião para discutir as aparentes  ilegalidades encontradas, mas nem sequer uma rejeição explícita  obtivemos. Sim, nem sequer a resposta  obrigatória em X dias úteis  foi  obtida. 
+ O  texto do concurso  pode ler-se aqui . 
+ Tendo recebido  estes dados de forma anónima, tive receio de publicá-los antes do final  do concurso e sem falar com o Ministério da Educação primeiro pois: 
+ 
+ os termos do concurso   público  estavam escondidos sob 500€ de pagamento 
+ os termos referem cláusulas de sigilo que  não estou seguro de se cobrirem a si próprias ou não 
+ 
+ Agora que foram  declarados os vencedores (Prológica e  JP Sá Couto) , ninguém pode acusar de a publicação dos termos e sua  análise interferir com o processo de selecção do concurso. 
+ Aparentes  ilegalidades do concurso 
+ Encontram-se diversas violações  ao Ponto 12 do Artigo 49º do Código dos Contractos Públicos que dita o  seguinte: 
+    12 — É proibida a fixação de especificações técnicas
+   que façam referência a um fabricante ou uma proveniência
+   determinados, a um processo específico de fabrico, a mar-
+   cas, patentes ou modelos e a uma dada origem ou produção,
+   que tenha por efeito favorecer ou eliminar determinadas
+   entidades ou determinados bens.
+ 
+ A excepção imediatamente especificada  
+    13 — É permitida, a título excepcional, a fixação de
+   especificações técnicas por referência, acompanhada da
+   menção «ou equivalente», aos elementos referidos no nú-
+   mero anterior quando haja impossibilidade de descrever,
+   de forma suficientemente precisa e inteligível, nos termos
+   do disposto nos n.os 2 a 4, as prestações objecto do contrato
+   a celebrar.
+ 
+   não é aplicável quando for impossível existir uma  equivalência. Equivalente quer dizer que um pode ser substituído pelo  outro sem perda de valor. 
+ Problemas no  concurso: 
+ 
+ não existe qualquer  equivalente  ao  Microsoft  Windows 7  (exigido em 7.4.a).  Como qualquer um pode verificar  facilmente, ainda que cubram as mesmas  funcionalidades ,  nenhum GNU/Linux é  equivalente  ao Microsoft Windows, uma vez  que software feito para correr em Microsoft Windows não funciona noutros  sistemas operativos sem  muletas  que apenas permitem a execução  de um sub-conjunto das aplicações (eg, WINE), ou seja:
+ 
+ não dá para simplesmente  introduzir o CD de instalação e correr o instalador directamente 
+ não dá para garantir que a  instalação funciona 
+ não  dá para garantir que, uma vez instalado, funciona 
+ 
+ 
+   NTFS  (que nem sequer é acompanhado de  equivalente ) é uma  marca  e formato de sistema de ficheiros (exigido em 7.4.a) privativo da  Microsoft ,  sujeito a licenciamentos privativos, para o qual não existe outro  sistema operativo que garanta o correcto funcionamento com este formato  para além do Microsoft Windows 
+   FAT32  (que nem sequer é acompanhado de   equivalente ) é uma  marca  e formato de sistema  de ficheiros (exigido em 7.4.c) privativo da  Microsoft ,  sujeito a licenciamentos privativos, para o qual não existe outro  sistema operativo que garanta o correcto funcionamento com este formato  para além do Microsoft Windows 
+   OpenXML / OOXML  (exigido em Anexo I,  7.1) é uma descrição vaga, significa o quê, exactamente?
+ 
+ formato do Microsoft  Office 2003, apenas suportado por esta aplicação, tornando-se assim uma  especificação deste produto 
+ formato  do Microsoft Office 2007, apenas suportado por esta aplicação,  tornando-se assim uma especificação deste produto 
+ formato ECMA, suportado  por  nenhuma aplicação   
+ formato ISO, suportado por  nenhuma aplicação  e que  corre  o risco de vir a ser retirado o visto da ISO uma vez que a Microsoft  não cumpriu com as suas obrigações   
+ a implementação no  OpenOffice .org (nem nenhuma  outra aplicação) não oferece qualquer garantia de compatibilidade ou  integralidade da informação, sendo a troca de dados entre implementações  do OOXML sujeita a graves perdas de informação 
+ 
+ 
+ A  ferramenta de  benchmarking  exigida,  WorldBench , apenas funciona  em Microsoft Windows 
+ 
+ Excepções: 
+ 
+  Linux  Caixa Mágica  ou  equivalente  (exigido em 7.4.b)   Esta  referência de equivalência é possível uma vez que o Software Livre segue  um modelo de licenciamento que permite isto. É possível que um  concorrente da Caixa Mágica simplesmente substitua todos as marcas  registadas associadas pelas suas próprias, e obterá um sistema  concorrente equivalente (sem excepções). Trata-se por isso de uma  especificação de um referencial que não exclui  nenhum  concorrente de participar, nem sequer a própria Microsoft. A própria  Microsoft pode pegar no  Linux Caixa Mágica  e substituir todas as  marcas registadas da Caixa Mágica pelas marcas registadas da Microsoft e  chamar-lhe  Microsoft Linux , concorrendo em pé de igualdade. 
+ 
+ Outros  problemas 
+ Características  dispersas 
+ A (in)definição das  características aumenta desastrosamente a complexidade do concurso. Há  características que são exigidas não na cláusula das características mas  em Anexos ou ficheiros Excel separados. Isto deveria ser clarificado. 
+ Lista  indefinida de aplicações fornecida pelo Ministério da Educação 
+ Na Cláusula 7ª, ponto 5, existe  uma referência a 10 aplicações fornecidas pelo Ministério da Educação.  Esta lista deveria ser conhecida à priori para que os concorrentes  pudessem garantir a compatibilidade das suas propostas. Ou seja, deveria  constar explicitamente no concurso. Se pode haver o detalhe excessivo  no hardware (ver em baixo), então esta lista não seria nenhum excesso. 
+ Especificação  muito detalhada do hardware 
+ A especificação muito detalhada  do hardware quase que encaixa como uma luva nos vencedores do concurso,  Prológica e JP Sá Couto, que são meras  gateways  para o  fornecimento do software da Microsoft e para os computadores  ClassMate  da  Intel . 
+ A especificação exclui  imediatamente propostas baseadas em arquiteturas MIPS ou ARM,  relegando-se para plataformas  Intel  ou compatível (eg. AMD). 
+ Conclusão 
+ Este concurso público nunca  deveria ter sido lançado nestas condições, deveria ter sido cancelado em  tempo útil mas o Ministério da Educação nem nos respondeu para falar  sobre o assunto. Neste momento, mesmo considerando os prejuízos  possíveis para algumas das partes, deveria ser abortado pois: 
+ 
+ está ferido na sua  legalidade 
+ beneficia  empresas específicas (Microsoft,  Intel ) 
+ considerando aceitável o investimento em  computadores para as crianças, tem despesa supérflua acrescida nas  obrigações de certos softwares e formatos da Microsoft 
+ considerando a situação da  economia, talvez fosse boa ideia permitir a concorrência de opções mais  baratas, que se encontram excluídas pelos motivos apresentados. 
+ de qualquer das formas, já  não vai a tempo deste ano lectivo 
+ 
+ Deveria  ainda ser analisado se estes benefícios ilegais são derivados de  incompetência técnica ou outros motivos ilegais. 
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: Concurso Público ,  Governo ,  Intel ,  Microsoft   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   7 
+ 
+</item>
+<item>
+   
+    Bruno Miguel 
+      
+  <title>   Rascunho do Anti-Counterfeiting Trade Agreement disponibilizado publicamente 
+</title>
+  <link>
+SEM LINK
+</link>
+   http://blog.softwarelivre.sapo.pt/?p=1165 
+   2010-04-21T15:13:08Z 
+   2010-04-21T15:13:08Z 
+         <description>   Já está disponível (link) para consulta pública um rascunho do famoso (e infame) Anti-Counterfeiting Trade Agreement (ACTA). Uma análise completa a este rascunho está disponível no site Arstechnica.com. Para saberem de que forma o ACTA ameaça o software livre, recomendo a leitura deste post escrito por Hugo Roy no blog que mantém na Free Software  ...] 
+</description>
+       Já está disponível  (   link   )  para consulta pública um rascunho do famoso (e infame) Anti-Counterfeiting Trade Agreement (ACTA). Uma análise completa a este rascunho está    disponível    no site Arstechnica.com. Para saberem de que forma o ACTA ameaça o software livre, recomendo a leitura    deste post    escrito por Hugo Roy no blog que mantém na  Free Software Foundation Europe . 
+Partilhe:
+      
+      
+      
+      
+      
+      
+      
+   
+ Temas: ACTA ,  monopólios intelectuais ,  Software Livre   
+  
+  <link>
+SEM LINK
+</link>
+  <link>
+SEM LINK
+</link>
+   0 
+ 
+</item>
+</apoena>

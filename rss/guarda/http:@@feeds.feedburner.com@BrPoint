@@ -1,0 +1,477 @@
+<apoena>
+<cabecalhorss> <cdrss>199</cdrss><endrss>feeds.feedburner.com/BrPoint</endrss><cdtipdoc>1</cdtipdoc><dsctip>RSS</dsctip><cdfont>148</cdfont><dscfont>BrPoint</dscfont><cdtipfont>8</cdtipfont><nmtipfont>SOFTWARE LIVRE</nmtipfont> </cabecalhorss>
+<item>
+  <title>
+Clicky adiciona suporte as tags de campanha do Analytics
+</title>
+  <link>
+http://www.brpoint.net/clicky-adiciona-suporte-as-tags-de-campanha-do-analytics.html
+</link>
+   http://www.brpoint.net/clicky-adiciona-suporte-as-tags-de-campanha-do-analytics.html#comments 
+   Tue, 26 Jan 2010 01:59:54 +0000 
+   Bruno Alves 
+        Analytics  
+      Campanha  
+      Clicky  
+      Destaque  
+      Ferramenta  
+      Google  
+      Google Analytics  
+      Link  
+
+   http://www.brpoint.net/?p=2379 
+  <description>
+   
+Finalmente, o Clicky adicionou suporte ao acompanhamento de campanhas usando os mesmos parâmetros do Google Analytics, era de se esperar que isso acontecesse, mais cedo ou mais tarde, uma vez que muitas pessoas usam os dois juntos.
+O Google Analytics é ótimo para análises mais profundas de comportamento, porém, sua informação só é confiável depois de  ...] 
+</description>
+            
+ Finalmente, o Clicky adicionou suporte ao acompanhamento de campanhas usando os mesmos  parâmetros do Google Analytics , era de se esperar que isso acontecesse, mais cedo ou mais tarde, uma vez que muitas pessoas usam os dois juntos. 
+ O Google Analytics é ótimo para análises mais profundas de comportamento, porém, sua informação só é confiável depois de 36 horas, o que torna verificações de curto prazo impraticáveis. 
+ Já o Clicky, com suas estatísticas em tempo real ajudam a descobrir coisas enquanto estavam acontecendo, permitindo que sejamos muito mais ágeis nas nossas tomadas de decisões. 
+ Verifico os dados no  Clicky  mais vezes que no Analytics, que só tenho usado para análises mais profundas. 
+ Antes, o acompanhamento de campanhas com o Clicky já era possível, mas era, no mínimo, complicada de fazer, pois tínhamos que configurar cada uma das campanhas no painel do Clicky. Agora, é tão simples quanto criar um link, mais simples ainda, sendo os mesmos parâmetros do Analytics, pois muitos já usam os links de campnhas com estes parâmetros. 
+ Se o Clicky, que nasceu para ser uma ferramenta de estatística em tempo real, continuar a adicionar recursos no ritmo que vem fazendo, vai acabar se tornando um substituto definitivo para o Google Analytics e não será mais necessário ter os dois ao mesmo tempo. Se bem que, para a maioria dos usuários, o Clicky já dá muito mais informações do que irão usar em qualquer análise. 
+ 
+ 
+ Tags:  Analytics ,  Campanha ,  Clicky ,  Destaque ,  Ferramenta ,  Google ,  Google Analytics ,  Link   
+  
+    Monitorando suas campanhas com o Analytics   
+    Automatizando o acompanhamento de campanhas no WordPress   
+    Aumente seu tráfego usando palavras que seu site já está indexado   
+    Perguntas e Respostas 1   
+    Links   Quem está certo?   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/clicky-adiciona-suporte-as-tags-de-campanha-do-analytics.html/feed 
+   10 
+  
+</item>
+<item>
+  <title>
+Riot: Como Otimizar Imagens
+</title>
+  <link>
+http://www.brpoint.net/riot-como-otimizar-imagens.html
+</link>
+   http://www.brpoint.net/riot-como-otimizar-imagens.html#comments 
+   Tue, 05 Jan 2010 19:53:43 +0000 
+   Bruno Alves 
+        SEO  
+      desempenho  
+      Destaque  
+      Imagens  
+      Otimização  
+
+   http://www.brpoint.net/?p=2353 
+  <description>
+   
+Ótimo programa para reduzir o peso das imagens
+Com a velocidade de carregamento das páginas se tornando um fator oficial para ranqueamento das páginas, tudo que pudermos fazer para reduzir o peso da página é sempre positivo. Entre as várias coisas que podemos fazer está a agregação e compactação de scripts e css, mas uma área  ...] 
+</description>
+                
+ Ótimo programa para reduzir o peso das imagens 
+ Com a velocidade de carregamento das páginas se tornando um fator oficial para ranqueamento das páginas, tudo que pudermos fazer para reduzir o peso da página é sempre positivo. Entre as várias coisas que podemos fazer está a agregação e compactação de scripts e css, mas uma área onde podemos ganhar muito é na compactação das imagens. 
+ Como todos sabem, não sou designer, em geral compro os temas de designers, que pensam muito mais na apresentação do que na otimização do site (isto está correto, afinal esse é o trabalho deles), então, as imagens costumam ser com a melhor qualidade possível. O que aumenta bastante o peso total da página. A home do BrPoint, por exemplo tem um tamanho total de 1,05 Mb, leva quase 19 segundos para carregar e faz mais de 160 requisições. Segundo o  GWT , isso quer dizer que o site é mais lento que 98% dos demais sites. Tenho muito que mudar. 
+ Quase 50% de redução no tamanho da imagem, sem qualquer trabalho. 
+ Desses 1,05 MB, em torno de 748Kb são imagens, se eu pudesse reduzir isso pela metade já seria um ganho de, quase, 35% no tamanho da página. É ai que entra o    Riot   , que vi no Baixatudo. O programa parece milagroso. Em um simpĺes teste com o logo do BrPoint, consegui, brincando com o número de cores indexadas no GIF, chegar a metade do tamanho. Isso sem qualquer diferença visual. 
+ O melhor é que o software funciona bem no Linux, usando o Wine. O único problema que apresenta é que ele não fecha de primeira, mas dá para atualizar todas as imagens que você precisa e fechar só no final. 
+ Este final de semana começa a caça as imagens gigantes, para tentar melhorar o desempenho de todos os meus sites. A próxima vítima são os JSs, que, no caso do BrPoint são muitos, terei que remover alguns ou colocalos em outro lugar, mas isso vai ficar mais para frente. 
+ 
+ 
+ Tags:  desempenho ,  Destaque ,  Imagens ,  Otimização ,  SEO   
+  
+    Perguntas e Respostas 1   
+    Aumente seu tráfego usando palavras que seu site já está indexado   
+    Voltando para Dreamhost   
+    SEO   Uma questão de escolhas   
+    Saber a hora de não fazer nada é fundamental   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/riot-como-otimizar-imagens.html/feed 
+   15 
+  
+</item>
+<item>
+  <title>
+Formspring, me pergunte o que quiser!
+</title>
+  <link>
+http://www.brpoint.net/formspring-me-pergunte-o-que-quiser.html
+</link>
+   http://www.brpoint.net/formspring-me-pergunte-o-que-quiser.html#comments 
+   Wed, 16 Dec 2009 03:00:50 +0000 
+   Bruno Alves 
+        Tira Dúvidas  
+      Blogs  
+      Consultoria  
+      Dúvida  
+      Ferramenta  
+      Forum  
+      interessante  
+      Problemas  
+      ProBlogger  
+      Serviço  
+
+   http://www.brpoint.net/?p=2338 
+  <description>
+   Eu sempre fui fã em compartilhar informações, por isso, gosto de responder as dúvidas que chegam a mim. Mas sempre achei o blog um tanto limitado para isso, por esse motivo, criei um fórum e uma área para responder dúvidas que recebo por email.
+O fórum, não é exatamente a coisa mais movimentada que já vi,  ...] 
+</description>
+        Eu sempre fui fã em compartilhar informações, por isso, gosto de responder as dúvidas que chegam a mim. Mas sempre achei o blog um tanto limitado para isso, por esse motivo, criei um  fórum  e uma área para  responder dúvidas  que recebo por email. 
+ O fórum, não é exatamente a coisa mais movimentada que já vi, na verdade, costuma ser bem lento (o que é relativamente comum, em fóruns de blogs) e a área de peruntas e respostas, ficou meio deixada de lado, pela minha falta de tempo. 
+ Não é um produto das Organizações Tabajaras TM , mas parece que meus problemas acabaram. Pelo  twitter , descobri uma ferramenta muito interessante, voltada só para isso, o  Formspring . O Formspring é um serviço, onde as pessoas podem deixar suas perguntas e eu posso responder, simples assim. 
+ Qual a diferença de mandar um email? 
+ A primeira vista, pode parecer algo comum e sem sentido, bastaria mandar um email ou usar o  formulário de contato  para poder tirar uma dúvida comigo (ou qualquer pessoa que fosse fácil de encontrar na internet), porém o Formspring estrutura essa atividade, tornando o gerenciamento muito mais prático, por enquanto, até mais prático que o email. 
+ Além disso ele traz uma enorme vantagem: a possibilidade de responder apenas uma vez e direcionar as pessoas que fizerem a mesma pergunta para a resposta que você já escreveu. Pode parecer besteira, mas a quantidade de perguntas similares que recebo é muito grande, por exemplo, acabo de responder a pergunta de  quanto ganha um problogger , que deve ser, de longe, a pergunta que mais respondo, desde 2006. 
+ Vale perguntar qualquer coisa? 
+ Bem, quase qualquer coisa. Ao observar os desbravadores, resolvi bloquear as perguntas anônimas, isso já me livra de várias perguntas sem sentido que tenho visto em alguns perfís. Para configurar o Formspring para não receber perguntas de anônimos, basta ir em settings e marcar a úiltima opção (Don t allow questions from users who haven t logged in). 
+ Além disso, toda pergunta feita vai para minha caixa de entrada, onde posso escolher ou não responder a pergunta. Vou tentar levar a brincadeira da melhor maneira possível, tentando responder a qualquer pergunta, só coisas que eu considerar ofensivas, descabidas ou que sejam segredos profissionais não serão respondidas e serão apagadas, portanto essa é uma boa hora para me perguntar algo que sempre quiz, até aproveitar para uma consultoria de leve (se for tomar muito meu tempo para responder, pode acabar ficando muito tempo sem resposta). 
+ Como diria o site,  pergunte-me qualquer coisa . 
+ 
+ 
+ Tags:  Blogs ,  Consultoria ,  Dúvida ,  Ferramenta ,  Forum ,  interessante ,  Problemas ,  ProBlogger ,  Serviço   
+  
+    Forum criado   
+    Viver de blogs é possível   
+    Vídeo da Daniela Cicarelli – A grande sensação da internet brasileira   
+    Usando o phpAdsNew para gerenciar os anúncios em seus feeds   
+    Tio, me dá um link ai?   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/formspring-me-pergunte-o-que-quiser.html/feed 
+   40 
+  
+</item>
+<item>
+  <title>
+A marca venceu
+</title>
+  <link>
+http://www.brpoint.net/a-marca-venceu.html
+</link>
+   http://www.brpoint.net/a-marca-venceu.html#comments 
+   Tue, 15 Dec 2009 07:10:53 +0000 
+   Bruno Alves 
+        Ego Trip  
+      Blogs  
+      BrPoint  
+      Bruno Alves  
+      Destaque  
+      Domínio  
+      Endereço  
+      Mercado  
+      Mudança  
+      Problema  
+      ProBlogger  
+      Resultados  
+      SEO  
+      Tempo  
+
+   http://www.brpoint.net/?p=2319 
+  <description>
+   Há algum tempo estou tentando organizar a bagunça que se formou nos meus blogs. Uma série de fatores culminou no quase abandono dos meus blogs e extrema falta de tempo para fazer qualquer coisa online. Até manter o Twitter, que, a princípio, é algo rápido e simples tem ficado cada vez mais difícil.
+Nos últimos 2  ...] 
+</description>
+            Marca   
+ Há algum tempo estou tentando organizar a bagunça que se formou nos meus blogs. Uma série de fatores culminou no quase abandono dos meus blogs e extrema falta de tempo para fazer qualquer coisa online. Até manter o Twitter, que, a princípio, é algo rápido e simples tem ficado cada vez mais difícil. 
+ Nos últimos 2 ou 3 anos, fiz uma série de escolhas profissionais que me deixaram cada vez com menos tempo, quem tem um contato menos virtual comigo acaba sabendo da quantidade de coisas que ando fazendo. 
+ Esse monte de projetos tem me deixado muito feliz e tenho obtido ótimos resultados em várias áreas, mas sempre tem uma que ficou de lado, que eram os blogs. 
+ Um pouco de história 
+ Em 2005, comecei nesse mundo de blogs, com um domínio que eu não tinha o que fazer, então resolvi usar um blog, pois era a maneira mais simples de atualizar um site, sem ter que me preocupar muito com muita coisa. Dei sorte, pois comecei em uma época que os blogs estavam começando a despontar como a futura-nova-mídia-aniquiladora-de-todas-as-outras e eu levava um certo jeito para a coisa. 
+ Com o passar do tempo e com o aumento da relevância do meu blog, resolvi criar uma marca, explorar um nicho de mercado que ainda não tinha concorrentes no Brasil e assim,nasceu o BrPoint, um blog para falar sobre minha experiência como problogger e depois em SEO, coisa que eu já trabalhava, mas como quase ninguém sabia o que era no Brasil, não adiantaria muito falar sobre. 
+ Com a evolução do meu blog, segui o processo natural e fui criando uma série de novos blogs. Em um dado momento, cheguei a ter mais de 30 com atualizações freqüentes e mais de 100 no total. Uma tinha mais sucesso que o outro e cada vez mais especializados, sendo que muitos nasceram de pedaços do BrPoint, o que deixava o BrPoint cada vez mais especializado. Cheguei ao limite do nicho, pois comecei a escrever sobre SEO para probloggers. Passei muito da conta. 
+ Isso tudo me deixou com uma série de blogs que cumpriam seu papel de gerar dinheiro e tráfego, mas a minha imagem como blogueiro começou a desaparecer aos poucos e eu estava tão especializado que cada dia era mais difícil escrever em cada um dos blogs, assim, fui deixando cada um morrer. Um sacrilégio, se pensar no que esses blogs me proporcionavam, mas algo que eu precisava fazer. 
+ Blog Burn Out 
+ Em um dado momento, toda essa especialização, todo esse dispersão começou a me congelar como blogueiro, apaguei inúmeros posts que escrevi só porque achava que não era digno de estar no BrPoint, porém eram técnicos demais para os outros blogs. Criei um sentimento de cobrança, que hoje vejo que foi uma grande besteira, mas experiência é algo que só vem com o tempo, infelizmente, nunca havia passado por isso antes. 
+ Como já estava me sentindo assim e o tempo cada vez mais curto, acabei por abandonar de vez todos os blogs, deixando-os a própria sorte para ver no que dava, enquanto eu procurava uma motivação para escrever novamente. Tentei retornar várias vezes, mas a pressão que criei em torno do BrPoint sempre me congelava, pois ao mesmo tempor que não queria escrever aqui, queria que este blog voltasse a ser o que era antes. 
+ Um blog pessoal 
+ Durante algum tempo, tentei voltar a escrever em um blog menos técnico, mais pessoal. Invariavelmente, escrevia uns 2 ou 3 dias com vontade e parava novamente, cansado dos poucos resultados e da falta de foco em algum tema. Um blog pessoal, por mais que nunca tenha sido muito pessoal, sempre tem um lado desinteressante, mesmo para mim, que estou escrevendo, fico imaginando como não é para quem está lendo. 
+ Não dava outra, ficava encostado de novo, troquei vários domínios, na esperança de que esse fosse o problema. Estava sempre procurando um endereço mais legal que o outro para ver se isso me animava, mas não tinha jeito, sempre lembrava que o BrPoint estava largado. 
+ Hora de mudar 
+ Faz, mais ou menos, 2 meses que resolvi que mudaria isso de vez ou deixaria de blogar. Cheguei ao ponto de pensar em direcionar tudo para um domain parking para esquecer de vez essa história. Foi quando resolvi que uniria os blogs, de forma que um emprestasse ao outro o que faltava. 
+ O BrPoint emprestaria mais relevância e o Pessoal emprestaria um jeito mais  light  de escrever, pensando no SEO, resolvi usar o primeiro domínio que tinha usado para os blogs, que é um domínio muito forte e antigo, me ajudaria a ficar bem posicionado sobre qualquer coisa que desejasse escrever. 
+ Hoje era o dia de fazer a migração, já estava tudo pronto. Todos os posts importados, plugins configurados etc  Deu um bocado de trabalho. Hoje, sondei algumas pessoas, sem entrar muito no mérito do que eu estava falando. Gosto de discutir assuntos e ver novos pontos de vistas, assim, posso sempre formular uma opinião melhor do que o que eu estava pensando inicialmente. 
+ Acabei optando pela marca 
+ Mesmo com o outro domínio sendo muito forte, durante o dia de hoje, lembrei de quanta coisa o BrPoint já me proporcionou e de como as pessoas estão acostumadas a me conhecer como o  Bruno Alves do BrPoint , a marca ficou maior que meu nome e eu não poderia deixá-la sumir. 
+ Fiz até uma mini-enquete no Twitter que foi respondida assim: 
+ 
+         Enquete rápida: Me preocupo com SEO ou com Branding? 
+       
+ 
+ 
+                 flavio_raimundo         @ brunoalves  Se preocupe com Branding no SEO! Simples assim!       about 8 hours ago       
+from  Seesmic     in reply to brunoalves   
+       
+                 diogenespassos         @ brunoalves  Ao se preocupar mais com ##a title="#SEO"  http://twitter.com/search?q=%23SEO"# /a /span span a rel="bookmark"  http://twitter.com/diogenespassos/status/6675169433" span /span /a span /span a  http://twitter.com/brunoalves/status/6675040462" /a##
+       
+                 tiofaso         @ brunoalves  SEO funciona para web, branding funciona para web e para o mundo físico. E o branding pode ditar regrinhas de SEO! X)       about 9 hours ago     from  TweetDeck     in reply to brunoalves  
+       
+ 
+ Como podem ver, as opiniões são bem balanceadas entre marca e SEO, mas na hora de apertar o botão, para mudar a configuração, acabei decidindo pela marca e passando todos os textos para cá. O BrPoint, passa a ser o único blog que tenho que é realmente um blog. 
+ O que muda? 
+ Para a maioria das pessoas não muda muita coisa. Fiz todos os redirecionamentos, configurei o FeedBurner, tentei não fazer nenhuma atualização automática de status em nenhuma rede, assim ninguém ficaria muito louco etc  Acredito que tudo vai ficar certo e, tendo apenas um blog, será mais fácil, acertar qualquer problema que venha a ocorrer. 
+ A única coisa que tive que remover foi o Intense Debate, com o mundo de novos posts e comentários que vieram para este blog ele ficou completamente perdido e daria muito trabalho para acertar. Como estou querendo reduzir o peso geral de carregamento do blog, um script a menos acabará sendo benéfico. 
+ Devo levar uma escrita bem mais light por aqui, não tanto que vire um blog pessoal, mas pelo menos o suficiente para que eu não precise de 4 a 5 horas para produzir um único texto. Espero que fiquem felizes com as novidades. O nao que vem promete muito, tanto para SEOs quanto para Blogueiros. 
+ Se alguém encontrar algo de errado, favor me  avisar . 
+ 
+ 
+ Tags:  Blogs ,  BrPoint ,  Bruno Alves ,  Destaque ,  Domínio ,  Endereço ,  Mercado ,  Mudança ,  Problema ,  ProBlogger ,  Resultados ,  SEO ,  Tempo   
+  
+    Recomeçando   
+    Tio, me dá um link ai?   
+    Estamos 3 anos atrasados no mercado de busca   
+    Voltando para Dreamhost   
+    Viver de blogs é possível   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/a-marca-venceu.html/feed 
+   15 
+  
+</item>
+<item>
+  <title>
+Um bocado de coisas para fazer
+</title>
+  <link>
+http://www.brpoint.net/um-bocado-de-coisas-para-fazer.html
+</link>
+   http://www.brpoint.net/um-bocado-de-coisas-para-fazer.html#comments 
+   Sat, 14 Nov 2009 12:49:31 +0000 
+   brunoalves 
+        Projetos  
+      Quadro  
+      Scrum  
+      Tempo  
+
+   http://www.brpoint.net/?p=1033 
+  <description>
+   Para ver se meus projetos pessoais começam a andar, resolvi adotar algumas coisas do Scrum, só o fato de organizar o que precisa ser feito para cada projeto já está me ajudando a não querer ter novos projetos tão cedo  . Agilizou a realização de algumas coisas, mas em alguns momentos me deixa pouco à  ...] 
+</description>
+            Projetos Pessoais   
+ Para ver se meus projetos pessoais começam a andar, resolvi adotar algumas coisas do Scrum, só o fato de organizar o que precisa ser feito para cada projeto já está me ajudando a não querer ter novos projetos tão cedo   . Agilizou a realização de algumas coisas, mas em alguns momentos me deixa pouco à vontade, já que sempre fiz conforme vinha na minha cabeça, ao invés de tentar qualquer tipo de organização. Vamos ver no que vai dar. 
+ Dei uma distorcida na imagem, por motivos óbvios, mas dá para perceber as divisões, onde cada linha é um projeto que pode conter um ou mais sites. E pensar que vou ter que fazer isso tudo nas minhas horas vagas, o que é bem pouco, ainda bem que tenho insônia. 
+ A grande vantagem de ter tantos projetos em andamento é poder testar uma série de coisas, para não ficar só na teoria, coisas essas que eu não poderia testar no meu trabalho. Já que existe um grande risco de muito coisa não funcionar. Então aproveito esses projetos para isso. 
+ 
+ 
+ Tags:  Projetos ,  Quadro ,  Scrum ,  Tempo   
+  
+    Work mode on   
+    Tentando organizar a bagunça   
+    Sumiço   
+    Quero voltar a ter um blog sem preocupações   
+    Primeiro projeto atrasado pelo caos aéreo   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/um-bocado-de-coisas-para-fazer.html/feed 
+   4 
+  
+</item>
+<item>
+  <title>
+Google dando mais informações do que acha do seu site
+</title>
+  <link>
+http://www.brpoint.net/google-dando-mais-informacoes-do-que-acha-do-seu-site.html
+</link>
+   http://www.brpoint.net/google-dando-mais-informacoes-do-que-acha-do-seu-site.html#comments 
+   Thu, 12 Nov 2009 14:18:55 +0000 
+   brunoalves 
+        SEO  
+      Google  
+      GWT  
+
+   http://www.brpoint.net/google-dando-mais-informacoes-do-que-acha-do-seu-site.html 
+  <description>
+   Muito interessante. Agora, o painel do GWT informa quais palavras chaves que mais ocorrem no seu site, um percentual de  relevância  para aquela palavra e em quais páginas ele encontrou essas palavras. Vale a pena pesquisar esses dados para ver onde o site é  mais forte e onde ainda está fraco.
+As a post-Halloween treat, we re  ...] 
+</description>
+        Muito interessante. Agora, o painel do  GWT  informa quais palavras chaves que mais ocorrem no seu site, um percentual de  relevância  para aquela palavra e em quais páginas ele encontrou essas palavras. Vale a pena pesquisar esses dados para ver onde o site é  mais forte e onde ainda está fraco. 
+ As a post-Halloween treat, we re happy to announce a brand new user interface for our Keywords feature. We ll now be updating the data daily, providing details on how often we found a specific keyword, and displaying a handful of URLs that contain a specific keyword.    
+ Link:  Official Google Webmaster Central Blog: Post-Halloween Treat: New Keywords User Interface!   
+ 
+ 
+ Tags:  Google ,  GWT ,  SEO   
+  
+    Tio, me dá um link ai?   
+    Supplemental Index: 5 Mitos e 5 Fatos   
+    Saindo da penalização do Google   
+    Resultado de uma semana de otimização   
+    Primeira página para o termo SEO   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/google-dando-mais-informacoes-do-que-acha-do-seu-site.html/feed 
+   4 
+  
+</item>
+<item>
+  <title>
+Privacidade no Whois, deveria existir no Brasil
+</title>
+  <link>
+http://www.brpoint.net/privacidade-no-whois-deveria-existir-no-brasil.html
+</link>
+   http://www.brpoint.net/privacidade-no-whois-deveria-existir-no-brasil.html#comments 
+   Wed, 11 Nov 2009 17:04:55 +0000 
+   brunoalves 
+        Serviços  
+      Privacidade  
+      Registrar  
+      Registro  
+
+   http://www.brpoint.net/privacidade-no-whois-deveria-existir-no-brasil.html 
+  <description>
+   O Daniel Scocco, diz que não devíamos usar Whois Privacy, principalmente no caso de negócios online. Eu discordo, principalmente no Brasil. Ter privacidade no Whois evitaria muitos dos spams que recebo e a calhordice da combrança da Registrar. É uma pena que nosso registro não permita isso.
+Well, I believe this advice is no longer valid.  ...] 
+</description>
+        O Daniel Scocco, diz que não devíamos usar Whois Privacy, principalmente no caso de negócios online. Eu discordo, principalmente no Brasil. Ter privacidade no Whois evitaria muitos dos spams que recebo e a calhordice da combrança da Registrar. É uma pena que nosso registro não permita isso. 
+ Well, I believe this advice is no longer valid. If you are planning to make money with your blogs or websites, or if you want to build an online business, you should not use a whois privacy service on your domains. Why? Because these days using such a service will actually reduce your credibility.   
+ Link:  Time to Stop Using Whois Privacy?   
+ 
+ 
+ Tags:  Privacidade ,  Registrar ,  Registro   
+  
+    Você conhece os termos da licença que usa? (ou não adianta reclamar, você deixou).   
+    Usando o Google sem ele saber   
+    Fotos de sexo grupal em Indaiatuba   
+    Algumas mudanças   
+    5 convites especiais para a DreamHost   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/privacidade-no-whois-deveria-existir-no-brasil.html/feed 
+   5 
+  
+</item>
+<item>
+  <title>
+BrPoint na lista de 62 melhores meta-blogs
+</title>
+  <link>
+http://www.brpoint.net/brpoint-na-lista-de-62-melhores-meta-blogs.html
+</link>
+   http://www.brpoint.net/brpoint-na-lista-de-62-melhores-meta-blogs.html#comments 
+   Wed, 11 Nov 2009 17:00:58 +0000 
+   brunoalves 
+        Blogging  
+      blog  
+      Lista  
+      meta-blogging  
+
+   http://www.brpoint.net/brpoint-na-lista-de-62-melhores-meta-blogs.html 
+  <description>
+   Lista feita pelo Análise Blogueira, com 24 meta-blogs nacionais e 38 em inglês.
+Hoje, trago um estilo de post diferente no Análise Blogueira: irei mostrar quais os melhores metablogs (blogs com dicas para blogueiros) e afins que eu tento seguir atualmente, tanto em português como em inglês.
+Link: Os 62 Melhores Blogs com Dicas para Blogueiros!    ...] 
+</description>
+        Lista feita pelo Análise Blogueira, com 24 meta-blogs nacionais e 38 em inglês. 
+ Hoje, trago um estilo de post diferente no Análise Blogueira: irei mostrar quais os melhores metablogs (blogs com dicas para blogueiros) e afins que eu tento seguir atualmente, tanto em português como em inglês.   
+ Link:  Os 62 Melhores Blogs com Dicas para Blogueiros! | Análise Blogueira   
+ 
+ 
+ Tags:  blog ,  Lista ,  meta-blogging   
+  
+    Nova versão do BlogBlogs   
+    Explicações soltas   
+    BrPoint entre os melhores de 2006, segundo o Rec6   
+    BlogBlogs, o Technorati brasileiro?   
+    Zoundry no Linux   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/brpoint-na-lista-de-62-melhores-meta-blogs.html/feed 
+   1 
+  
+</item>
+<item>
+  <title>
+Google Caffeine em Janeiro
+</title>
+  <link>
+http://www.brpoint.net/google-caffeine-em-janeiro.html
+</link>
+   http://www.brpoint.net/google-caffeine-em-janeiro.html#comments 
+   Wed, 11 Nov 2009 16:31:59 +0000 
+   Bruno Alves 
+        SEO  
+      caffeine  
+      conteúdo  
+      Destaque  
+      developer preview  
+      Google  
+      Link  
+      Posicionamento  
+      serp  
+      Webmasters  
+
+   http://www.brpoint.net/?p=1746 
+  <description>
+   O Google Caffeine estará disponível em todos os Datacenters em janeiro. Veja o que muda e como se preparar para ele. 
+</description>
+          A fase de testes acabou, hora de começar a colocar para funcionar. O Caffeine já está ativo em um dos Datacenters do Google (que devem divulgar o IP, para quem quiser continuar testando). E, só depois das festas do final de ano que deve ser expandido para todos os datacenters. 
+   Back in August we mentioned a developer preview of Caffeine, which is new technology that improves our indexing infrastructure. The feedback on Caffeine has been very positive, so we re ready to move from the developer preview to the next stage of the roll out: going live with Caffeine at one data center. This means that a small percentage of Google s users will benefit from the technology behind Caffeine in their regular searches.   
+ Link:  Matt Cutts: Gadgets, Google, and SEO   
+ Se acessar o Developer Preview, agora, vai receber a mensagem: 
+   We appreciate all the feedback from people who searched on our Caffeine sandbox. 
+ Based on the success we ve seen, we believe Caffeine is ready for a larger audience. Soon we will activate Caffeine more widely, beginning with one data center. This sandbox is no longer necessary and has been retired, but we appreciate the testing and positive input that webmasters and publishers have given.   
+ Link:  Caffeine Sandbox   
+ O que muda com o Google Caffeine? 
+ Podemos esperar algumas mudanças pelo que pode ser visto no Sandbox, como, por exemplo: 
+ 
+   Mais velocidade    Esse é um dos pilares do Caffine, ele é mais rápido para indexar e processar as consultas, em alguns casos chegando ao dobro da velocidade do algoritmo atual. Será uma grande ajuda para o Google conseguir lidar com os dados do Twitter, por exemplo. 
+   Maior competição    Com mais velocidade, o índice vai crescer muito, trazendo mais competição, principalmente para as palavras  head . 
+   Não é tão link centered    Mesmo que links ainda sejam uma parte importante do algoritmo de classificação, o Google vem diminuindo cada vez mais sua influência, tendo, inclusive, removido esta informação do Google Webmaster Tools. O Caffeine dá mais ênfase a essa mudança, mostrando páginas com poucos links em posições um pouco melhores. 
+   Universal results mais  misturados     Ao invés de colocar resultados por imagens, vídeos e notícias no topo, esses elementos vão para o meio da SERP, o que volta a aumentar a força dos primeiros resultados e deve reduzir a distração em relação aos anúncios do topo da página. 
+   Mais Universal results    Apesar de estarem mais  misturados , aparecem com mais freqüência, ocupando quase o dobro do espaço que ocupa hoje. 
+   Resultados mais  sociais     Os resultados do Google sempre foram muito centrados em informações (ao contrário do Yahoo, por exemplo, que é mais focado na área comercial), porém, no Caffeine as coisas parecem mudar um pouco, principalmente para compartilhamento de mídia (com um belo boost para o Youtube). 
+ 
+ O que eu preciso fazer para me preparar para o Caffeine? 
+ Se você segue os princípios básicos de SEO, não há muito com o que se preocupar, sites bem construídos, com SEO bem planejado e bom conteúdo, continuam ranqueando bem, mas existem algumas coisas que podem ajudar a melhorar a posição do seu site no Caffeine, como: 
+ 
+   Maior interação social    Se seu plano de mídias sociais está na gaveta até hoje (ou se é um post-it, que está mais na moda), é hora de começar a pensar em colocá-lo em prática. 
+   Maior foco em on-page SEO    Quando links perdem a força, o SEO das páginas e do site como um todo ganham força, é hora de parar para olhar o que está fazendo de errado e certo. 
+   Continue fazendo o que faz bem    Quase nada do que é bom para o algoritmo atual passou a ser ruim, algumas coisas perderam força, outras ganharam, mas na média o que ajudava no posicionamento, continuará ajudando. 
+   Mais atenção para  long-tail     Se com todo hype do long-tail, você ainda não começou a prestar atenção nos termos de busca com mais de uma palavra, não tem mais como não fazer. Head Shot só são bons para dizer como você é um bom SEO, para tráfego e dinheiro, long-tail é muito melhor. Como eu  disse , boa parte do tráfego é gerado por essas consultas e isso vai ficar muito mais evidente com o Caffeine. 
+ 
+     
+ 
+ 
+ Tags:  caffeine ,  conteúdo ,  Destaque ,  developer preview ,  Google ,  Link ,  Posicionamento ,  SEO ,  serp ,  Webmasters   
+  
+    Aumente seu tráfego usando palavras que seu site já está indexado   
+    Tio, me dá um link ai?   
+    Perguntas e Respostas 1   
+    Estamos 3 anos atrasados no mercado de busca   
+    Código válido é benéfico para SEO   
+ 
+           
+           
+                                               
+   
+    http://www.brpoint.net/google-caffeine-em-janeiro.html/feed 
+   7 
+  
+</item>
+</apoena>

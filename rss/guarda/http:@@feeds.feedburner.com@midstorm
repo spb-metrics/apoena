@@ -1,0 +1,364 @@
+<apoena>
+<cabecalhorss> <cdrss>192</cdrss><endrss>feeds.feedburner.com/midstorm</endrss><cdtipdoc>1</cdtipdoc><dsctip>RSS</dsctip><cdfont>155</cdfont><dscfont>SAVEPOINT</dscfont><cdtipfont>8</cdtipfont><nmtipfont>SOFTWARE LIVRE</nmtipfont> </cabecalhorss>
+<item>
+  <title>
+Projeto PGXN
+</title>
+  <link>
+http://feedproxy.google.com/~r/midstorm/~3/PJd1zHFI9uY/
+</link>
+   http://www.midstorm.org/~telles/2010/08/13/projeto-pgxn/#comments 
+   Fri, 13 Aug 2010 22:29:57 +0000 
+   Telles 
+        PostgreSQL  
+
+   http://www.midstorm.org/~telles/?p=665 
+  <description>
+   Todo usuário do PostgreSQL deveria conhecer o PgFoundry, lar de inúmeros projetos e extensões que tornam o nosso banco de dados ainda mais poderoso. Muitos programadores já devem ter ouvido falar do CPAN, um repositório com mais de 20 mil  módulos para o PERL. Pois bem, o pessoal da PGExperts teve a ideia de criar  ...] 
+</description>
+        Todo usuário do PostgreSQL deveria conhecer o  PgFoundry , lar de inúmeros projetos e extensões que tornam o nosso banco de dados ainda mais poderoso. Muitos programadores já devem ter ouvido falar do  CPAN , um repositório com mais de 20 mil  módulos para o  PERL . Pois bem, o pessoal da PGExperts teve a ideia de criar um repositório no mesmo estilo para o Postgres. 
+ Esta com certeza é uma funcionalidade muito interessante para a comunidade como um todo, além de facilitar a vida de muita gente. Mas é aí que VOCÊ entra. Eles montaram um site e estão pedindo a doação para financiar o desenvolvimento desta ferramenta. 
+ A doação pode ser algo vultoso como USD5000 ou algo simples como 25 dólares. Então você, que sempre diz que gostaria de ajudar a comunidade, mas não tem tempo ou diz que não conhece tão bem assim programação e coisa e tal  chegou a sua vez de retribuir um pouco e fazer a sua doação. 
+ Um dia nós brasileiros precisamos perder aquela fama de sanguessugas do Software Livre. Eu já fiz,  minha doação , agora é a sua vez. Conheça o projeto e faça a sua parte: 
+   PostgreSQL Extension network   
+ 
+                       
+     
+    http://www.midstorm.org/~telles/2010/08/13/projeto-pgxn/feed/ 
+   0 
+   http://www.midstorm.org/~telles/2010/08/13/projeto-pgxn/  
+</item>
+<item>
+  <title>
+Enviando e-mail autenticado pelo Oracle
+</title>
+  <link>
+http://feedproxy.google.com/~r/midstorm/~3/Cw5hIfOmJRo/
+</link>
+   http://www.midstorm.org/~telles/2010/05/28/enviando-e-mail-autenticado-pelo-oracle/#comments 
+   Fri, 28 May 2010 18:56:44 +0000 
+   Telles 
+        Oracle  
+
+   http://www.midstorm.org/~telles/?p=657 
+  <description>
+   Enviar e-mail utilizando PL/SQL dentro do Oracle é realmente uma tarefa razoavelmente simples com o UTL_SMTP ou mesmo com o UTL_TCP. O que não aparece de forma simples na documentação é como mandar um e-mail com usuário e senha autenticados. Bom, não é algo do outro mundo, mas segue aqui um pequeno script que mostra  ...] 
+</description>
+        Enviar e-mail utilizando PL/SQL dentro do Oracle é realmente uma tarefa razoavelmente simples com o UTL_SMTP ou mesmo com o UTL_TCP. O que não aparece de forma simples na documentação é como mandar um e-mail com usuário e senha autenticados. 
+ Bom, não é algo do outro mundo, mas segue aqui um pequeno script que mostra como fazer isso. Você só precisa editar os parâmetros iniciais e só chamando ele, já temos um teste. Depois é só passar o assunto e mensagem como parâmetro na procedure e você já pode enviar seus alertas para todo mundo. 
+ Segue abaixo o script: 
+      
+  p_assunto          VARCHAR2      :##span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##
+  p_mensagem         CLOB          :##span style="color: #66cc66;" /span span style="color: #ff0000;" /span##
+  v_remetente        VARCHAR2##span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #808080; font-style: italic;" /span##
+  v_destinatario     VARCHAR2##span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #808080; font-style: italic;" /span##
+  v_destinatario_cc  VARCHAR2##span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #808080; font-style: italic;" /span##
+  v_smtp             VARCHAR2##span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #808080; font-style: italic;" /span##
+  v_smtp_user        VARCHAR2##span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #808080; font-style: italic;" /span##
+  v_smtp_user_pass   VARCHAR2##span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #808080; font-style: italic;" /span##
+  v_conn             utl_smtp##span style="color: #66cc66;" /span span style="color: #808080; font-style: italic;" /span##
+BEGIN
+  v_conn :##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+    utl_raw##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+    utl_raw##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" '  ##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" '  ##span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" '  ##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" '  ##span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" '  ##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" '  ##span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+ 
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span## v_remetente  
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span## v_destinatario 
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span## v_destinatario_cc 
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span## p_assunto   
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##; 
+ 
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+ 
+EXCEPTION
+  WHEN OTHERS THEN
+    utl_smtp##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+    RAISE_APPLICATION_ERROR##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span## 
+END ENVIA_EMAIL;     
+ 
+                       
+     
+    http://www.midstorm.org/~telles/2010/05/28/enviando-e-mail-autenticado-pelo-oracle/feed/ 
+   0 
+   http://www.midstorm.org/~telles/2010/05/28/enviando-e-mail-autenticado-pelo-oracle/  
+</item>
+<item>
+  <title>
+Coletando informações de uma base Oracle
+</title>
+  <link>
+http://feedproxy.google.com/~r/midstorm/~3/-gLKWN6Yqrk/
+</link>
+   http://www.midstorm.org/~telles/2010/05/13/coletando-informacoes-de-uma-base-oracle/#comments 
+   Thu, 13 May 2010 15:16:01 +0000 
+   Telles 
+        Oracle  
+
+   http://www.midstorm.org/~telles/?p=633 
+  <description>
+   Rápido e rasteiro: Vira e mexe você precisa dar uma geral num banco de dados que você nunca viu antes. Bom, então segue abaixo um pequeno script para lhe ajudar na tarefa. Eu, sei, podia melhorar muito, aceito sugestões, claro. Em todo caso, já dá para começar: SET serveroutput ON SIZE 1000000 FORMAT WRAPPED SET  ...] 
+</description>
+        Rápido e rasteiro: 
+ Vira e mexe você precisa dar uma geral num banco de dados que você nunca viu antes. Bom, então segue abaixo um pequeno script para lhe ajudar na tarefa. Eu, sei, podia melhorar muito, aceito sugestões, claro. Em todo caso, já dá para começar: 
+ 
+ 
+DECLARE
+  v_media_archive   number;
+  v_inst_num        number;
+  v_spfile          varchar##span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span##;
+  v_version         v$version##span style="color: #66cc66;" /span##banner%TYPE;
+  v_host            v$instance##span style="color: #66cc66;" /span##host_name%TYPE;
+  v_instance        v$instance##span style="color: #66cc66;" /span##instance_name%TYPE;
+  v_thread          v$instance##span style="color: #66cc66;" /span span style="color: #808080; font-style: italic;"# /span##
+  v_startup_time    v$instance##span style="color: #66cc66;" /span##startup_time%TYPE;
+  v_dbid            v$database##span style="color: #66cc66;" /span##dbid%TYPE;
+  v_name            v$database##span style="color: #66cc66;" /span##db_unique_name%TYPE;
+  v_created         v$database##span style="color: #66cc66;" /span##created%TYPE;
+  v_resetlogs_time  v$database##span style="color: #66cc66;" /span##resetlogs_time%TYPE;
+  v_log_mode        v$database##span style="color: #66cc66;" /span##log_mode%TYPE;
+  v_open_mode       v$database##span style="color: #66cc66;" /span##open_mode%TYPE;
+  v_platform        V$database##span style="color: #66cc66;" /span##platform_name%TYPE;
+ 
+BEGIN
+  ;
+  ;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+    RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+    RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #993333; font-weight: bold;" /span span style="color: #66cc66;" /span##
+    RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #993333; font-weight: bold;" /span span style="color: #66cc66;" /span##
+    RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #993333; font-weight: bold;" /span span style="color: #66cc66;" /span##
+    cpu_socket_count_highwater ##span style="color: #993333; font-weight: bold;" /span## socket
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span## 
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+      MIN##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span## media
+ 
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+        RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span## destination arquivo
+      dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #993333; font-weight: bold;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+    END LOOP;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  END ##span style="color: #993333; font-weight: bold;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+END;
+ 
+ 
+BEGIN
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##
+      broken##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span## what
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span##
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+END;
+ 
+ 
+BEGIN
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+      RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+      RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+      RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+      LPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span## mb
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span##
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+END;
+ 
+ 
+BEGIN
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+END;
+ 
+ 
+BEGIN
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+      RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #993333; font-weight: bold;" /span span style="color: #66cc66;" /span##
+      RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+      directory_path ##span style="color: #993333; font-weight: bold;" /span## path
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##
+      directory##span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##
+      RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #993333; font-weight: bold;" /span span style="color: #66cc66;" /span##
+      RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+      RPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+      host host_destino##span style="color: #66cc66;" /span##
+      to_char##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span## criacao
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##
+      dblink##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##;
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+      LPAD##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #cc66cc;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #993333; font-weight: bold;" /span## dba_mviews
+    dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #66cc66;" /span##
+  END LOOP;
+  dbms_output##span style="color: #66cc66;" /span span style="color: #66cc66;" /span span style="color: #ff0000;" /span span style="color: #66cc66;" /span##;
+ 
+END;
+ 
+                       
+     
+    http://www.midstorm.org/~telles/2010/05/13/coletando-informacoes-de-uma-base-oracle/feed/ 
+   0 
+   http://www.midstorm.org/~telles/2010/05/13/coletando-informacoes-de-uma-base-oracle/  
+</item>
+<item>
+  <title>
+PGDay Brasília em 31/05
+</title>
+  <link>
+http://feedproxy.google.com/~r/midstorm/~3/qyF4DI5-n_o/
+</link>
+   http://www.midstorm.org/~telles/2010/05/11/pgday-brasilia-em-3105/#comments 
+   Tue, 11 May 2010 15:11:36 +0000 
+   Telles 
+        PostgreSQL  
+
+   http://www.midstorm.org/~telles/?p=627 
+  <description>
+   Atualização Se inscreva no site do evento, vagas limitadas. Sim,  este ano tem Copa do mundo, eleição, e claro PGCon e PGDay. O blog podia estar parado, mas a comunidade brasileira de PostgreSQL continua a todo o vapor. Já tivemos o PGDay BA, em Ilhéus, e em breve deverá sair a data do PGDay RJ.  ...] 
+</description>
+        Atualização 
+ Se inscreva no  site do evento , vagas limitadas. 
+ Sim,  este ano tem Copa do mundo, eleição, e claro PGCon e PGDay. 
+ O blog podia estar parado, mas a comunidade brasileira de PostgreSQL continua a todo o vapor. Já tivemos o  PGDay BA , em Ilhéus, e em breve deverá sair a data do PGDay RJ. O próximo será o PGDay DF, em 31/05 no SERPRO. Então fiquem antenados para as inscrições no evento. 
+ Palestrantes confirmados: 
+ 
+   Euler Taveira   
+ Fábio Telles 
+   Fernando Ike   
+   Leonardo César   
+   João Cosme   
+ 
+ Nesse eu vou! 
+ Bom, fui convidado para o evento e se nada der errado (fui escalado para uma migração na data do PGDay BA) estarei lá. Nada, já fiz uma mega amarração no trabalho, o meu chefe vai me substituir! Nesse eu vou mesmo. 
+ Me ajude a escolher o tema para a palestra no PGDay DF! 
+ Ocorre que o pessoal me deixou a vontade para escolher o tema da palestra. Eu que sou preguiçoso tenho uma forte tendência a reciclar artigos e palestras anteriores. Claro que para o PGCon Brasil, a gente sempre tras coisa nova, mas com menos de 20 dias para preparar a palestra (é claro que não estar na organização do evento já ajuda muito) a chance de eu dar uma atualizada em uma palestra antiga aumenta. 
+ Então gostaria de saber se alguém tem alguma sugestão para o PGDay DF. Pode ser um artigo aqui do blog, pode ser uma  palestra minha no Slide Share , ou pode ser um tema novo. Comentários com sugestões aqui no blog, até o final da semana (que é quando eu vou começar a mexer nisso) são bem vindos. É claro que se eu não mandar logo a descrição da palestra para a organização o povo lá me mata também! 
+ http://postgreslogia.wordpress.com/ 
+ 
+                       
+     
+    http://www.midstorm.org/~telles/2010/05/11/pgday-brasilia-em-3105/feed/ 
+   2 
+   http://www.midstorm.org/~telles/2010/05/11/pgday-brasilia-em-3105/  
+</item>
+</apoena>

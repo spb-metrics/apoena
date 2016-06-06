@@ -1,0 +1,212 @@
+#!/bin/bash
+
+Totcabec=0
+usuario=`cat usuario`
+senha=`cat senha`
+mysql -u "$usuario" -p"$senha" -e "SELECT CONCAT( '<cabecalhorss> <cdrss>' , CD_RSS , '</cdrss>' , '<endrss>' , END_RSS , '</endrss>' , '<cdtipdoc>' , CD_TIP_DOC , '</cdtipdoc>' , '<dsctip>' , DSC_TIP , '</dsctip>' , '<cdfont>' ,  CD_FONT , '</cdfont>' , '<dscfont>' , DSC_FONT , '</dscfont>','<cdtipfont>', CD_TIP_FONT, '</cdtipfont>','<nmtipfont>', NM_TIP_FONT , '</nmtipfont> </cabecalhorss>' ) FROM apoena.RSS WHERE STS = 1 and CD_RSS <= 40 ORDER BY CD_RSS " > cabec1-tmp
+iconv -f iso-8859-1 -t utf-8 cabec1-tmp > cabec1-tmp1
+sed -i 's/&/&#038;/g' cabec1-tmp1
+
+Totcabec=`grep -c "" cabec1-tmp1`
+let "Totcabec = ($Totcabec - 1)"
+tail -n $Totcabec cabec1-tmp1 > cabec11
+
+Totlist=0
+mysql -u "$usuario" -p"$senha" -e "SELECT CONCAT('http://', END_RSS) FROM apoena.RSS WHERE STS = 1 and CD_RSS <= 40 ORDER BY CD_RSS" > lista1
+
+Totlist=`grep -c "" lista1`
+
+let "Totlist = ($Totlist - 1)"
+tail -n $Totlist lista1 > lista1a
+
+cd arquivo
+Sufx=0
+captura=" "
+
+for (( i=1; i<=$Totlist; i++ ))  
+do
+
+  cd ..
+  let "conta2 = ($conta2 + 1)"  
+  sed -n "$conta2"p lista1a >  cabecalho11
+  wget -t1 -T20 --header='Accept-Charset: utf-8' -i cabecalho11 -P arquivo/
+
+sed -i 's/\//@/g' cabecalho11
+
+  nome2=`cat cabecalho11` 
+
+  echo "nome ============" $nome2 
+
+
+cd arquivo
+  ls  | grep -v backupBD.sh | grep -v GeraEstatistica.class | grep -v obterArquivo.sh |  grep -v obterClipping.sh | grep -v GerarClipping.class | grep -v xxrss | grep -v lista | grep -v tempor | grep -v cabe | grep -v apoena | grep -v lib | grep -v RecebeArquivo.class | grep -v tempo > tempo
+  arquivo=`cat tempo`
+cd ..
+  head -n500 arquivo/$arquivo > arquivo/tmp$i
+
+  let "Sufx = ($Sufx + 1)" 
+
+  sed -n "$Sufx"p cabec11 > arquivo/xxcabe$i
+
+cd arquivo
+ 
+  cat tmp$i > xtemp
+
+
+  # if para conversao de padroes
+
+  if cat tmp$i | grep -i "US-ASCII"
+    then
+
+    iconv -f us-ascii -t utf-8 tmp$1 > xtemp
+  fi
+
+
+  if cat tmp$i | grep -i "ISO-8859-1"
+    then
+
+    iconv -f iso-8859-1 -t utf-8 tmp$i > xtemp
+  fi
+
+cd ..
+  ./busca1f
+
+cd arquivo  
+  cat xtemp > srss$i.xml 
+
+
+  #padroniza rss
+  sed -i 's/entry/item/g' srss$i.xml
+  sed -i 's/summary/description/g' srss$i.xml
+  sed -i 's/title="external-page/\/>/g' srss$i.xml
+  sed -i 's/<link [^>]*\/>/<link>SEM LINK<\/link>/g' srss$i.xml
+  sed -i 's/<link [^>]* /<link>/g' srss$i.xml
+ 
+
+  
+  #separa as tags
+  sed 's/></> </g' srss$i.xml > ssrs$i.xml
+
+  #quebra linha antes da tag <item>
+
+  sed 's/<item/ \n&/g' ssrs$i.xml > rs1$i.xml	
+  sed 's/<title>/<title>\n/g' rs1$i.xml > rs2$i.xml
+  sed 's/<link>/<link>\n/g' rs2$i.xml > rs3$i.xml
+  sed 's/<description>/<description>\n/g' rs3$i.xml > rs4$i.xml
+  sed 's/<\/item>/\n<\/item>/g' rs4$i.xml > rs5$i.xml	
+  sed 's/<\/title>/\n<\/title>/g' rs5$i.xml > rs6$i.xml
+  sed 's/<\/link>/\n<\/link>/g' rs6$i.xml > rs7$i.xml
+  sed 's/<\/description>/\n<\/description>/g' rs7$i.xml > rs$i.xml
+
+  cp rs$i.xml  tempo.xml 
+
+  sed -i 's/<!\[CDATA/ /g' tempo.xml
+  sed -i 's/<item [^>]*>/<item>/g' tempo.xml
+  sed -i 's/<title [^>]*\/>/<title>SEM TITULO<\/title>/g' tempo.xml
+  sed -i 's/<title [^>]*>/<title>/g' tempo.xml
+  sed -i 's/<description [^>]*\/>/<description>SEM DESCRICAO<\/description>/g' tempo.xml
+  sed -i 's/<description [^>]*>/<description>/g' tempo.xml
+  sed -i 's/<link [^>]*\/>/<link>SEM TITULO<\/link>/g' tempo.xml
+  sed -i 's/<link [^>]*>/<link>/g' tempo.xml
+
+
+# acertos gerais
+
+  sed -i 's/<item>/@item@/g' tempo.xml
+  sed -i 's/<\/item>/@\/item@/g' tempo.xml
+  sed -i 's/<title>/@title@/g' tempo.xml
+  sed -i 's/<\/title>/@\/title@/g' tempo.xml
+  sed -i 's/<link>/@link@/g' tempo.xml
+  sed -i 's/<\/link>/@\/link@/g' tempo.xml
+  sed -i 's/<description>/@description@/g' tempo.xml
+  sed -i 's/<\/description>/@\/description@/g' tempo.xml
+  sed -i 's/</##/g' tempo.xml
+  sed -i 's/>/##/g' tempo.xml
+  sed -i 's/##[^##]*##/ /g' tempo.xml
+
+  sed '/</{/>/{s/<.*>//;t};:a;/>/!{N;s/\n//;ta;};s/<.*>/\n/;}' tempo.xml > tempo2.xml
+
+  sed -i 's/@item@/<item>/g' tempo2.xml
+  sed -i 's/@\/item@/<\/item>/g' tempo2.xml
+  sed -i 's/@title@/<title>/g' tempo2.xml
+  sed -i 's/@\/title@/<\/title>/g' tempo2.xml
+  sed -i 's/@link@/<link>/g' tempo2.xml
+  sed -i 's/@\/link@/<\/link>/g' tempo2.xml
+  sed -i 's/@description@/<description>/g' tempo2.xml
+  sed -i 's/@\/description@/<\/description>/g' tempo2.xml
+
+  sed -n '/<item/{:a;/<\/item>/!{N;ba;};p;}' tempo2.xml > tempop.xml
+
+  sed '/^$/d' tempop.xml > tempof.xml
+
+ # rss bbc
+  sed -i '/^ *##/d' tempof.xml
+  sed -i '/^ *title/d' tempof.xml
+  sed -i '/^ *type/d' tempof.xml
+  sed -i '/^ *width/d' tempof.xml
+  sed -i '/^ *height/d' tempof.xml
+  sed -i '/^ *src/d' tempof.xml
+
+  sed -i '/\/## *$/d' tempof.xml
+  sed -i 's/"##/ /g' tempof.xml
+  sed -i 's/href="/ /g' tempof.xml
+
+
+
+cd ..
+  #concatena a tag <apoena> + cabecalho + conteudo + tag </apoena>
+  cat apini arquivo/xxcabe$i arquivo/tempof.xml apfim > arquivo/xxxtemp
+
+cd arquivo
+
+  rm tempo2.xml
+  rm tempo.xml
+  rm tempof.xml
+  rm tempop.xml
+
+  # retirar o que esta entre a tags 
+  sed -i 's/^@/ /g' xxxtemp
+  sed -i 's/)]]##/ /g' xxxtemp
+  sed -i 's/<!\[CDATA/ /g' xxxtemp
+  sed -i 's/\[/ /g' xxxtemp
+  sed -i 's/<description>     <\/description>/<description>SEM DESCRICAO<\/description>/g' xxxtemp
+  sed -i 's/<description \/>/<description>SEM DESCRICAO<\/description>/g' xxxtemp
+  sed -i 's/<description><\/description>/<description>SEM DESECRIÇÃO<\/description>/g' xxxtemp 
+  sed -i 's/<description> <\/description>/<description>SEM DESCRIÇÃO<\/description>/g' xxxtemp 
+  sed -i 's/<description xml:lang="pt-br"\/>/<description>SEM DESCRIÇÃO<\/description>/g' xxxtemp
+  sed -i 's/<description xml:lang="pt-br">/<description>/g' xxxtemp
+
+
+  iconv -f utf-8 -t utf-8 xxxtemp > xxxxxtemp	
+
+  cat xxxxxtemp > xxrss$i.xml  	
+cd ..
+if diff -s arquivo/xxrss$i.xml guarda/$nome2 | grep "are identical" 
+ then
+  	rm arquivo/xxrss$i.xml
+ else
+
+        cp arquivo/xxrss$i.xml arquivo/xx$i.xml
+	head -n 2 arquivo/xxrss$i.xml > arquivo/transicao1
+        cp guarda/$nome2 /home/usr13/
+	diff guarda/$nome2 arquivo/xxrss$i.xml >> arquivo/transicao2
+	cd arquivo
+	sed '/^+/!d' transicao2 > transicao3 
+	sed 's/+//' transicao3 > transicao4 
+	echo "</apoena>" > transicao5
+	cat transicao1 transicao4 transicao5  > transicao
+	cat transicao > xxrss$i.xml
+        cd ..
+	cat arquivo/xx$i.xml > guarda/$nome2 
+  fi
+
+cd arquivo	
+  rm transicao1 transicao2 transicao3 transicao4 transicao5 transicao xx$i.xml
+  rm  srss*  tmp* xtemp xxcabe* tempo rs* ss* xxxtemp
+
+  ls  | grep -v backupBD.sh | grep -v xxrss | grep -v RecebeArquivo | grep -v GeraEstatistica | grep -v obterClipping.sh | grep -v GerarClipping | grep -v apoena | grep -v lib | grep -v obterArquivo.sh  > tempor   
+
+  captura=`cat tempor` 
+  rm $captura tempor  
+ 
+done

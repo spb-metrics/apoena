@@ -1,0 +1,69 @@
+
+<html>
+
+<title> Ajuda do Sistema Apoena</title>
+
+<head>
+<link rel=stylesheet href="../funcoes/css/intranet.css" type="text/css">
+</head>
+
+<body>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul" border="0">
+	<tr>
+		<td align="right">
+			<a href="moduloManutencao.html" class="titulo"> Página Inicial</a>
+		</td>	
+	</tr>
+</table>
+<table width="778" cellpadding="0" CLASS="txtCompromissoAzul">
+	<tr>
+		<td align="center">
+			<a class="titulo">Sistema Apoena</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>  				
+		   <p align="justify">	
+		  <a class="alerta">
+				Passo a passo:<br>
+		  </a>
+		  <a class="titulo">			 
+		  				 
+ 				1 - Para entrar no sistema voce digito Usuário e Senha<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/tela1.jpg"></input> <br><br>
+				
+				2 - Clique na aba Notícias<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/tela2.jpg"></input> <br><br>
+					
+					
+				3 - Clique em Consultar Clipping para escolher um tema/ontologia<br><br>
+
+					<input type="image" width="750" border="0" src="../imagens/tela3.jpg"></input> <br><br>
+				
+				4 - Escolha uma data do tema/ontologia pré-escolhidos. <br>	
+				
+				<input type="image"  width="750" border="0" src="../imagens/tela4.jpg"></input> <br><br>
+				5 - Marque as notícias que voce considerar pertinentes e mande processar.<br><br>
+
+					<input type="image"  width="750" border="0" src="../imagens/tela5.jpg"></input> <br><br>
+				6 - Clique na aba enviar, para mandar o clipping gerado para os destinatários que voce escolher.<br><br>
+
+					<input type="image"  width="750" border="0" src="../imagens/tela6.jpg"></input> <br><br>
+				7 - Escolha de qual email voce vai enviar, qual clipping e quais pessoas/grupos e envie.<br><br>
+
+					<input type="image"  width="750" border="0" src="../imagens/tela7.jpg"></input> <br><br>
+
+
+				 			
+       </td>
+	</tr>
+</table>
+</body>
+</html>			

@@ -1,0 +1,401 @@
+<apoena>
+<cabecalhorss> <cdrss>187</cdrss><endrss>stummjr.wordpress.com/feed/</endrss><cdtipdoc>1</cdtipdoc><dsctip>RSS</dsctip><cdfont>160</cdfont><dscfont>Stummjr</dscfont><cdtipfont>8</cdtipfont><nmtipfont>SOFTWARE LIVRE</nmtipfont> </cabecalhorss>
+<item>
+  <title>
+User-Mode Linux
+</title>
+  <link>
+http://stummjr.wordpress.com/2008/09/29/user-mode-linux/
+</link>
+   http://stummjr.wordpress.com/2008/09/29/user-mode-linux/#comments 
+   Mon, 29 Sep 2008 16:17:57 +0000 
+   stummjr 
+        Software Livre  
+      debug  
+      isolamento  
+      kernel  
+      kernel development  
+      UML  
+      user-mode linux  
+      virtualização  
+   http://stummjr.wordpress.com/?p=57 
+  <description>
+   Virtualização de sistemas Quando a questão é virtualização, as primeiras opções nas quais se pensa são as soluções mais robustas e famosas, como Xen, VMWare, VirtualPC, VirtualBox, dentre algumas outras. Mas pra quê matar uma mosca com uma bazuca? Quando o que se quer é uma forma simples de rodar outro sistema Linux, seja para  ...]  
+</description>
+          Virtualização de sistemas   
+ Quando a questão é virtualização, as primeiras opções nas quais se pensa são as soluções mais robustas e famosas, como Xen, VMWare, VirtualPC, VirtualBox, dentre algumas outras. Mas pra quê matar uma mosca com uma bazuca? Quando o que se quer é uma forma simples de rodar outro sistema Linux, seja para testar softwares instáveis, novos  Kernels  Linux, ou então para testar seus programas bugados sem comprometer a integridade do seu sistema, uma opção excelente é o UML! Não, não estou falando da entediante  Unified Modelling Language , mas sim do projeto User-Mode Linux, mais conhecido pelo seu acrônimo anteriormente referido. 
+ O UML permite que um  kernel  Linux, apropriadamente compilado, rode como um processo comum em um sistema operacional Linux. Isso mesmo, cada  kernel   convidado  aparece como um processo normal no sistema, podendo ser manipulado da mesma forma que os outros processos.  Linux inside Linux!      
+     Pausa para observação:  quando escrevo  convidado , me refiro a um sistema virtual, que não esteja rodando diretamente sobre o hardware físico. Já o termo  hospedeiro , como o nome já deixa claro, refere-se ao sistema que abriga os processos  convidados , ou seja, o sistema operacional real, rodando sobre o hardware real.   
+ Uma instância de um  Kernel  UML não exige uma quantidade grande de recursos, podendo-se tranqüilamente rodar vários  kernels  concomitantemente em uma mesma máquina. Para podermos usufruir da segurança oferecida pelo isolamento que máquinas virtuais propiciam, não basta apenas um  Kernel  rodando em modo usuário, mas também um sistema de arquivos individual para cada sistema 
+convidado. O UML provê isso através de um simples arquivo, que contém toda a imagem do um sistema e que fica contido no sistema de arquivos do hospedeiro. Assim, torna-se possível alocar um sistema de arquivos separado para cada instância de máquina virtual que estivermos rodando, sendo que cada um desses sistema é armazenado como um arquivo simples no disco. 
+ Pode-se encontrar sistemas de arquivos, com sistemas completos instalados, para download na internet  2,3], mas também é uma tarefa simples gerar seu próprio sistema de arquivos, com um sistema personalizado  4]. 
+ O isolamento entre os sistemas convidados é uma das características que tornam o UML uma alternativa especialmente interessante para criação de  sandboxes . 
+       Sandbox    é uma técnica para oferecer segurança em sistemas computacionais na qual os sistemas rodam totalmente isolados, de forma que qualquer comportamento anômalo de um sistema não interfira nos outros. É particularmente útil para a hospedagem de diversos serviços independentes dentro de um mesmo sistema físico, de forma que a invasão ou qualquer outra falha de um serviço não comprometa o funcionamento dos outros.   
+ É possível, com algumas configurações adicionais, adicionar suporte a rede em um  kernel  UML. Pode-se, inclusive, configurar uma rede de sistemas virtuais, onde um utilitário para o UML faz o serviço de um  switch  virtual, o  uml_switch   5]. Esse utilitário fica rodando no sistema hospedeiro, agindo 
+como se fosse um  switch  de rede físico, permitindo que os sistemas virtuais comuniquem-se entre si e com o mundo exterior. Assim, pode-se fazer simulações de redes de computadores, como mostra o artigo  7]. 
+   Mãos na massa   
+ Bom, chega de papo e vamos instalar e utilizar o UML. 
+   Instalação genérica   
+ 
+ Baixe um  Kernel  Linux e compile-o para a arquitetura   um  , que é a arquitetura do User-Mode Linux.  6] 
+ 
+     Outra observação:  a arquitetura   um   é, na verdade, um  port  do  kernel  Linux para sua própria interface de chamadas de sistema.   
+ 
+ Gere um Sistema de Arquivos ou então baixe um pronto.  3,4] 
+ Rode o kernel passando o sistema de arquivos como parâmetros. Por exemplo, supondo que você tenha gerado um kernel chamado  linux , coloque-o em alguma passta que esteja em seu $PATH, para que possa rodá-lo sempre a partir do seu shell favorito. Então, tendo gerado (ou baixado) um sistema de arquivos chamado  root-fs , você deve rodar o UML da seguinte forma: 
+ 
+     $ linux ubd0=/path/to/root-fs     
+ Simples, não? Caso você tenha compilado o seu  kernel  corretamente e gerado um sistema de arquivos compatível, seu sistema virtual já deve estar rodando. Não entrarei em detalhes sobre os possíveis problemas que podem ocorrer, pois existe bastante documentação sobre isso. 
+   Instalação em sistemas Debian/Ubuntu   
+Caso utilize Debian ou Ubuntu, você pode instalar o User-Mode Linux através do gerenciador de pacotes  apt : 
+   $ apt-get install user-mode-linux   
+ Após instalado, você terá em seu ambiente, um programa novo chamado  linux.uml , que é o kernel Linux previamente compilado para a arquitetura  um . 
+     
+   
+   Referências:   
+  1]  http://user-mode-linux.sourceforge.net/    página oficial do projeto 
+  2]  http://uml.nagafix.co.uk/    download de sistemas de arquivos prontos para utilização por um kernel UML. 
+  3]  http://uml.jfdi.org/uml/Wiki.jsp?pageUMLRootFilesystems   
+  4]  http://uml.jfdi.org/uml/Wiki.jsp?pageBuildingRootFileSystems    Como criar seu sistema personalizado. 
+  5]  http://user-mode-linux.sourceforge.net/downloads.html    Downloads User-Mode Linux 
+  6]  http://uml.jfdi.org/uml/Wiki.jsp?pageBuildingUML    Compilando o UML 
+                                    
+    http://stummjr.wordpress.com/2008/09/29/user-mode-linux/feed/ 
+   2 
+ 
+   
+    stummjr 
+   
+ 
+</item>
+<item>
+  <title>
+GMail Labs
+</title>
+  <link>
+http://stummjr.wordpress.com/2008/09/18/gmail-labs/
+</link>
+   http://stummjr.wordpress.com/2008/09/18/gmail-labs/#comments 
+   Thu, 18 Sep 2008 01:27:05 +0000 
+   stummjr 
+        Uncategorized  
+   http://stummjr.wordpress.com/?p=53 
+  <description>
+</description>
+        Para quem usa a interface web do GMail diariamente, a equipe de desenvolvimento presenteou com algumas gratas novidades para melhorar a utilização. Estas novidades estão disponíveis em  Preferências - strong /strong /p##
+ A que mais me agradou foi a possibilidade de colocar a lista de contatos do  chat  no lado direito da tela. É possível também colocar os  Labels  do lado direito. Para quem possui uma lista de  Labels  grande e gosta de utilizar o  chat  do GMail, essa é uma ótima melhoria na interface, pois elimina a necessidade de ficar fazendo rolagem da página para visualizar os contatos ou  Labels . 
+ Mais novidades sobre o GMail, acesse:  http://gmailblog.blogspot.com/   
+   Sim, eu sei que ninguém perguntou! Mas quem sabe ajude alguém que esteja procurando por isso em algum buscador. 
+   
+ P.S.: essas novidades são disponíveis apenas para usuários da nova interface do GMail. 
+                                       
+    http://stummjr.wordpress.com/2008/09/18/gmail-labs/feed/ 
+   2 
+ 
+   
+    stummjr 
+   
+ 
+</item>
+<item>
+  <title>
+Ressucitando uma máquina velha usando XDMCP
+</title>
+  <link>
+http://stummjr.wordpress.com/2008/05/23/ressucitando-uma-maquina-velha-usando-xdmcp/
+</link>
+   http://stummjr.wordpress.com/2008/05/23/ressucitando-uma-maquina-velha-usando-xdmcp/#comments 
+   Fri, 23 May 2008 02:13:23 +0000 
+   stummjr 
+        Nerd  
+      Software Livre  
+      xdmcp  
+   http://stummjr.wordpress.com/?p=45 
+  <description>
+   Bom, este post aqui no blog foi motivado pela minha satisfação ao poder usar de maneira digna meu notebook velho (não que eu tenha um novo, é porque é antigo mesmo). Por maneira digna leia-se usar versões recentes de softwares com desempenho aceitável. Estava eu precisando, precisando mesmo, de mais um computador aqui em casa,  ...]  
+</description>
+        Bom, este  post  aqui no blog foi motivado pela minha satisfação ao poder usar de maneira digna meu  notebook  velho (não que eu tenha um novo, é porque é antigo mesmo). Por maneira digna leia-se usar versões recentes de softwares com desempenho aceitável. 
+ Estava eu precisando, precisando mesmo, de mais um computador aqui em casa, para que não houvessem disputas pelo único PC que estava sendo usado. A instalação de distribuições Linux alternativas, como  Damn Small Linux  ou de versões mais antigas de distribuições famosas até que foi divertida, porém, apesar de um desempenho que variava de aceitável, no caso do Ubuntu 5.04, até excelente, no caso do DSL, o problema maior era ter que utilizar versões antigas dos softwares. Além disso, surgiu um agravante, nesse meio tempo me vi obrigado a programar em Java. Aí que surgiu o problema, como rodar Java com suas IDEs de forma razoável no meu notebookzinho (que é um Intel Celeron Mobile 500 Mhz, com 128 MB de RAM)? Eis que surge a luz:  XDMCP ! 
+ Não sou especialista no funcionamento desse software e também não é o intuito deste  post  explicar todo o funcionamento deste. Basta, a um usuário comum, saber que através do XDMCP é possível se conectar a um servidor gráfico remoto e utilizá-lo remotamente, ou seja, é feito um  login  remoto gráfico, assim, o processamento passa a ser realizado na máquina que estiver sendo usada como servidora. 
+ O procedimento é muito simples. Inicialmente, é necessário que as máquinas estejam acessíveis uma a outra através de uma rede. Tendo isso, na máquina que se deseja que atue como servidora (a mais potente), deve-se executar o programa de configuração do GDM (nem sei como é com o kdm),  gdmsetup , ir até a aba   Remoto   e habilitar o  login  remoto. 
+ Depois disso, basta ir até a máquina cliente (a mais velhinha) e, com o GDM carregado na janela de  login , nas ações escolher:   executar seletor XDMCP  . Tendo carregado este, basta inserir o IP da máquina servidora, caso já não esteja na lista, e iniciar uma sessão remota. 
+ Bem por cima, é isso que se deve fazer, existem vários tutoriais que explicam o procedimento. Como o objetivo desse  post  foi de apenas mostrar que o XDMCP é uma ótima alternativa para aproveitar máquinas antigas, não vou explicar detalhadamente o processo de configuração. 
+ Os resultados obtidos foram excelentes. Enquanto o computador mais potente está ocupado, eu utilizo o  notebook  antigo como  interface  para poder usá-lo também. Remotamente, consegui usar o GNOME 2.22, rodando Firefox 3.0, Pidgin 2.4, gnome-terminal e, pasmem, NetBeans 6.1.    
+ Então, para quem tem uma redezinha em casa e tem um computador meio velhinho que queira usar, recomendo o uso do XDMCP. Mas é necessário  cuidado , pois se a rede estiver mal-configurada, será um ponto a mais que poderá ser atacado por invasores. 
+ Mais informações em: http://tldp.org/HOWTO/XDMCP-HOWTO/ 
+                                       
+    http://stummjr.wordpress.com/2008/05/23/ressucitando-uma-maquina-velha-usando-xdmcp/feed/ 
+   4 
+ 
+   
+    stummjr 
+   
+ 
+</item>
+<item>
+  <title>
+PC fraco? Ubuntu velho nele!
+</title>
+  <link>
+http://stummjr.wordpress.com/2007/12/06/pc-fraco-ubuntu-velho-nele/
+</link>
+   http://stummjr.wordpress.com/2007/12/06/pc-fraco-ubuntu-velho-nele/#comments 
+   Thu, 06 Dec 2007 14:20:12 +0000 
+   stummjr 
+        Nerd  
+      Software Livre  
+      Linux  
+      synaptic  
+      Ubuntu  
+      versão antiga  
+   http://stummjr.wordpress.com/2007/12/06/pc-fraco-ubuntu-velho-nele/ 
+  <description>
+   Estava eu precisando instalar um sistema operacional em um computador com hardware não tão potente quanto às requisições mínimas exigidas pelas últimas versões do Ubuntu. Então, veio aquela dúvida:  O que devo instalar?  Abri minhas gavetas e achei vários CDs do Ubuntu, de várias gerações. Desde o Hoary até o Gutsy  Acabei escolhendo por uma  ...]  
+</description>
+        Estava eu precisando instalar um sistema operacional em um computador com  hardware  não tão potente quanto às requisições mínimas exigidas pelas últimas versões do Ubuntu. Então, veio aquela dúvida:  O que devo instalar?  
+ Abri minhas gavetas e achei vários CDs do Ubuntu, de várias gerações. Desde o  Hoary  até o  Gutsy    Acabei escolhendo por uma versão intermediária, o  Ubuntu Breezy Badger (5.10) . Instalei e rodou bem, mas eu precisava instalar vários pacotes para que o computador atendesse às minhas necessidadas. Aí que veio a dúvida:  Será que ainda tem repositórios disponíveis para versões antigas do Ubuntu?  
+ Dei uma procurada no Google por  old ubuntu releases  e achei o seguinte: 
+ http://old-releases.ubuntu.com/releases/ 
+ Ou seja, tem repositórios disponíveis para todas as versões do Ubuntu, mesmo que estas não recebam atualizações. 
+ Achei isso útil e resolvi postar aqui  Espero que seja útil para mais alguém  
+                                       
+    http://stummjr.wordpress.com/2007/12/06/pc-fraco-ubuntu-velho-nele/feed/ 
+   1 
+ 
+   
+    stummjr 
+   
+ 
+</item>
+<item>
+  <title>
+Software Livre para uso em Escolas
+</title>
+  <link>
+http://stummjr.wordpress.com/2007/03/30/software-livre-para-uso-em-escolas/
+</link>
+   http://stummjr.wordpress.com/2007/03/30/software-livre-para-uso-em-escolas/#comments 
+   Fri, 30 Mar 2007 16:06:15 +0000 
+   stummjr 
+        Software Livre  
+      educacional  
+      ensino  
+      escolas  
+      lúdico  
+      matemática  
+      pedagógico  
+   http://stummjr.wordpress.com/2007/03/30/software-livre-para-uso-em-escolas/ 
+  <description>
+   Como de praxe em dias ociosos(leia-se férias), estava eu fazendo buscas por pacotes de programas que poderiam vir a me ajudar a fazer o tempo passar de modo mais divertido. Entre uma e outra pesquisa no synaptic, acabei encontrando um pacote educacional de softwares, o gcompris, que é um conjunto de jogos, brincadeiras e atividades,  ...]  
+</description>
+        Como de praxe em dias ociosos(leia-se férias), estava eu fazendo buscas por pacotes de programas que poderiam vir a me ajudar a fazer o tempo passar de modo mais divertido. Entre uma e outra pesquisa no  synaptic , acabei encontrando um pacote educacional de softwares, o  gcompris , que é um conjunto de jogos, brincadeiras e atividades, voltadas ao público infantil, reunidas todas em um único programa gratuito. 
+ O programa é dividido em categorias, tais como: 
+ 
+   tabuleiro : composta de jogos de memória, xadrez(com modo de aprendizado incluso), quebra-cabeças de pinturas famosas(com detalhes sobre o artista), torres de hanoi(modo simplificado e normal), sudoku(em diversos níveis) e mais alguns outros; 
+   matemática : são diversas atividades que trazem de forma divertida o mundo da matemática para as crianças. Tem jogos para que a criança desenvolva a capacidade de somar, subtrair, multiplicar e dividir, outros para que a criança aprenda a contar, ordenar, utilização de dinheiro, entre outros, todos com interface amigável e atraente para crianças. Um exemplo é o jogo em que deve-se digitar o resultado de determinada operação para que o balão do  Tux  não caia em um riacho; 
+   entretenimento : composto de atividades de manipulação e reconhecimento de cores, organização cronológica da história, desenhos, reconhecimento e colocação de países em seus respectivos lugares no globo, e ainda ferramentas para ensino da utilização e entendimento de relógios analógicos, entre outros; 
+   leitura : módulo voltado para o reconhecimento de palavras, com diversas atividades, dentre as quais estão associação de palavras à objetos, dentre outras; 
+   computador : muito interessante para utilização em aulas de informática para crianças, pois desenvolve noções de clique com o mouse, arraste objetos, duplo-clique, digitação de palavras, entre outras e, como dito anteriormente, tudo de maneira muito lúdica; 
+   experimentos : composta por diversos jogos, tais como jogo de repetir uma melodia, corrida marítima, ciclo da água, operação de comporta de canal, entre outros. 
+ 
+ A interface do programa é bastante simples e colorida, composta de diversos botões imensos, para facilitar o manuseio e atrair a atenção por parte das crianças. A tela inicial do programa pode ser vista abaixo: 
+         
+ Para visualizar outras telas, veja:  http://gcompris.net/-Telas-do-programa-   
+ Esse software possui alguns detalhes, que merecem esclarecimento: 
+ 
+ É  software livre : dessa forma, além de ser gratuito, possui o  código-fonte  aberto para quem se interessar, para que o estude, modifique de acordo com suas necessidades e redistribua, se assim quiser. Desse modo, o gcompris evolui constantemente, pois existem vários programadores ao redor do mundo trabalhando para aprimorar e desenvolver novas atividades para ele; 
+ Foi criado para utilização, principalmente em sistemas  GNU/Linux , ou seja, para utilizar o gcompris, você deve ter instalado no computador alguma  distribuição Linux . Existe uma versão do programa para windows, porém ela possui funções limitadas. Acho que isso não é um grande empecilho para sua utilização, visto que diversas escolas públicas já estão utilizando sistemas GNU/Linux em seus laboratórios de ensino; 
+ O gcompris é voltado para crianças, sendo mais apropriado para utilização em Educação Infantil e Séries Iniciais do Ensino Fundamental. 
+ 
+ O gcompris possui uma iniciativa nacional, visando tradução para o português brasileiro e contextualização das atividades com a realidade do país, mais detalhes em:  http://gcompris-br.org/   
+ Para quem tem interesse nessa área, sugiro que teste o gcompris, pois vale a pena! 
+ Quem utiliza uma distribuição Linux  Debian-based , pode instalar o gcompris com o seguinte comando: 
+   apt-get install gcompris   
+ Muito simples!    
+ Se você utiliza outra distribuição ou sistema operacional, dê uma conferida em  http://gcompris.net/-Obtencao-e-instalacao-  para ver se sua  distro / SO  está na lista de suportados pelo gcompris. 
+                                       
+    http://stummjr.wordpress.com/2007/03/30/software-livre-para-uso-em-escolas/feed/ 
+   3 
+ 
+   
+    stummjr 
+   
+   
+    Tela do gcompris 
+   
+ 
+</item>
+<item>
+  <title>
+scriptzinho interessante
+</title>
+  <link>
+http://stummjr.wordpress.com/2007/01/15/scriptzinho-interessante/
+</link>
+   http://stummjr.wordpress.com/2007/01/15/scriptzinho-interessante/#comments 
+   Mon, 15 Jan 2007 15:13:42 +0000 
+   stummjr 
+        Bobagens  
+      Nerd  
+   http://stummjr.wordpress.com/2007/01/15/scriptzinho-interessante/ 
+  <description>
+   Pra quem ainda não conhece, existe um pacote chamado  bsdgames , que pode ser facilmente instalado via apt em distribuições debian-based, como o Ubuntu. Dentro desse pacote existem diversos joguinhos e brincadeiras. Um dos mais interessantes, na minha opinião, é o wtf. Ele é um script que faz a  expansão de acrônimos , ou seja, você passa  ...]  
+</description>
+        Pra quem ainda não conhece, existe um pacote chamado     bsdgames    , que pode ser facilmente instalado via  apt  em distribuições  debian-based , como o Ubuntu. Dentro desse pacote existem diversos joguinhos e brincadeiras. Um dos mais interessantes, na minha opinião, é o  wtf.  Ele é um script que faz a  expansão de acrônimos , ou seja, você passa uma sigla como argumento pra ele e ele, se a sigla for conhecida, lhe mostrará o significado da sigla. É meio inútil, mas achei engraçado. 
+ Pra instalar: 
+   apt-get install bsdgames   
+ Pronto! Basta abrir um terminal e digitar: 
+   wtf sigla   
+ E o  wtf   traduzirá  a sigla para você. 
+   
+                                       
+    http://stummjr.wordpress.com/2007/01/15/scriptzinho-interessante/feed/ 
+   3 
+ 
+   
+    stummjr 
+   
+ 
+</item>
+<item>
+  <title>
+Acoxambres no vim
+</title>
+  <link>
+http://stummjr.wordpress.com/2006/12/20/acoxambres-no-vim/
+</link>
+   http://stummjr.wordpress.com/2006/12/20/acoxambres-no-vim/#comments 
+   Wed, 20 Dec 2006 23:52:14 +0000 
+   stummjr 
+        Bobagens  
+      Nerd  
+   http://stummjr.wordpress.com/2006/12/20/acoxambres-no-vim/ 
+  <description>
+   Bom, instalei o vim 7 já faz algum tempo. Quem já usou ele, sabe que ele tem um recurso de completação pressionando a tecla   (esse recurso funciona com o   somente se você colocar um mapeamento no seu ~/.vimrc, normalmente esse recurso funciona pressionado ctrl+n), porém esse recurso faz uma varredura apenas no arquivo  ...]  
+</description>
+        Bom, instalei o  vim 7  já faz algum tempo. Quem já usou ele, sabe que ele tem um recurso de completação pressionando a tecla   (esse recurso funciona com o   somente se você colocar um mapeamento no seu ~/.vimrc, normalmente esse recurso funciona pressionado ctrl+n), porém esse recurso faz uma varredura apenas no arquivo no qual se está digitando o texto. 
+ Como utilizo o vim para digitar textos, além de códigos-fonte, senti falta de uma completação de palavras que não se restringisse ao arquivo que estou editando. 
+ Na preguiça de procurar uma solução decente, resolvi acoxambrar.    
+ Para poder ter na completação várias palavras que ainda não haviam sido inseridas nesse arquivo, fiz o seguinte: 
+ - Coloquei no arquivo que estava editando a seguinte linha: 
+   #include  arquivo.txt    
+ Onde arquivo.txt era um arquivo no qual eu havia escrito um longo texto, sobre assunto semelhante ao do texto que eu estava digitando, ou seja, possuíam várias palavras em comum.  Quem programa em linguagem  C  já está acostumado a usar a diretiva  #include  para incluir arquivos de cabeçalho e sabe que o  vim  faz a pesquisa de nomes de funções, constantes, entre outros dentro desses arquivos, que estão contidos no  #include . 
+ Dessa forma, incluindo um arquivo de texto, estou criando uma espécie de dicionário onde o  vim  vai procurar as palavras. Após digitar o texto, remove-se a diretiva, pois ela não mais será útil. 
+ Um exemplo: 
+    #include  artigo1.txt  
+ Escrevendo textos com a completação por tabs.   
+ O arquivo  artigo1.txt  deverá estar na mesma pasta onde se encontra o arquivo que você está editando. 
+ Postei esse tópico mais como uma curiosidade pois me foi muito útil. É um negócio meio óbvio, mas vale como dica eu acho. Ah, se houver outra forma de inserir um dicionário de palavras, desculpem, mas como disse, eu tava com preguiça de procurar     
+ Mapeamento da tecla TAB: 
+   function InsertTabWrapper() 
+let col = col( . )   1 
+if !col || getline( . ) col - 1] !~  \k  
+return  \   
+else 
+return  \   
+endif 
+endfunction 
+inoremap    =InsertTabWrapper()     
+ Valeu pela correção,  eljunior . 
+                                       
+    http://stummjr.wordpress.com/2006/12/20/acoxambres-no-vim/feed/ 
+   13 
+ 
+   
+    stummjr 
+   
+ 
+</item>
+<item>
+  <title>
+Software livre no Windows
+</title>
+  <link>
+http://stummjr.wordpress.com/2006/06/14/software-livre-no-windows/
+</link>
+   http://stummjr.wordpress.com/2006/06/14/software-livre-no-windows/#comments 
+   Wed, 14 Jun 2006 13:58:37 +0000 
+   stummjr 
+        Software Livre  
+   https://stummjr.wordpress.com/2006/06/14/software-livre-no-windows/ 
+  <description>
+   Se você utiliza Windows em seu computador e não pretende(ou não pode) instalar Linux nele, porém, quer utilizar softwares confiáveis e de qualidade em seu PC, existem diversas alternativas LIVRES aos softwares propretários que são mais comuns para a plataforma windows  Bom, conheço também muitas pessoas que mesmo sendo usuários e simpatizantes de GNU/Linux são  ...]  
+</description>
+        Se você utiliza Windows em seu computador e não pretende(ou não pode) instalar Linux nele, porém, quer utilizar softwares confiáveis e de qualidade em seu PC, existem diversas alternativas LIVRES aos softwares propretários que são mais comuns para a plataforma windows  Bom, conheço também muitas pessoas que mesmo sendo usuários e simpatizantes de GNU/Linux são obrigados a utilizar o Windows em seu trabalho  Pra isso coloco aqui uma lista com diversos softwares livres que competem de igual para igual(foi um eufemismo) com as alternativas proprietárias  
+ Comecemos pelo navegador web  Bom, nessa parte, sem dúvidas o  Firefox ( http://br.mozdev.org/firefox/ ) desbanca qualquer um de seus  fracos  concorrentes  Pra quem nunca usou eu recomendo que comece a utilizar para var que a navegação na www não precisa ser tão penosa quanto é no IE  Só a navegação por abas e a velocidade de carregamento das páginas já são motivos para mudar  Fora o resto  
+ Se você está cansado de ficar se preocupando com vírus e outras coisas quando for ler seus e-mails, que tal largar de mão o velho e indefeso Outlook e optar por algo novo e seguro  Pois é, outro programa que está no topo da lista dos softwares de qualidade em sua categoria é o  Thunderbird ( http://br.mozdev.org/thunderbird/ ), que além de e-mail, é também leitor de RSS  Isso sem falar na excelente ferramenta anti-spam que vem agregada a ele  E existem ainda as extensões que assim como para o firefox, dão uma turbinada no seu programa, enchendo ele de novas funcionalidades  
+ Continuando na seção  internética  de seu Windows  Você ainda usa o cliente Messenger da Microsoft? Hmmmm  É usuário de ICQ também e deixa abertas milhares de janelas de conversação  Que tal conhecer o  Gaim ( http://gaim.sourceforge.net )??? Além de ser um software seguro e leve, ainda tem como vantagem unir vários protocolos de comunicação em um só programa, ou seja, com ele você se conecta ao MSN, ICQ, Jabber(protocolo usado pelo GoogleTalk), Gadu-Gadu, Yahoo Messenger, AOL IM e alguns outros, tudo em uma só janela  Isso sem falar que o Gaim agrupa suas conversas em abas, não ficando seu desktop poluído com centenas de janelas de conversação  
+ Partindo para a parte de escritório  Se você me disser que usa o Microsoft Office por não conhecer outra alternativa melhor, te digo pra se aposentar ou então testar o  OpenOffice.org 2.0   Melhor do que nunca e do que os outros, esse suíte de aplicativos é simplesmente sensacional!!! Ela inclui Editor de Textos ultra-poderoso(Writer), Planilha Eletrônica(Calc), programa para desenhos vetoriais(Draw), Banco de dados(Base), Editor de fórmulas matemáticas(Math) e software para apresentações no estilo Power Point(Impress)  Além de você utilizar um software de alta qualidade e livre, ele ainda possui várias funcionalidades que seu famoso concorrente não tem  Como por exemplo a opção para exportar os arquivos para o formato PDF,  que é muito útil hoje em dia  Bom, pra quem não conhece, que tal dar uma olhada em:  http://www.openoffice.org/   
+ Bom, indo para a parte divertida da coisa  Quando você quer assistir a um vídeo, qual software utliza? Seja qua for a sua resposta, te afirmo, o   Media Player Classic  ( http://sourceforge.net/projects/guliverkli/ ) é o melhor  Leve e ao mesmo tempo robusto, desbanca seus festejados concorrentes como Windows Media Player e BsPlayer. Ele possui uma interface muito simples, porém com tudo o que é necessário para rodar vídeos com qualidade  E o que é melhor, sob licença GPL  
+ Se você utiliza com frequência ferramentas de modelagem e criação de diagramas e está cansado das pesadas e caras alternativas mais conhecidas para Windows, conheça o  Dia ( http://www.gnome.org/projects/dia/ ). Com ele você pode criar os mais variados tipos de diagrama, desde UML, até projetos CISCO, entre vários outros  
+ Como editor de textos para programação recomendo o  vim ( http://www.vim.org/ ), simples, poderoso, não muito amigável no início, mas que com o passar do tempo torna-se seu grande aliado na tarefa de programar, ou mesmo de redigir qualquer texto  Eu por exemplo estou usando o  Gvim  para escrever esse texto aqui     
+ Bom, pretendo continuar em breve esse texto  Se alguém tiver mais algumas sugestões de Software Livre para Windows, poste um comentário      
+                                       
+    http://stummjr.wordpress.com/2006/06/14/software-livre-no-windows/feed/ 
+   5 
+ 
+   
+    stummjr 
+   
+ 
+</item>
+<item>
+  <title>
+Screenshot do meu Ubuntu Dapper 6.06
+</title>
+  <link>
+http://stummjr.wordpress.com/2006/06/05/screenshot-do-meu-ubuntu-dapper-606/
+</link>
+   http://stummjr.wordpress.com/2006/06/05/screenshot-do-meu-ubuntu-dapper-606/#comments 
+   Mon, 05 Jun 2006 12:56:16 +0000 
+   stummjr 
+        Nerd  
+   https://stummjr.wordpress.com/2006/06/05/screenshot-do-meu-ubuntu-dapper-606/ 
+  <description>
+     
+</description>
+                
+                                       
+    http://stummjr.wordpress.com/2006/06/05/screenshot-do-meu-ubuntu-dapper-606/feed/ 
+   2 
+ 
+   
+    stummjr 
+   
+   
+    Ubuntu Dapper Drake 
+   
+ 
+</item>
+<item>
+  <title>
+Ubuntu Dapper lançado ontem!!!
+</title>
+  <link>
+http://stummjr.wordpress.com/2006/06/02/ubuntu-dapper-lancado-ontem/
+</link>
+   http://stummjr.wordpress.com/2006/06/02/ubuntu-dapper-lancado-ontem/#comments 
+   Fri, 02 Jun 2006 15:07:12 +0000 
+   stummjr 
+        Nerd  
+   https://stummjr.wordpress.com/2006/06/02/ubuntu-dapper-lancado-ontem/ 
+  <description>
+   Bom, pra quem ainda não sabe, a nova versão oficial da distribuição Ubuntu GNU/Linux foi lançada ontem(1-6-2006)  Pra não perder tempo baixei a imagem do Live CD para instalar  Diferentemente das versões anteriores, nesta existe apenas um CD, que é Live CD e já instala o Sistema em sua máquina. A instalação(pra variar) está mais  ...]  
+</description>
+        Bom, pra quem ainda não sabe, a nova versão oficial da distribuição Ubuntu GNU/Linux foi lançada ontem(1-6-2006)  Pra não perder tempo baixei a  imagem  do Live CD para instalar  Diferentemente das versões anteriores, nesta existe apenas um CD, que é Live CD e já instala o Sistema em sua máquina. A instalação(pra variar) está mais simples ainda do que a anterior, oferecendo uma interface gráfica para o instalador, que roda dentro do Ambiente GNOME, tornando o processo de instalação mais simples e amigável.    
+ Várias coisas mudaram dentro do sistema básico que ele instala, como por exemplo posso citar: 
+ - Novo tema padrão do GNOME, continua  o marronzão, mas pelo menos fizeram algo mais elaborado dessa vez, veja  screenshots ; 
+ - No cd de instalação vem algumas coisas para exemplificar como é possível ver vídeos, ouvir músicas(não mp3), criar planilhas e coisas do gênero. Tem uma pasta que fica no Desktop com esses arquivos dentro  Tem até um vídeo do Nelson Mandella falando sobre o Ubuntu(eu acho, pois não cheguei a assistir); 
+  - Uma coisa que me agradou foi a nova interface para seleção do Screensaver, muito mais leve do que a anterior(do xscreensaver), a qual sempre considerei meio pesada demais; 
+ - O que mais me impressionou foi a velocidade de carregamento do GNOME, tipo em uns 3 ou 4 segundos ele carregou todo o ambiente  Impressionante! 
+ Bom, recomendo a todos que baixem a nova versão e testem ela  Vale a pena!!! 
+                                       
+    http://stummjr.wordpress.com/2006/06/02/ubuntu-dapper-lancado-ontem/feed/ 
+   2 
+ 
+   
+    stummjr 
+   
+ 
+</item>
+</apoena>
